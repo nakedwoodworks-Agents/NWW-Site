@@ -1,17 +1,19 @@
 [
  {
-  "slug_draft": "custom-cutting-board-with-engraved-logo-cutting-board",
-  "name": "Custom Cutting Board with Engraved Logo",
+  "slug": "home-sweet-home-names-cutting-board",
+  "name": "Home Sweet Home Names Cutting Board",
   "etsy_title": "Custom Cutting Board with Engraved Logo, Personalized Realtor Gift Set",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
+   "housewarming",
    "realtor-closing-gift",
-   "corporate-gifts"
+   "wedding"
   ],
   "recipients": [
-   "realtors",
-   "businesses"
+   "homeowners",
+   "couples",
+   "realtors"
   ],
   "image": "/images/products/597958265.jpg",
   "source": {
@@ -35,16 +37,21 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "Our best-selling design: a house roofline, fork and knife, and \"Home Sweet Home\" over your names and year.",
+  "description": "This is our best-selling design. A little house roofline, a crossed fork and knife, and \"Home Sweet Home\" sit above your names and the year you moved in, married or closed. The photo also shows a small business logo in the lower corner, which realtors add to closing gifts. Leave that field empty for a personal housewarming board.\n\nEvery board is one solid slab of maple or walnut, laser engraved in our shop in Pryor, Oklahoma. Sizes run 8x12 and 10x14 inches (0.75 in thick) and 12x16 inches (1.5 in thick), with a 16x24 inch walnut statement size. We email a free digital proof before we engrave, and each board is made to order in 3-5 business days.",
+  "personalize": "names-logo"
  },
  {
-  "slug_draft": "wedding-gifts-for-the-couple-cutting-board",
-  "name": "Wedding Gifts for the Couple",
+  "slug": "circle-monogram-family-name-cutting-board",
+  "name": "Circle Monogram Family Name Cutting Board",
   "etsy_title": "Wedding Gifts for the Couple, Walnut Cutting Board, Personalized Kitchen Decor",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
-   "wedding"
+   "wedding",
+   "anniversary",
+   "housewarming"
   ],
   "recipients": [
    "couples"
@@ -64,20 +71,34 @@
     "reviews": 656,
     "listing": "769991218",
     "pulled": "2026-09-27"
+   },
+   "duplicate_etsy_listings": [
+    "995461328"
+   ],
+   "merged_sales_all_time": {
+    "995461328": 93
    }
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "A large split initial with your last name through it, first names on top and your date below, inside a dotted double ring.",
+  "description": "Your last-name initial is engraved large, with the full last name set across it in capitals. Your first names arch across the top of a dotted double ring and your established date runs along the bottom. It fills the board without crowding it, and it reads well on light maple or dark walnut.\n\nPick maple, which is light and creamy, or walnut, which is dark brown with more grain movement. It comes in 8x12, 10x14 or 12x16 inches, or 16x24 in walnut; the two larger sizes are 1.5 in thick. It is one solid slab, not glued-up strips. You see a free digital proof before the laser runs, and we make it to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "custom-cutting-board-cutting-board",
-  "name": "Custom Cutting Board",
+  "slug": "circle-monogram-anniversary-cutting-board",
+  "name": "Circle Monogram Anniversary Cutting Board",
   "etsy_title": "Custom Cutting Board, Engraved Walnut or Maple with Personalized Names",
   "type": "cutting-board",
   "price_ladder": "board",
-  "occasions": [],
-  "recipients": [],
+  "occasions": [
+   "anniversary",
+   "wedding"
+  ],
+  "recipients": [
+   "couples"
+  ],
   "image": "/images/products/558935788.jpg",
   "source": {
    "etsy_listing_id": "558935788",
@@ -97,11 +118,14 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "The circle monogram with your names, last-name initial and wedding date, set as an anniversary gift.",
+  "description": "The circle monogram, built around the date that started it: your first names across the top of the ring, your initial and last name in the middle, and your wedding date along the bottom. Wood is the traditional 5th-anniversary material, so it suits that year especially. Put the original wedding date on it, not this year's.\n\nWe cut it from one solid slab of maple or walnut and laser engrave it here in Pryor, Oklahoma. Choose 8x12 or 10x14 inches at 0.75 in thick, 12x16 at 1.5 in thick, or the 16x24 walnut board. A display stand, conditioning oil, a handwritten card and paper gift wrap are optional add-ons. Free digital proof first, then made to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "custom-wedding-signature-board-guest-book-sign",
-  "name": "Custom Wedding Signature Board",
+  "slug": "3d-last-name-guest-book-sign",
+  "name": "3D Last Name Guest Book Sign",
   "etsy_title": "Custom Wedding Signature Board, Personalized 3D Guest Book Alternative, Laser Cut Name Sign, Reception Decor, Unique Wedding Gift",
   "type": "guest-book-sign",
   "price_ladder": "guestbook",
@@ -126,20 +150,32 @@
     "reviews": 535,
     "listing": "619024514",
     "pulled": "2026-09-27"
+   },
+   "duplicate_etsy_listings": [
+    "1009225907",
+    "783884741"
+   ],
+   "merged_sales_all_time": {
+    "1009225907": 458,
+    "783884741": 194
    }
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "A signature frame with your last name laser cut and raised in the center, and your wedding date.",
+  "description": "A wedding guest book that goes on the wall afterward. Your last name is laser cut in script and mounted raised inside an open frame, with your wedding date underneath. Guests sign the frame around it. It is our best-selling guest book, and the one in the photo hangs above a mantel, fully signed.\n\nSizes run from 20 inches (about 30-45 guests) to 48 inches (about 200-250 guests), in a natural finish or stained, painted black or painted white. We send a free digital proof of your names and date before we cut, and every sign is made to order in 3-5 business days in Pryor, Oklahoma.",
+  "personalize": "guestbook"
  },
  {
-  "slug_draft": "custom-logo-board-cutting-board",
-  "name": "Custom Logo Board",
+  "slug": "custom-logo-cutting-board",
+  "name": "Custom Logo Cutting Board",
   "etsy_title": "Custom Logo Board, Engraved Maple or Walnut Cutting for Corporate Gifts",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
-   "corporate-gifts"
+   "corporate-gifts",
+   "employee-appreciation"
   ],
   "recipients": [
    "businesses"
@@ -153,20 +189,35 @@
     "398.00"
    ],
    "etsy_sales_all_time": 3156,
-   "etsy_revenue_all_time": 169023
+   "etsy_revenue_all_time": 169023,
+   "duplicate_etsy_listings": [
+    "879526138"
+   ],
+   "merged_sales_all_time": {
+    "879526138": 155
+   }
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "Your company logo and tagline, engraved large across the board.",
+  "description": "Your logo, engraved large and centered, with your tagline if you have one. The photo shows a customer's restaurant logo on walnut. Send us a clean file (vector is best, a high-resolution image works) and we will show you exactly how it will engrave on the free digital proof.\n\nWe cut it from one solid slab of maple or walnut and laser engrave it here in Pryor, Oklahoma. Choose 8x12 or 10x14 inches at 0.75 in thick, 12x16 at 1.5 in thick, or the 16x24 walnut board. A display stand, conditioning oil, a handwritten card and paper gift wrap are optional add-ons. Free digital proof first, then made to order in 3-5 business days.",
+  "personalize": "logo"
  },
  {
-  "slug_draft": "personalized-cutting-board-with-custom-names-cutting-board",
-  "name": "Personalized Cutting Board with Custom Names",
+  "slug": "circle-monogram-charcuterie-board",
+  "name": "Circle Monogram Charcuterie Board",
   "etsy_title": "Personalized Cutting Board with Custom Names, Walnut Kitchen Decor",
-  "type": "cutting-board",
+  "type": "charcuterie-board",
   "price_ladder": "board",
-  "occasions": [],
-  "recipients": [],
+  "occasions": [
+   "wedding",
+   "anniversary",
+   "housewarming"
+  ],
+  "recipients": [
+   "couples"
+  ],
   "image": "/images/products/728671481.jpg",
   "source": {
    "etsy_listing_id": "728671481",
@@ -180,11 +231,14 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "The circle monogram, set toward one corner so a cheese spread fits around it.",
+  "description": "This is the circle monogram laid out for serving. The ring holds your first names, your initial with the last name across it, and your established date, and it sits toward one side so there is room for cheese, crackers and fruit. It is the version to pick if the board will spend more time on the table than on the counter.\n\nThe design is shown on a serving board; we engrave it on the size and wood you pick below. Each board is one solid slab of maple or walnut: 8x12 or 10x14 inches at 0.75 in thick, 12x16 inches at 1.5 in thick, or 16x24 in walnut. We send a free digital proof before we engrave, and make it to order in 3-5 business days in Pryor, Oklahoma.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "personalized-charcuterie-board-charcuterie-board",
-  "name": "Personalized Charcuterie Board",
+  "slug": "bold-initial-circle-charcuterie-board",
+  "name": "Bold Initial Circle Charcuterie Board",
   "etsy_title": "Personalized Charcuterie Board, Custom Engraved Serving Board, Wedding Gift for Couple, Anniversary Gift, Walnut Cheese Board",
   "type": "charcuterie-board",
   "price_ladder": "board",
@@ -214,17 +268,21 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "A heavy serif initial and last name inside a dotted ring, with your first names and date in capitals.",
+  "description": "A bolder cousin of the circle monogram. Your initial is set in a heavy serif with your last name underlined across it, your first names run around the top of a dotted ring in capitals, and your established date wraps around the bottom. The ring is sized to fill most of the board, so it reads from across a kitchen.\n\nIt is one solid slab of maple or walnut with a flat face, so the whole surface is usable for cheese, bread and fruit. Sizes run from 8x12 inches up to a 16x24 inch walnut board, and the design is scaled to fit whatever you choose. Free digital proof before the laser runs; made to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "personalized-charcuterie-cutting-board-charcuterie-board",
-  "name": "Personalized Charcuterie Cutting Board",
+  "slug": "bold-last-name-established-date-board",
+  "name": "Bold Last Name Board with Names and Date",
   "etsy_title": "Personalized Charcuterie Cutting Board, Engraved Anniversary Gift, Wedding Gift for Couple, Custom Walnut Board, Gift for Her Him",
   "type": "charcuterie-board",
   "price_ladder": "board",
   "occasions": [
    "wedding",
-   "anniversary"
+   "anniversary",
+   "family"
   ],
   "recipients": [
    "couples",
@@ -243,16 +301,20 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "Your last name in large capitals with a tall first letter, your first names in script and your established date.",
+  "description": "Your last name runs across the board in large serif capitals, with an oversized first letter that anchors the whole layout. Your first names sit above it in a formal script and your full established date sits below a thin rule. It is a simple, classic layout that suits a wedding, an anniversary or a family kitchen.\n\nThe design is shown on a serving board; we engrave it on the size and wood you pick below. Each board is one solid slab of maple or walnut: 8x12 or 10x14 inches at 0.75 in thick, 12x16 inches at 1.5 in thick, or 16x24 in walnut. We send a free digital proof before we engrave, and make it to order in 3-5 business days in Pryor, Oklahoma.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "engraved-cutting-board-cutting-board",
-  "name": "Engraved Cutting Board",
+  "slug": "grillfather-cutting-board",
+  "name": "The Grillfather Cutting Board",
   "etsy_title": "Engraved Cutting Board, Personalized Grillfather Design for BBQ Enthusiasts",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
-   "fathers-day"
+   "fathers-day",
+   "birthday"
   ],
   "recipients": [
    "him"
@@ -270,17 +332,25 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"The Grillfather\" in heavy lettering with a steaming sausage, for the one who runs the grill.",
+  "description": "\"The Grillfather\" in big, heavy lettering, with a steaming sausage over the top. It is our best-selling gift for dads and the one person at every cookout who will not let anyone else touch the grill. The photo shows it on walnut. Add anything you want us to know in the notes.\n\nEvery board is one solid slab of maple or walnut, laser engraved in our shop in Pryor, Oklahoma. Sizes run 8x12 and 10x14 inches (0.75 in thick) and 12x16 inches (1.5 in thick), with a 16x24 inch walnut statement size. We email a free digital proof before we engrave, and each board is made to order in 3-5 business days.",
+  "personalize": "saying"
  },
  {
-  "slug_draft": "personalized-wood-coasters-set-coaster-set",
-  "name": "Personalized Wood Coasters Set",
+  "slug": "circle-monogram-wood-coasters",
+  "name": "Circle Monogram Wood Coasters",
   "etsy_title": "Personalized Wood Coasters Set, Custom Engraved Wood for Couples",
   "type": "coaster-set",
   "price_ladder": "coaster",
-  "occasions": [],
+  "occasions": [
+   "wedding",
+   "anniversary",
+   "housewarming"
+  ],
   "recipients": [
-   "couples"
+   "couples",
+   "homeowners"
   ],
   "image": "/images/products/902869141.jpg",
   "source": {
@@ -301,19 +371,25 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "Our circle monogram on solid wood coasters: names, initial, last name and date on each one.",
+  "description": "The circle monogram on solid wood coasters: your first names around the top of the dotted ring, your initial with the last name across it, and your established date around the bottom, on every coaster in the set. These are our best-selling coasters, and they pair with the circle monogram board.\n\nThe coasters are solid maple or walnut, laser engraved in Pryor, Oklahoma, and sold in sets of 2, 4, 8 or 16. You can add a matching small or medium cutting board to the same order. Free digital proof first, then made to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "personalized-walnut-maple-cutting-board-cutting-board",
-  "name": "Personalized Walnut Maple Cutting Board",
-  "etsy_title": "Personalized Walnut Maple Cutting Board \u2013 New Home Coordinates Gift",
+  "slug": "new-home-new-adventures-key-cutting-board",
+  "name": "New Home, New Adventures Key Cutting Board",
+  "etsy_title": "Personalized Walnut Maple Cutting Board – New Home Coordinates Gift",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
-   "housewarming"
+   "housewarming",
+   "realtor-closing-gift"
   ],
   "recipients": [
-   "homeowners"
+   "homeowners",
+   "couples",
+   "realtors"
   ],
   "image": "/images/products/634588197.jpg",
   "source": {
@@ -328,16 +404,20 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"new home, new adventures, new memories\" with a pair of skeleton keys and your names.",
+  "description": "Two skeleton keys on a ring, next to three lines: \"new home,\" \"new adventures\" in script, and \"new memories.\" Your names go on the last line. It is a light, happy housewarming design, and the photo shows it on maple.\n\nPick maple, which is light and creamy, or walnut, which is dark brown with more grain movement. It comes in 8x12, 10x14 or 12x16 inches, or 16x24 in walnut; the two larger sizes are 1.5 in thick. It is one solid slab, not glued-up strips. You see a free digital proof before the laser runs, and we make it to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "custom-logo-cutting-board-cutting-board",
-  "name": "custom logo cutting board",
-  "etsy_title": "custom logo cutting board \u2014 Corporate Client Gift, Handmade in USA",
+  "slug": "full-logo-cutting-board",
+  "name": "Full Logo Cutting Board",
+  "etsy_title": "custom logo cutting board — Corporate Client Gift, Handmade in USA",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
-   "corporate-gifts"
+   "corporate-gifts",
+   "employee-appreciation"
   ],
   "recipients": [
    "businesses"
@@ -355,10 +435,13 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "Your logo engraved edge to edge across the face of the board.",
+  "description": "Your logo, scaled to fill the face of the board. The photo shows our own shop logo on walnut, on the optional display stand, which suits a front desk or a lobby. If a logo needs simplifying for the laser, we will flag it on your free digital proof.\n\nEvery board is one solid slab of maple or walnut, laser engraved in our shop in Pryor, Oklahoma. Sizes run 8x12 and 10x14 inches (0.75 in thick) and 12x16 inches (1.5 in thick), with a 16x24 inch walnut statement size. We email a free digital proof before we engrave, and each board is made to order in 3-5 business days.",
+  "personalize": "logo"
  },
  {
-  "slug_draft": "wedding-guest-book-alternative-guest-book-sign",
+  "slug": "wedding-guest-book-alternative-guest-book-sign",
   "name": "Wedding Guest Book Alternative",
   "etsy_title": "Wedding Guest Book Alternative, Signature Board for Guests to Sign",
   "type": "guest-book-sign",
@@ -384,21 +467,23 @@
     "4505039058"
    ]
   },
-  "publish": true,
-  "hold_reason": null,
+  "publish": false,
+  "hold_reason": "merged: same photo (or the same scene shot twice) as listing 619024514; merged into that page",
   "grid_image": null
  },
  {
-  "slug_draft": "custom-logo-cutting-board-cutting-board-2",
-  "name": "Custom Logo Cutting Board",
+  "slug": "corner-logo-cutting-board",
+  "name": "Corner Logo Cutting Board",
   "etsy_title": "Custom Logo Cutting Board, Personalized Corporate Clients",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
-   "corporate-gifts"
+   "corporate-gifts",
+   "realtor-closing-gift"
   ],
   "recipients": [
-   "businesses"
+   "businesses",
+   "realtors"
   ],
   "image": "/images/products/734338954.jpg",
   "source": {
@@ -413,16 +498,26 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "Your logo and company name, small and neat in the corner of a walnut board.",
+  "description": "Your logo mark and company name engraved small in the corner, so the board is a kitchen tool first and a business card second. People keep and use these, which is the whole point of a client gift. The photo shows a customer logo on walnut.\n\nWe cut it from one solid slab of maple or walnut and laser engrave it here in Pryor, Oklahoma. Choose 8x12 or 10x14 inches at 0.75 in thick, 12x16 at 1.5 in thick, or the 16x24 walnut board. A display stand, conditioning oil, a handwritten card and paper gift wrap are optional add-ons. Free digital proof first, then made to order in 3-5 business days.",
+  "personalize": "logo"
  },
  {
-  "slug_draft": "gag-wine-glass",
-  "name": "Gag",
+  "slug": "my-favorite-child-gave-me-this-glass",
+  "name": "My Favorite Child Gave Me This Glass",
   "etsy_title": "Gag, Funny Stemless Wine Glass with Engraved Message",
   "type": "wine-glass",
   "price_ladder": "glass",
-  "occasions": [],
-  "recipients": [],
+  "occasions": [
+   "mothers-day",
+   "fathers-day",
+   "birthday"
+  ],
+  "recipients": [
+   "her",
+   "him"
+  ],
   "image": "/images/products/787851970.jpg",
   "source": {
    "etsy_listing_id": "787851970",
@@ -442,19 +537,24 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"My favorite child gave me this glass,\" in tall hand-lettered capitals.",
+  "description": "\"My favorite child gave me this glass,\" in tall, narrow hand-lettered capitals. It is the best-selling glass in our shop, because it settles an old argument between siblings in one line. Mom or Dad gets the glass; whoever bought it gets the title.\n\nLaser engraved on a 21 oz stemless wine glass in our shop in Pryor, Oklahoma. The saying is fixed, so there is nothing to fill in: choose one glass or a set of 2, 4 or 8 and add it to your cart. Every glass is made to order and ships in 3-5 business days. We suggest hand washing to keep the etching crisp.",
+  "personalize": "saying"
  },
  {
-  "slug_draft": "custom-cutting-board-cutting-board-2",
-  "name": "Custom Cutting Board",
+  "slug": "welcome-home-key-monogram-board",
+  "name": "Welcome Home Key Monogram Board",
   "etsy_title": "Custom Cutting Board, Personalized Maple Chopping Block for New Homeowners",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
-   "housewarming"
+   "housewarming",
+   "realtor-closing-gift"
   ],
   "recipients": [
-   "homeowners"
+   "homeowners",
+   "realtors"
   ],
   "image": "/images/products/628559755.jpg",
   "source": {
@@ -469,11 +569,14 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "A skeleton key with your initial as the bow, your names and year along the shaft, and \"Welcome Home.\"",
+  "description": "A long skeleton key runs across the board with your initial framed in its bow. Your names and the year sit along the top of the shaft, and \"Welcome Home\" runs underneath in a single line of script. The photo shows it on maple.\n\nWe cut it from one solid slab of maple or walnut and laser engrave it here in Pryor, Oklahoma. Choose 8x12 or 10x14 inches at 0.75 in thick, 12x16 at 1.5 in thick, or the 16x24 walnut board. A display stand, conditioning oil, a handwritten card and paper gift wrap are optional add-ons. Free digital proof first, then made to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "personalized-serving-board-charcuterie-board",
-  "name": "Personalized Serving Board",
+  "slug": "split-letter-monogram-serving-board",
+  "name": "Split Letter Monogram Serving Board",
   "etsy_title": "Personalized Serving Board, Custom Engraved Cheese Platter, Wedding Gift, Housewarming Gift, Anniversary Gift for Couple, Walnut Board",
   "type": "charcuterie-board",
   "price_ladder": "board",
@@ -499,16 +602,20 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "A tall initial with your last name in script across it, set low on a serving board.",
+  "description": "A tall serif initial with your last name in script running across its middle, engraved low and to one side so the board can hold fruit, cheese and a knife. The photo shows it on maple. It is one of the simplest designs we make, and one of the easiest to give without knowing much about the couple.\n\nThe design is shown on a serving board; we engrave it on the size and wood you pick below. Each board is one solid slab of maple or walnut: 8x12 or 10x14 inches at 0.75 in thick, 12x16 inches at 1.5 in thick, or 16x24 in walnut. We send a free digital proof before we engrave, and make it to order in 3-5 business days in Pryor, Oklahoma.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "personalized-wedding-wine-glass-wine-glass",
-  "name": "Personalized Wedding Wine Glass",
-  "etsy_title": "Personalized Wedding Wine Glass \u2014 Engraved Stemless Gift for Couples",
+  "slug": "monogram-last-name-wedding-wine-glass",
+  "name": "Monogram Last Name Wedding Wine Glass",
+  "etsy_title": "Personalized Wedding Wine Glass — Engraved Stemless Gift for Couples",
   "type": "wine-glass",
   "price_ladder": "glass",
   "occasions": [
-   "wedding"
+   "wedding",
+   "anniversary"
   ],
   "recipients": [
    "couples"
@@ -526,19 +633,26 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "A large initial, a framed date, your last name and first names, etched on a stemless glass.",
+  "description": "A large serif initial, a small framed established date, your last name in capitals and your first names in script, etched on a stemless glass. It matches our last-name boards, so it is easy to give as a pair with one.\n\nWe engrave it on a 21 oz stemless wine glass, one at a time, in our shop in Pryor, Oklahoma. Buy a single glass or a set of 2, 4 or 8. You get a free digital proof of your wording before we engrave, and it is made to order in 3-5 business days.",
+  "personalize": "name-glass"
  },
  {
-  "slug_draft": "custom-cutting-board-cutting-board-3",
-  "name": "Custom Cutting Board",
+  "slug": "home-state-names-cutting-board",
+  "name": "Home State Names Cutting Board",
   "etsy_title": "Custom Cutting Board, Personalized Maple and Walnut Engraved for Homeowners",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
-   "housewarming"
+   "housewarming",
+   "realtor-closing-gift",
+   "wedding"
   ],
   "recipients": [
-   "homeowners"
+   "homeowners",
+   "couples",
+   "realtors"
   ],
   "image": "/images/products/595470976.jpg",
   "source": {
@@ -553,16 +667,20 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"HOME\" with your state in place of the O, over your names and established date.",
+  "description": "The word HOME in large serif letters, with the outline of a state standing in for the O. The photo shows Oklahoma, where our shop is. Your first names run underneath in script with your established date below. Tell us the state in the state field.\n\nPick maple, which is light and creamy, or walnut, which is dark brown with more grain movement. It comes in 8x12, 10x14 or 12x16 inches, or 16x24 in walnut; the two larger sizes are 1.5 in thick. It is one solid slab, not glued-up strips. You see a free digital proof before the laser runs, and we make it to order in 3-5 business days.",
+  "personalize": "state"
  },
  {
-  "slug_draft": "custom-cutting-board-cutting-board-4",
-  "name": "Custom Cutting Board",
+  "slug": "split-letter-monogram-cutting-board",
+  "name": "Split Letter Monogram Cutting Board",
   "etsy_title": "Custom Cutting Board, Personalized Walnut Engraved Anniversary Couples",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
-   "anniversary"
+   "anniversary",
+   "wedding"
   ],
   "recipients": [
    "couples"
@@ -580,11 +698,14 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "One tall initial with your last name in script cutting through the middle.",
+  "description": "One tall serif initial, with your last name in script running through a band across its middle. It is a single, simple mark, so it looks deliberate on a large board and still fits a small one. Add an established date in the date field if you want one; the photo shows the design without it.\n\nEvery board is one solid slab of maple or walnut, laser engraved in our shop in Pryor, Oklahoma. Sizes run 8x12 and 10x14 inches (0.75 in thick) and 12x16 inches (1.5 in thick), with a 16x24 inch walnut statement size. We email a free digital proof before we engrave, and each board is made to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "custom-guest-book-alternative-guest-book-sign",
-  "name": "Custom Guest Book Alternative",
+  "slug": "mr-and-mrs-3d-guest-book-sign",
+  "name": "Mr and Mrs 3D Guest Book Sign",
   "etsy_title": "Custom Guest Book Alternative, 3D Laser Cut Name Sign for Weddings",
   "type": "guest-book-sign",
   "price_ladder": "guestbook",
@@ -607,10 +728,13 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "The 3D last-name frame with a small \"Mr & Mrs\" cut above your name and your date.",
+  "description": "The 3D guest book with \"Mr & Mrs\" cut in script above your last name, and your wedding date along the lower edge. Your last name is raised in the open center, and guests sign the frame around it at the reception.\n\nSizes run from 20 inches (about 30-45 guests) to 48 inches (about 200-250 guests), in a natural finish or stained, painted black or painted white. We send a free digital proof of your names and date before we cut, and every sign is made to order in 3-5 business days in Pryor, Oklahoma.",
+  "personalize": "guestbook"
  },
  {
-  "slug_draft": "funny-coaster-set-coaster-set",
+  "slug": "funny-coaster-set-coaster-set",
   "name": "Funny Coaster Set",
   "etsy_title": "Funny Coaster Set, Engraved Maple and Walnut for Housewarming Gifts",
   "type": "coaster-set",
@@ -633,11 +757,11 @@
    "etsy_revenue_all_time": 13931
   },
   "publish": false,
-  "hold_reason": "profanity/adult humor \u2014 Jackson decides",
+  "hold_reason": "profanity/adult humor — Jackson decides",
   "grid_image": null
  },
  {
-  "slug_draft": "wedding-guest-book-sign-guest-book-sign",
+  "slug": "wedding-guest-book-sign-guest-book-sign",
   "name": "Wedding Guest Book Sign",
   "etsy_title": "Wedding Guest Book Sign, 3D Laser Cut Names and Date, Personalized Reception Decor, Custom Signature Board, Alternative Guest Book",
   "type": "guest-book-sign",
@@ -659,13 +783,13 @@
    "etsy_sales_all_time": 194,
    "etsy_revenue_all_time": 12605
   },
-  "publish": true,
-  "hold_reason": null,
+  "publish": false,
+  "hold_reason": "merged: same photo (or the same scene shot twice) as listing 619024514; merged into that page",
   "grid_image": null
  },
  {
-  "slug_draft": "personalized-cutting-board-cutting-board",
-  "name": "Personalized Cutting Board",
+  "slug": "bold-last-name-anniversary-cutting-board",
+  "name": "Bold Last Name Anniversary Cutting Board",
   "etsy_title": "Personalized Cutting Board, Custom Engraved Walnut Anniversary Couples",
   "type": "cutting-board",
   "price_ladder": "board",
@@ -688,10 +812,13 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "Large serif last name, first names in script and your wedding date, as an anniversary board.",
+  "description": "Our bold last-name layout, set up as an anniversary gift: your first names in script, your last name in large capitals with a tall first letter, and the date you married written out underneath. The photo shows it on a walnut board propped on a display stand, which is an optional add-on.\n\nEvery board is one solid slab of maple or walnut, laser engraved in our shop in Pryor, Oklahoma. Sizes run 8x12 and 10x14 inches (0.75 in thick) and 12x16 inches (1.5 in thick), with a 16x24 inch walnut statement size. We email a free digital proof before we engrave, and each board is made to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "handmade-game-of-thrones-fan-gift-other",
+  "slug": "handmade-game-of-thrones-fan-gift-other",
   "name": "Handmade Game of Thrones Fan Gift",
   "etsy_title": "Handmade Game of Thrones Fan Gift, Handmade Walnut Maple Engraved Kitchen Decor, GOT Gift,",
   "type": "other",
@@ -714,7 +841,7 @@
   "grid_image": null
  },
  {
-  "slug_draft": "witcher-cutting-board-charcuterie-board",
+  "slug": "witcher-cutting-board-charcuterie-board",
   "name": "Witcher Cutting Board",
   "etsy_title": "Witcher Cutting Board, Engraved Charcuterie Board, Toss a Coin Fan Gift, Geeky Kitchen Decor, Handmade Walnut Board, Nerd Gift",
   "type": "charcuterie-board",
@@ -737,7 +864,7 @@
   "grid_image": null
  },
  {
-  "slug_draft": "custom-cutting-board-in-walnut-cutting-board",
+  "slug": "custom-cutting-board-in-walnut-cutting-board",
   "name": "Custom Cutting Board in Walnut",
   "etsy_title": "Custom Cutting Board in Walnut, Engraved Corporate Clients",
   "type": "cutting-board",
@@ -762,12 +889,12 @@
     "1323883959"
    ]
   },
-  "publish": true,
-  "hold_reason": null,
+  "publish": false,
+  "hold_reason": "merged: same photo (or the same scene shot twice) as listing 522810718; merged into that page",
   "grid_image": null
  },
  {
-  "slug_draft": "hodor-door-stop-other",
+  "slug": "hodor-door-stop-other",
   "name": "Hodor Door Stop",
   "etsy_title": "Hodor Door Stop, Walnut Wedge Doorstop for Game of Thrones Fans",
   "type": "other",
@@ -790,15 +917,15 @@
   "grid_image": null
  },
  {
-  "slug_draft": "personalized-cutting-board-cutting-board-2",
-  "name": "Personalized Cutting Board",
+  "slug": "circle-monogram-bridal-shower-board",
+  "name": "Circle Monogram Bridal Shower Board",
   "etsy_title": "Personalized Cutting Board, Handmade USA Wedding Gift, Custom Engraved Bridal Shower Gift, Walnut Anniversary Gift for Couple, Gift for Her",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
+   "bridal-shower",
    "wedding",
-   "anniversary",
-   "bridal-shower"
+   "anniversary"
   ],
   "recipients": [
    "couples",
@@ -817,15 +944,21 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "The circle monogram with the couple's names and wedding date, as a shower or wedding gift.",
+  "description": "Our circle monogram, as a shower gift: the couple's first names around the top of the ring, their initial and last name in the middle, and their wedding date around the bottom. If the date is not set yet, leave it off, or tell us in the notes and we will leave room for the year.\n\nWe cut it from one solid slab of maple or walnut and laser engrave it here in Pryor, Oklahoma. Choose 8x12 or 10x14 inches at 0.75 in thick, 12x16 at 1.5 in thick, or the 16x24 walnut board. A display stand, conditioning oil, a handwritten card and paper gift wrap are optional add-ons. Free digital proof first, then made to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "personalized-cutting-board-cutting-board-3",
-  "name": "Personalized Cutting Board",
+  "slug": "classic-last-name-and-date-cutting-board",
+  "name": "Classic Last Name and Date Cutting Board",
   "etsy_title": "Personalized Cutting Board, Custom Engraved Walnut Kitchen Couples",
   "type": "cutting-board",
   "price_ladder": "board",
-  "occasions": [],
+  "occasions": [
+   "anniversary",
+   "wedding"
+  ],
   "recipients": [
    "couples"
   ],
@@ -842,21 +975,24 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "First names in script, your last name in wide capitals and your established date, set on a slight angle.",
+  "description": "Your first names in a flowing script, your last name in wide serif capitals between two rules, and your established date underneath, all set on a gentle angle across the board. The photo shows a date from the 1980s, which is the point: it works just as well for a 30th anniversary as for a first.\n\nEvery board is one solid slab of maple or walnut, laser engraved in our shop in Pryor, Oklahoma. Sizes run 8x12 and 10x14 inches (0.75 in thick) and 12x16 inches (1.5 in thick), with a 16x24 inch walnut statement size. We email a free digital proof before we engrave, and each board is made to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "realtor-closing-gift-cutting-board",
-  "name": "Realtor Closing Gift",
+  "slug": "home-sweet-home-realtor-closing-board",
+  "name": "Home Sweet Home Realtor Closing Board",
   "etsy_title": "Realtor Closing Gift, Custom Logo Cutting Board for Client Appreciation",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
    "realtor-closing-gift",
-   "corporate-gifts"
+   "housewarming"
   ],
   "recipients": [
    "realtors",
-   "businesses"
+   "homeowners"
   ],
   "image": "/images/products/1209211731.jpg",
   "source": {
@@ -874,16 +1010,20 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "Home Sweet Home with the buyers' names and year, plus your logo small in the corner.",
+  "description": "Our best-selling Home Sweet Home layout, set up for agents: the buyers' names and move-in year in the center, and your logo engraved small in the lower corner, where it reminds them who helped without turning the gift into an ad. Upload your logo in the logo field. For recurring closings, see our realtor page.\n\nPick maple, which is light and creamy, or walnut, which is dark brown with more grain movement. It comes in 8x12, 10x14 or 12x16 inches, or 16x24 in walnut; the two larger sizes are 1.5 in thick. It is one solid slab, not glued-up strips. You see a free digital proof before the laser runs, and we make it to order in 3-5 business days.",
+  "personalize": "names-logo"
  },
  {
-  "slug_draft": "personalized-gift-wedding-wine-glass-wine-glass",
-  "name": "Personalized Gift Wedding Wine Glass",
+  "slug": "circle-monogram-wine-glass",
+  "name": "Circle Monogram Wine Glass",
   "etsy_title": "Personalized Gift Wedding Wine Glass, Custom Engraved Stemless for Couples",
   "type": "wine-glass",
   "price_ladder": "glass",
   "occasions": [
-   "wedding"
+   "wedding",
+   "anniversary"
   ],
   "recipients": [
    "couples"
@@ -901,10 +1041,13 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "The circle monogram, etched on a stemless wine glass.",
+  "description": "Our circle monogram etched on glass: your first names around the top of the dotted ring, your initial with the last name across it, and your date around the bottom. It matches the circle monogram board and coasters.\n\nWe engrave it on a 21 oz stemless wine glass, one at a time, in our shop in Pryor, Oklahoma. Buy a single glass or a set of 2, 4 or 8. You get a free digital proof of your wording before we engrave, and it is made to order in 3-5 business days.",
+  "personalize": "name-glass"
  },
  {
-  "slug_draft": "personalized-walnut-cutting-board-cutting-board",
+  "slug": "personalized-walnut-cutting-board-cutting-board",
   "name": "Personalized Walnut Cutting Board",
   "etsy_title": "Personalized Walnut Cutting Board, Custom Engraved for Weddings and Anniversaries",
   "type": "cutting-board",
@@ -927,18 +1070,23 @@
    "etsy_sales_all_time": 93,
    "etsy_revenue_all_time": 7720
   },
-  "publish": true,
-  "hold_reason": null,
+  "publish": false,
+  "hold_reason": "merged: same photo (or the same scene shot twice) as listing 769991218; merged into that page",
   "grid_image": null
  },
  {
-  "slug_draft": "custom-cutting-board-charcuterie-board",
-  "name": "Custom Cutting Board",
+  "slug": "large-initial-framed-date-charcuterie-board",
+  "name": "Large Initial Framed Date Charcuterie Board",
   "etsy_title": "Custom Cutting Board, Engraved Walnut Charcuterie with Personalization Options",
   "type": "charcuterie-board",
   "price_ladder": "board",
-  "occasions": [],
-  "recipients": [],
+  "occasions": [
+   "wedding",
+   "anniversary"
+  ],
+  "recipients": [
+   "couples"
+  ],
   "image": "/images/products/848727179.jpg",
   "source": {
    "etsy_listing_id": "848727179",
@@ -952,16 +1100,20 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "An oversized initial with a framed date across it, your first names and your last name in script.",
+  "description": "An oversized initial fills most of the board, with your established date set in a frame across it. Under that, your first names in serif capitals and your last name in script. It is a big, graphic design, so it looks best on 10x14 inches and up.\n\nIt is one solid slab of maple or walnut with a flat face, so the whole surface is usable for cheese, bread and fruit. Sizes run from 8x12 inches up to a 16x24 inch walnut board, and the design is scaled to fit whatever you choose. Free digital proof before the laser runs; made to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "wedding-gift-cheese-board-charcuterie-board",
-  "name": "Wedding Gift Cheese Board",
-  "etsy_title": "Wedding Gift Cheese Board \u2014 Personalized Engraved Maple Serving Platter",
+  "slug": "last-name-cheese-board",
+  "name": "Last Name Cheese Board",
+  "etsy_title": "Wedding Gift Cheese Board — Personalized Engraved Maple Serving Platter",
   "type": "charcuterie-board",
   "price_ladder": "board",
   "occasions": [
-   "wedding"
+   "wedding",
+   "anniversary"
   ],
   "recipients": [
    "couples"
@@ -979,16 +1131,20 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "Your first names in script, last name in capitals and your date, at one end of a cheese board.",
+  "description": "Your first names in script, your last name in serif capitals with a tall first letter, and your established date, engraved at one end so the rest of the board is free for serving. The photo shows it on walnut, and it works as a wedding gift that gets used at the first dinner party.\n\nIt is one solid slab of maple or walnut with a flat face, so the whole surface is usable for cheese, bread and fruit. Sizes run from 8x12 inches up to a 16x24 inch walnut board, and the design is scaled to fit whatever you choose. Free digital proof before the laser runs; made to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "personalized-cheese-board-charcuterie-board",
-  "name": "Personalized Cheese Board",
+  "slug": "circle-monogram-cheese-board",
+  "name": "Circle Monogram Cheese Board",
   "etsy_title": "Personalized Cheese Board, Custom Engraved Serving for Couples, Anniversary Gift",
   "type": "charcuterie-board",
   "price_ladder": "board",
   "occasions": [
-   "anniversary"
+   "anniversary",
+   "wedding"
   ],
   "recipients": [
    "couples"
@@ -1006,16 +1162,20 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "The circle monogram engraved toward one end of a walnut serving board.",
+  "description": "The circle monogram at one end of a serving board: your first names around the top of the dotted ring, your initial and last name in the center, and your established date around the bottom. It leaves most of the board open for cheese and bread.\n\nIt is one solid slab of maple or walnut with a flat face, so the whole surface is usable for cheese, bread and fruit. Sizes run from 8x12 inches up to a 16x24 inch walnut board, and the design is scaled to fit whatever you choose. Free digital proof before the laser runs; made to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "custom-cutting-board-cutting-board-5",
-  "name": "Custom Cutting Board",
+  "slug": "initial-last-name-engagement-board",
+  "name": "Initial and Last Name Engagement Board",
   "etsy_title": "Custom Cutting Board, Personalized Engagement Gift with Names",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
-   "engagement"
+   "engagement",
+   "wedding"
   ],
   "recipients": [
    "couples"
@@ -1033,20 +1193,25 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "A large initial, a framed date, your last name in capitals and first names in script.",
+  "description": "A large serif initial sits over a small framed date, then your last name in wide capitals and your first names in script along the bottom. For an engagement gift, use the wedding date if it is set, or the engagement date if it is not. The photo shows it on maple.\n\nWe cut it from one solid slab of maple or walnut and laser engrave it here in Pryor, Oklahoma. Choose 8x12 or 10x14 inches at 0.75 in thick, 12x16 at 1.5 in thick, or the 16x24 walnut board. A display stand, conditioning oil, a handwritten card and paper gift wrap are optional add-ons. Free digital proof first, then made to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "custom-logo-ornament-ornament",
+  "slug": "custom-logo-ornament",
   "name": "Custom Logo Ornament",
   "etsy_title": "Custom Logo Ornament, Engraved Maple Wood Keepsake for Corporate Gifts",
   "type": "ornament",
   "price_ladder": "ornament",
   "occasions": [
    "corporate-gifts",
-   "christmas"
+   "christmas",
+   "employee-appreciation"
   ],
   "recipients": [
-   "businesses"
+   "businesses",
+   "realtors"
   ],
   "image": "/images/products/884204628.jpg",
   "source": {
@@ -1067,16 +1232,21 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "Your company logo engraved on a round wood ornament, for client and team holiday gifts.",
+  "description": "Your logo, engraved on a round wood ornament with a ribbon loop. The photo shows our own shop logo. It is a small, low-cost holiday gift for every client on the list, and it comes out of the box every December after that.\n\nIt is a laser-engraved wood ornament, made in our shop in Pryor, Oklahoma. Order a single ornament or a set of 2, 5 or 10. We send a free digital proof of your wording, and it is made to order in 3-5 business days.",
+  "personalize": "logo"
  },
  {
-  "slug_draft": "personalized-engraved-stemless-wine-glass-for-bride-and-groom-wine-gla",
-  "name": "Personalized Engraved Stemless Wine Glass for Bride and Groom",
+  "slug": "last-name-wedding-wine-glass",
+  "name": "Last Name Wedding Wine Glass",
   "etsy_title": "Personalized Engraved Stemless Wine Glass for Bride and Groom",
   "type": "wine-glass",
   "price_ladder": "glass",
   "occasions": [
-   "wedding"
+   "wedding",
+   "anniversary",
+   "bachelorette"
   ],
   "recipients": [
    "couples",
@@ -1091,16 +1261,27 @@
     "120.75"
    ],
    "etsy_sales_all_time": 220,
-   "etsy_revenue_all_time": 6662
+   "etsy_revenue_all_time": 6662,
+   "duplicate_etsy_listings": [
+    "661805878",
+    "674525111"
+   ],
+   "merged_sales_all_time": {
+    "661805878": 2,
+    "674525111": 16
+   }
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "Your last name in large capitals, first names in script and your date, etched on the glass.",
+  "description": "Your last name in large serif capitals with a tall first letter, your first names in script and your date written out, etched on a stemless glass. Order a pair for the two of you, or a set of 4 or 8 for the head table.\n\nWe engrave it on a 21 oz stemless wine glass, one at a time, in our shop in Pryor, Oklahoma. Buy a single glass or a set of 2, 4 or 8. You get a free digital proof of your wording before we engrave, and it is made to order in 3-5 business days.",
+  "personalize": "name-glass"
  },
  {
-  "slug_draft": "funny-gag-gift-wine-glass-wine-glass",
+  "slug": "funny-gag-gift-wine-glass-wine-glass",
   "name": "Funny Gag Gift Wine Glass",
-  "etsy_title": "Funny Gag Gift Wine Glass \u2014 Quirky Stemless for Bachelorette Party",
+  "etsy_title": "Funny Gag Gift Wine Glass — Quirky Stemless for Bachelorette Party",
   "type": "wine-glass",
   "price_ladder": "glass",
   "occasions": [
@@ -1118,12 +1299,12 @@
    "etsy_sales_all_time": 347,
    "etsy_revenue_all_time": 6541
   },
-  "publish": true,
-  "hold_reason": null,
+  "publish": false,
+  "hold_reason": "adult humor (sexual innuendo in the saying), same class as the held profanity/adult designs. Jackson decides",
   "grid_image": null
  },
  {
-  "slug_draft": "game-of-thrones-cutting-board-charcuterie-board",
+  "slug": "game-of-thrones-cutting-board-charcuterie-board",
   "name": "Game of Thrones Cutting Board",
   "etsy_title": "Game of Thrones Cutting Board, Engraved Maple Serving for Fans",
   "type": "charcuterie-board",
@@ -1146,13 +1327,14 @@
   "grid_image": null
  },
  {
-  "slug_draft": "dad-man-myth-legend-wine-glass-wine-glass",
-  "name": "Dad Man Myth Legend Wine Glass",
-  "etsy_title": "Dad Man Myth Legend Wine Glass \u2013 Engraved Stemless Gift for Father Grandpa",
+  "slug": "dad-the-man-the-myth-the-legend-wine-glass",
+  "name": "Dad, The Man, The Myth, The Legend Wine Glass",
+  "etsy_title": "Dad Man Myth Legend Wine Glass – Engraved Stemless Gift for Father Grandpa",
   "type": "wine-glass",
   "price_ladder": "glass",
   "occasions": [
-   "fathers-day"
+   "fathers-day",
+   "birthday"
   ],
   "recipients": [
    "him",
@@ -1171,16 +1353,20 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"Dad. The Man. The Myth. The Legend.\" in four stacked lines of block capitals.",
+  "description": "\"Dad. The Man. The Myth. The Legend.\" in four lines of clean block capitals. It is our best-selling glass for fathers, and it works for a grandfather too. Nothing to personalize.\n\nLaser engraved on a 21 oz stemless wine glass in our shop in Pryor, Oklahoma. The saying is fixed, so there is nothing to fill in: choose one glass or a set of 2, 4 or 8 and add it to your cart. Every glass is made to order and ships in 3-5 business days. We suggest hand washing to keep the etching crisp.",
+  "personalize": "saying"
  },
  {
-  "slug_draft": "funny-teacher-gift-wine-glass",
-  "name": "Funny Teacher Gift",
+  "slug": "i-teach-little-humans-teacher-wine-glass",
+  "name": "I Teach Little Humans Teacher Wine Glass",
   "etsy_title": "Funny Teacher Gift, Etched Wine Glass with Humorous Quote",
   "type": "wine-glass",
   "price_ladder": "glass",
   "occasions": [
-   "teacher-appreciation"
+   "teacher-appreciation",
+   "christmas"
   ],
   "recipients": [
    "teachers"
@@ -1198,16 +1384,25 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"I teach little humans. What's your excuse?\"",
+  "description": "\"I teach\" in script, \"little humans\" in tall capitals, and \"What's your excuse?\" underneath. It is a teacher gift for the end of the year or the holidays, from a parent who knows what a room of seven-year-olds is like.\n\nIt is a 21 oz stemless wine glass, laser engraved so the design is etched into the glass rather than printed on top. There is nothing to personalize: buy a single glass or a set of 2, 4 or 8, and add a note at checkout if you have a question. Made to order in Pryor, Oklahoma in 3-5 business days.",
+  "personalize": "saying"
  },
  {
-  "slug_draft": "custom-cutting-board-cutting-board-6",
-  "name": "Custom Cutting Board",
+  "slug": "diagonal-monogram-family-name-board",
+  "name": "Diagonal Monogram Family Name Board",
   "etsy_title": "Custom Cutting Board, Personalized Walnut and Maple Engraved Kitchen",
   "type": "cutting-board",
   "price_ladder": "board",
-  "occasions": [],
-  "recipients": [],
+  "occasions": [
+   "anniversary",
+   "wedding",
+   "housewarming"
+  ],
+  "recipients": [
+   "couples"
+  ],
   "image": "/images/products/582953134.jpg",
   "source": {
    "etsy_listing_id": "582953134",
@@ -1221,18 +1416,25 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "A large initial, script first names, your last name and date, running corner to corner.",
+  "description": "This layout runs corner to corner: a large serif initial at the top, your first names in script, your last name in spaced capitals, and your established date along the bottom. The diagonal lets the name run long, so it handles longer last names better than most of our straight layouts.\n\nPick maple, which is light and creamy, or walnut, which is dark brown with more grain movement. It comes in 8x12, 10x14 or 12x16 inches, or 16x24 in walnut; the two larger sizes are 1.5 in thick. It is one solid slab, not glued-up strips. You see a free digital proof before the laser runs, and we make it to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "custom-cutting-board-cutting-board-7",
-  "name": "Custom Cutting Board",
+  "slug": "script-names-and-year-cutting-board",
+  "name": "Script Names and Year Cutting Board",
   "etsy_title": "Custom Cutting Board, Personalized Walnut Kitchen with Established Date",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
+   "wedding",
+   "anniversary",
    "family"
   ],
-  "recipients": [],
+  "recipients": [
+   "couples"
+  ],
   "image": "/images/products/850918777.jpg",
   "source": {
    "etsy_listing_id": "850918777",
@@ -1246,16 +1448,20 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "Two first names in one long line of script with a small \"est.\" year, for a minimal look.",
+  "description": "The most minimal board we make: your two first names in one long line of handwritten-style script across the board, and a small \"est.\" with your year tucked at the end. Most of the wood stays open, so it gets used as a real cutting board, and the engraving still shows on the counter.\n\nPick maple, which is light and creamy, or walnut, which is dark brown with more grain movement. It comes in 8x12, 10x14 or 12x16 inches, or 16x24 in walnut; the two larger sizes are 1.5 in thick. It is one solid slab, not glued-up strips. You see a free digital proof before the laser runs, and we make it to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "funny-mom-gifts-wine-glass",
-  "name": "Funny Mom Gifts: Engraved Stemless Wine Glass with Humorous Saying",
+  "slug": "mom-ugly-children-wine-glass",
+  "name": "Mom, At Least You Don't Have Ugly Children Wine Glass",
   "etsy_title": "Funny Mom Gifts: Engraved Stemless Wine Glass with Humorous Saying",
   "type": "wine-glass",
   "price_ladder": "glass",
   "occasions": [
-   "mothers-day"
+   "mothers-day",
+   "birthday"
   ],
   "recipients": [
    "her"
@@ -1273,11 +1479,14 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"Mom, no matter what life throws at you, at least you don't have ugly children.\"",
+  "description": "\"Mom\" in script, then \"No matter what life throws at you, at least you don't have ugly children.\" Nothing to personalize.\n\nLaser engraved on a 21 oz stemless wine glass in our shop in Pryor, Oklahoma. The saying is fixed, so there is nothing to fill in: choose one glass or a set of 2, 4 or 8 and add it to your cart. Every glass is made to order and ships in 3-5 business days. We suggest hand washing to keep the etching crisp.",
+  "personalize": "saying"
  },
  {
-  "slug_draft": "personalized-serving-board-charcuterie-board-2",
-  "name": "Personalized Serving Board",
+  "slug": "circle-stamp-monogram-serving-board",
+  "name": "Circle Stamp Monogram Serving Board",
   "etsy_title": "Personalized Serving Board, Custom Engraved Wedding Gift, Housewarming Gift for Bride, Anniversary Gift, Charcuterie Cheese Board",
   "type": "charcuterie-board",
   "price_ladder": "board",
@@ -1304,18 +1513,24 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "A small round stamp-style monogram with names, initial, last name and date, near the end of the board.",
+  "description": "A compact round monogram, like a maker's stamp: your first names around the top, your initial with the last name across it, and your date around the bottom, engraved near one end. The photo shows it on maple. It is subtle enough for a board that will be used every day.\n\nIt is one solid slab of maple or walnut with a flat face, so the whole surface is usable for cheese, bread and fruit. Sizes run from 8x12 inches up to a 16x24 inch walnut board, and the design is scaled to fit whatever you choose. Free digital proof before the laser runs; made to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "personalized-cutting-board-cutting-board-4",
-  "name": "Personalized Cutting Board",
+  "slug": "veteran-flag-cutting-board",
+  "name": "Veteran Flag Cutting Board",
   "etsy_title": "Personalized Cutting Board, Engraved Walnut Military Veterans, Custom Size and Wood Type Options",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
-   "military-veteran"
+   "military-veteran",
+   "fathers-day"
   ],
-  "recipients": [],
+  "recipients": [
+   "him"
+  ],
   "image": "/images/products/974310194.jpg",
   "source": {
    "etsy_listing_id": "974310194",
@@ -1329,19 +1544,24 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "A distressed vertical flag with \"VETERAN\" down one side and a branch emblem at the top.",
+  "description": "A distressed flag running vertically across the board, \"VETERAN\" in stencil capitals down one side, and a branch emblem at the top. The photo shows the Navy version on walnut. It is a gift for a retirement, a homecoming or Veterans Day.\n\nPick maple, which is light and creamy, or walnut, which is dark brown with more grain movement. It comes in 8x12, 10x14 or 12x16 inches, or 16x24 in walnut; the two larger sizes are 1.5 in thick. It is one solid slab, not glued-up strips. You see a free digital proof before the laser runs, and we make it to order in 3-5 business days.",
+  "personalize": "saying"
  },
  {
-  "slug_draft": "wedding-coaster-set-coaster-set",
-  "name": "Wedding Coaster Set",
+  "slug": "split-letter-monogram-coasters",
+  "name": "Split Letter Monogram Coasters",
   "etsy_title": "Wedding Coaster Set, Personalized Engraved Wood for Couples",
   "type": "coaster-set",
   "price_ladder": "coaster",
   "occasions": [
-   "wedding"
+   "wedding",
+   "housewarming"
   ],
   "recipients": [
-   "couples"
+   "couples",
+   "homeowners"
   ],
   "image": "/images/products/619426093.jpg",
   "source": {
@@ -1356,15 +1576,21 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "A tall initial with your last name in script across it, on square wood coasters.",
+  "description": "The split-letter monogram on square coasters: a tall initial with your last name in script through the middle. It is a clean mark that reads at a glance on a coffee table. The photo shows it on walnut.\n\nThe coasters are solid maple or walnut, laser engraved in Pryor, Oklahoma, and sold in sets of 2, 4, 8 or 16. You can add a matching small or medium cutting board to the same order. Free digital proof first, then made to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "personalized-cutting-board-charcuterie-board",
-  "name": "Personalized Cutting Board",
+  "slug": "framed-date-last-name-charcuterie-board",
+  "name": "Framed Date Last Name Charcuterie Board",
   "etsy_title": "Personalized Cutting Board, Custom Engraved Walnut Charcuterie for Couples",
   "type": "charcuterie-board",
   "price_ladder": "board",
-  "occasions": [],
+  "occasions": [
+   "anniversary",
+   "wedding"
+  ],
   "recipients": [
    "couples"
   ],
@@ -1381,16 +1607,20 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "Initial, framed established date, last name and first names, stacked on a serving board.",
+  "description": "The same stacked layout as our engagement board, shown here on walnut with a cheese spread: your initial, a small framed established date, your last name in large capitals, and your first names in script. The layout sits in the middle of the board with room around it for serving.\n\nThe design is shown on a serving board; we engrave it on the size and wood you pick below. Each board is one solid slab of maple or walnut: 8x12 or 10x14 inches at 0.75 in thick, 12x16 inches at 1.5 in thick, or 16x24 in walnut. We send a free digital proof before we engrave, and make it to order in 3-5 business days in Pryor, Oklahoma.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "custom-logo-board-cutting-board-2",
-  "name": "Custom Logo Board",
+  "slug": "logo-cutting-board-corporate-gifts",
+  "name": "Logo Cutting Board for Corporate Gifts",
   "etsy_title": "Custom Logo Board, Personalized Wooden Cutting for Corporate Gifts",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
-   "corporate-gifts"
+   "corporate-gifts",
+   "employee-appreciation"
   ],
   "recipients": [
    "businesses"
@@ -1411,11 +1641,14 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "Your logo, centered at a moderate size, on a solid wood board.",
+  "description": "Your logo centered on the board at a moderate size, with room around it. The photo shows a placeholder where your logo goes. It is a straightforward choice for holiday client gifts, event gifts and thank-yous, and every board in an order gets the same free proof before we engrave.\n\nPick maple, which is light and creamy, or walnut, which is dark brown with more grain movement. It comes in 8x12, 10x14 or 12x16 inches, or 16x24 in walnut; the two larger sizes are 1.5 in thick. It is one solid slab, not glued-up strips. You see a free digital proof before the laser runs, and we make it to order in 3-5 business days.",
+  "personalize": "logo"
  },
  {
-  "slug_draft": "wedding-cake-topper-cake-topper",
-  "name": "Wedding Cake Topper",
+  "slug": "mr-and-mrs-script-cake-topper",
+  "name": "Mr and Mrs Script Cake Topper",
   "etsy_title": "Wedding Cake Topper, Personalized Mr and Mrs Laser Cut Wood Decor",
   "type": "cake-topper",
   "price_ladder": "cake-topper",
@@ -1438,10 +1671,13 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "A laser-cut \"Mr & Mrs\" script cake topper.",
+  "description": "A laser-cut \"Mr & Mrs\" in a flowing script, on stakes that go into the top tier. The photo shows it on a dark, moody cake; it works just as well on a white one.\n\nIt is laser cut in our shop in Pryor, Oklahoma and made to order in 3-5 business days. There is nothing to personalize on the topper itself, so it is a quick addition to a guest book sign order. Tell us your wedding date in the notes so we can plan around it.",
+  "personalize": "cake"
  },
  {
-  "slug_draft": "yoda-one-for-me-wine-glass-wine-glass",
+  "slug": "yoda-one-for-me-wine-glass-wine-glass",
   "name": "Yoda One For Me Wine Glass",
   "etsy_title": "Yoda One For Me Wine Glass, Star Wars Laser Engraved Stemless Glass, Mandalorian Fan Gift, Geeky Birthday Gift, Valentine Gift",
   "type": "wine-glass",
@@ -1466,8 +1702,8 @@
   "grid_image": null
  },
  {
-  "slug_draft": "custom-cutting-board-cutting-board-8",
-  "name": "Custom Cutting Board",
+  "slug": "corner-logo-client-gift-board",
+  "name": "Corner Logo Client Gift Board",
   "etsy_title": "Custom Cutting Board, Engraved Walnut for Corporate Gifts and Branding",
   "type": "cutting-board",
   "price_ladder": "board",
@@ -1490,10 +1726,13 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "A walnut board with your logo small in one corner, as a client thank-you.",
+  "description": "The corner-logo layout as a client thank-you: a solid board with your logo and name small along one edge, and the rest left open for cooking. It is a good gift for clients who would not display a plaque but will chop onions on a board for years.\n\nEvery board is one solid slab of maple or walnut, laser engraved in our shop in Pryor, Oklahoma. Sizes run 8x12 and 10x14 inches (0.75 in thick) and 12x16 inches (1.5 in thick), with a 16x24 inch walnut statement size. We email a free digital proof before we engrave, and each board is made to order in 3-5 business days.",
+  "personalize": "logo"
  },
  {
-  "slug_draft": "witcher-inspired-wine-glass-toss-a-coin-laser-engraved-stemless-wine-g",
+  "slug": "witcher-inspired-wine-glass-toss-a-coin-laser-engraved-stemless-wine-g",
   "name": "Witcher Inspired Wine Glass - Toss a Coin Laser Engraved Stemless",
   "etsy_title": "Witcher Inspired Wine Glass - Toss a Coin Laser Engraved Stemless",
   "type": "wine-glass",
@@ -1516,14 +1755,19 @@
   "grid_image": null
  },
  {
-  "slug_draft": "personalized-stemless-wine-glass-wine-glass",
-  "name": "Personalized Stemless Wine Glass",
+  "slug": "initial-and-name-wine-glass",
+  "name": "Initial and Name Wine Glass",
   "etsy_title": "Personalized Stemless Wine Glass, Engraved Man Gift Ideas",
   "type": "wine-glass",
   "price_ladder": "glass",
-  "occasions": [],
+  "occasions": [
+   "birthday",
+   "fathers-day",
+   "wedding"
+  ],
   "recipients": [
-   "him"
+   "him",
+   "her"
   ],
   "image": "/images/products/673788407.jpg",
   "source": {
@@ -1538,17 +1782,20 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "One tall initial with a first or last name in script across it, etched on a stemless glass.",
+  "description": "One tall serif initial, with a name in script across the bottom of it. It works for one person's first name, a family last name, or a groomsman's name at the wedding. The photo shows it with white wine.\n\nWe engrave it on a 21 oz stemless wine glass, one at a time, in our shop in Pryor, Oklahoma. Buy a single glass or a set of 2, 4 or 8. You get a free digital proof of your wording before we engrave, and it is made to order in 3-5 business days.",
+  "personalize": "name-glass"
  },
  {
-  "slug_draft": "personalized-memorial-christmas-ornament-ornament",
-  "name": "Personalized Memorial Christmas Ornament",
-  "etsy_title": "Personalized Memorial Christmas Ornament \u2014 Engraved Maple Sympathy Gift",
+  "slug": "heaven-in-our-home-memorial-ornament",
+  "name": "Heaven in Our Home Memorial Ornament",
+  "etsy_title": "Personalized Memorial Christmas Ornament — Engraved Maple Sympathy Gift",
   "type": "ornament",
   "price_ladder": "ornament",
   "occasions": [
-   "christmas",
-   "memorial-sympathy"
+   "memorial-sympathy",
+   "christmas"
   ],
   "recipients": [],
   "image": "/images/products/657955757.jpg",
@@ -1570,15 +1817,21 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "A heart ornament with an angel wing and \"Because someone we love is in heaven,\" with a name and years.",
+  "description": "A heart-shaped ornament with an angel wing on one side and the words \"Because someone we love is in heaven, there's a little bit of heaven in our home.\" Their name and years run along the edge. Take your time with the wording; we send a proof before anything is engraved.\n\nWe laser engrave it on a wood ornament here in Pryor, Oklahoma. Buy one, or a set of 2, 5 or 10 for family, a team or a classroom. You get a free digital proof first, and each order is made in 3-5 business days.",
+  "personalize": "memorial"
  },
  {
-  "slug_draft": "girl-boss-etched-stemless-wine-glass-wine-glass",
-  "name": "Girl Boss Etched Stemless Wine Glass",
-  "etsy_title": "Girl Boss Etched Stemless Wine Glass \u2014 Funny Empowerment Gift for Her",
+  "slug": "girl-boss-building-her-empire-wine-glass",
+  "name": "Girl Boss Building Her Empire Wine Glass",
+  "etsy_title": "Girl Boss Etched Stemless Wine Glass — Funny Empowerment Gift for Her",
   "type": "wine-glass",
   "price_ladder": "glass",
-  "occasions": [],
+  "occasions": [
+   "birthday",
+   "graduation"
+  ],
   "recipients": [
    "her"
   ],
@@ -1595,15 +1848,21 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"Just a Girl Boss Building Her Empire\" with a small diamond.",
+  "description": "\"Just a\" and \"Building\" in spaced capitals, \"Girl Boss\" and \"Her Empire\" in script, with a small diamond at the top. It is a gift for a promotion, a new business or a birthday.\n\nIt is a 21 oz stemless wine glass, laser engraved so the design is etched into the glass rather than printed on top. There is nothing to personalize: buy a single glass or a set of 2, 4 or 8, and add a note at checkout if you have a question. Made to order in Pryor, Oklahoma in 3-5 business days.",
+  "personalize": "saying"
  },
  {
-  "slug_draft": "custom-cutting-board-cutting-board-9",
-  "name": "Custom Cutting Board",
+  "slug": "flourish-circle-last-name-board",
+  "name": "Flourish Circle Last Name Board",
   "etsy_title": "Custom Cutting Board, Personalized Maple Kitchen for Couples",
   "type": "cutting-board",
   "price_ladder": "board",
-  "occasions": [],
+  "occasions": [
+   "wedding",
+   "anniversary"
+  ],
   "recipients": [
    "couples"
   ],
@@ -1620,12 +1879,15 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "Your last name across a ring with scroll flourishes, first names above and your date below.",
+  "description": "Your last name runs straight across a double ring in serif capitals, framed by two scroll flourishes. Your first names follow the top of the ring and your established date follows the bottom. It is more ornate than our other circle designs, and it shows up especially clearly on maple.\n\nWe cut it from one solid slab of maple or walnut and laser engrave it here in Pryor, Oklahoma. Choose 8x12 or 10x14 inches at 0.75 in thick, 12x16 at 1.5 in thick, or the 16x24 walnut board. A display stand, conditioning oil, a handwritten card and paper gift wrap are optional add-ons. Free digital proof first, then made to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "funny-beauty-and-beast-stemless-wine-glass-wine-glass",
+  "slug": "funny-beauty-and-beast-stemless-wine-glass-wine-glass",
   "name": "Funny Beauty and Beast Stemless Wine Glass",
-  "etsy_title": "Funny Beauty and Beast Stemless Wine Glass \u2014 Laser Engraved 21oz Gift",
+  "etsy_title": "Funny Beauty and Beast Stemless Wine Glass — Laser Engraved 21oz Gift",
   "type": "wine-glass",
   "price_ladder": "glass",
   "occasions": [],
@@ -1646,7 +1908,7 @@
   "grid_image": null
  },
  {
-  "slug_draft": "custom-cutting-board-cutting-board-10",
+  "slug": "custom-cutting-board-cutting-board-10",
   "name": "Custom Cutting Board",
   "etsy_title": "Custom Cutting Board, Personalized Walnut Name for Weddings and Anniversaries",
   "type": "cutting-board",
@@ -1674,7 +1936,7 @@
   "grid_image": null
  },
  {
-  "slug_draft": "game-of-thrones-coasters-coaster-set",
+  "slug": "game-of-thrones-coasters-coaster-set",
   "name": "Game of Thrones Coasters: Laser Engraved Wooden \"I Drink & I Know Things\"",
   "etsy_title": "Game of Thrones Coasters: Laser Engraved Wooden \"I Drink & I Know Things\"",
   "type": "coaster-set",
@@ -1697,9 +1959,9 @@
   "grid_image": null
  },
  {
-  "slug_draft": "thanks-for-all-the-orgasms-funny-wine-glass-wine-glass",
+  "slug": "thanks-for-all-the-orgasms-funny-wine-glass-wine-glass",
   "name": "Thanks for All the Orgasms Funny Wine Glass",
-  "etsy_title": "Thanks for All the Orgasms Funny Wine Glass \u2014 Laser Engraved Couples Gift",
+  "etsy_title": "Thanks for All the Orgasms Funny Wine Glass — Laser Engraved Couples Gift",
   "type": "wine-glass",
   "price_ladder": "glass",
   "occasions": [],
@@ -1718,18 +1980,22 @@
    "etsy_revenue_all_time": 1963
   },
   "publish": false,
-  "hold_reason": "profanity/adult humor \u2014 Jackson decides",
+  "hold_reason": "profanity/adult humor — Jackson decides",
   "grid_image": null
  },
  {
-  "slug_draft": "custom-serving-board-charcuterie-board",
-  "name": "Custom Serving Board",
+  "slug": "initial-last-name-serving-board",
+  "name": "Initial and Last Name Serving Board",
   "etsy_title": "Custom Serving Board, Engraved Maple Cheese for Couples",
   "type": "charcuterie-board",
   "price_ladder": "board",
-  "occasions": [],
+  "occasions": [
+   "wedding",
+   "housewarming"
+  ],
   "recipients": [
-   "couples"
+   "couples",
+   "homeowners"
   ],
   "image": "/images/products/594781433.jpg",
   "source": {
@@ -1744,15 +2010,21 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "Initial, framed date, last name and first names, engraved at the end of a maple serving board.",
+  "description": "Our stacked layout, placed at one end of a serving board: your initial, a small framed date, your last name in capitals and your first names in script. The photo shows it on maple with cheese and fruit. It suits a couple who entertain.\n\nThe design is shown on a serving board; we engrave it on the size and wood you pick below. Each board is one solid slab of maple or walnut: 8x12 or 10x14 inches at 0.75 in thick, 12x16 inches at 1.5 in thick, or 16x24 in walnut. We send a free digital proof before we engrave, and make it to order in 3-5 business days in Pryor, Oklahoma.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "custom-cutting-board-charcuterie-board-2",
-  "name": "Custom Cutting Board",
+  "slug": "filigree-last-name-charcuterie-board",
+  "name": "Filigree Last Name Charcuterie Board",
   "etsy_title": "Custom Cutting Board, Engraved Walnut Charcuterie for Couples",
   "type": "charcuterie-board",
   "price_ladder": "board",
-  "occasions": [],
+  "occasions": [
+   "anniversary",
+   "wedding"
+  ],
   "recipients": [
    "couples"
   ],
@@ -1769,15 +2041,22 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "Your last name in large capitals between two filigree borders, with first names and date.",
+  "description": "Your last name in large capitals, framed above and below by filigree borders, with your first names in script above it and your established date below. The borders make it feel finished even on a big board, and the date line suits a long marriage as well as a new one.\n\nThe design is shown on a serving board; we engrave it on the size and wood you pick below. Each board is one solid slab of maple or walnut: 8x12 or 10x14 inches at 0.75 in thick, 12x16 inches at 1.5 in thick, or 16x24 in walnut. We send a free digital proof before we engrave, and make it to order in 3-5 business days in Pryor, Oklahoma.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "personalized-cutting-board-cutting-board-5",
-  "name": "Personalized Cutting Board",
+  "slug": "circle-monogram-couples-cutting-board",
+  "name": "Circle Monogram Couples Cutting Board",
   "etsy_title": "Personalized Cutting Board, Custom Engraved Walnut Chopping Block for Couples",
   "type": "cutting-board",
   "price_ladder": "board",
-  "occasions": [],
+  "occasions": [
+   "anniversary",
+   "wedding",
+   "housewarming"
+  ],
   "recipients": [
    "couples"
   ],
@@ -1794,10 +2073,13 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "The circle monogram in walnut, sized for everyday chopping.",
+  "description": "The circle monogram, shown on a walnut board in daily use. Your first names follow the top of the dotted ring, the initial and last name sit in the center, and your established date follows the bottom. It is one design that works for a couple at almost any stage.\n\nEvery board is one solid slab of maple or walnut, laser engraved in our shop in Pryor, Oklahoma. Sizes run 8x12 and 10x14 inches (0.75 in thick) and 12x16 inches (1.5 in thick), with a 16x24 inch walnut statement size. We email a free digital proof before we engrave, and each board is made to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "game-of-thrones-cutting-board-charcuterie-board-2",
+  "slug": "game-of-thrones-cutting-board-charcuterie-board-2",
   "name": "Game of Thrones Cutting Board",
   "etsy_title": "Game of Thrones Cutting Board, Handmade USA Walnut Maple Wood, GOT Fan Gift, Engraved Charcuterie Board, Geeky Kitchen Gift",
   "type": "charcuterie-board",
@@ -1820,7 +2102,7 @@
   "grid_image": null
  },
  {
-  "slug_draft": "personalized-wedding-wine-glasses-wine-glass",
+  "slug": "personalized-wedding-wine-glasses-wine-glass",
   "name": "Personalized Wedding Wine Glasses: Etched Stemless Favors",
   "etsy_title": "Personalized Wedding Wine Glasses: Etched Stemless Favors",
   "type": "wine-glass",
@@ -1842,13 +2124,13 @@
    "etsy_sales_all_time": 2,
    "etsy_revenue_all_time": 1500
   },
-  "publish": true,
-  "hold_reason": null,
+  "publish": false,
+  "hold_reason": "merged: same photo (or the same scene shot twice) as listing 673801603; merged into that page",
   "grid_image": null
  },
  {
-  "slug_draft": "personalized-wedding-coaster-set-coaster-set",
-  "name": "Personalized Wedding Coaster Set",
+  "slug": "circle-stamp-monogram-coasters",
+  "name": "Circle Stamp Monogram Coasters",
   "etsy_title": "Personalized Wedding Coaster Set, Engraved Wood for Anniversary",
   "type": "coaster-set",
   "price_ladder": "coaster",
@@ -1872,18 +2154,25 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "A round stamp monogram with first names, initial, last name and date on each coaster.",
+  "description": "A round, stamp-style monogram on each coaster: your first names around the top, a bold initial with the last name across it, and the date around the bottom. The photo shows it on maple under a whiskey glass.\n\nChoose maple or walnut in a set of 2, 4 or 8, or a set of 16 for a bigger household or a party. A matching small or medium cutting board can be added in the same order. We send a free digital proof before we engrave, and the set is made to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "personalized-cutting-board-with-last-name-est-date-charcuterie-board",
-  "name": "Personalized Cutting Board with Last Name & Est Date",
+  "slug": "established-family-name-charcuterie-board",
+  "name": "Established Family Name Charcuterie Board",
   "etsy_title": "Personalized Cutting Board with Last Name & Est Date, Walnut Charcuterie",
   "type": "charcuterie-board",
   "price_ladder": "board",
   "occasions": [
-   "family"
+   "family",
+   "housewarming"
   ],
-  "recipients": [],
+  "recipients": [
+   "couples",
+   "homeowners"
+  ],
   "image": "/images/products/4492144871.jpg",
   "source": {
    "etsy_listing_id": "4492144871",
@@ -1897,19 +2186,25 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"The [Last Name]s\" with a small diamond rule and \"Established\" year, set low on the board.",
+  "description": "\"The\" plus your family name in serif capitals, a thin rule with a small diamond, and \"Established\" with your year. It sits in the lower corner, so most of the board stays open for serving. It is a good fit for a family name rather than a couple's first names.\n\nIt is one solid slab of maple or walnut with a flat face, so the whole surface is usable for cheese, bread and fruit. Sizes run from 8x12 inches up to a 16x24 inch walnut board, and the design is scaled to fit whatever you choose. Free digital proof before the laser runs; made to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "personalized-welcome-home-cutting-board-housewarming-gift-cutting-boar",
-  "name": "Personalized Welcome Home Cutting Board Housewarming Gift",
+  "slug": "welcome-home-address-cutting-board",
+  "name": "Welcome Home Address Cutting Board",
   "etsy_title": "Personalized Welcome Home Cutting Board Housewarming Gift",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
-   "housewarming"
+   "housewarming",
+   "realtor-closing-gift"
   ],
   "recipients": [
-   "homeowners"
+   "homeowners",
+   "couples",
+   "realtors"
   ],
   "image": "/images/products/4539468387.jpg",
   "source": {
@@ -1920,16 +2215,25 @@
     "333.00"
    ],
    "etsy_sales_all_time": 19,
-   "etsy_revenue_all_time": 1440
+   "etsy_revenue_all_time": 1440,
+   "duplicate_etsy_listings": [
+    "4549701434"
+   ],
+   "merged_sales_all_time": {
+    "4549701434": 6
+   }
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"welcome HOME\" with sprigs, your names and your street address.",
+  "description": "\"welcome\" in script over \"HOME\" in serif capitals, with a leaf sprig at each end. Your names go underneath in script and your street address below that in spaced capitals. It is the most specific housewarming board we make, because it names the house, not only the people.\n\nWe cut it from one solid slab of maple or walnut and laser engrave it here in Pryor, Oklahoma. Choose 8x12 or 10x14 inches at 0.75 in thick, 12x16 at 1.5 in thick, or the 16x24 walnut board. A display stand, conditioning oil, a handwritten card and paper gift wrap are optional add-ons. Free digital proof first, then made to order in 3-5 business days.",
+  "personalize": "address"
  },
  {
-  "slug_draft": "personalized-wedding-wine-glasses-set-of-10-wine-glass",
+  "slug": "personalized-wedding-wine-glasses-set-of-10-wine-glass",
   "name": "Personalized Wedding Wine Glasses Set of 10",
-  "etsy_title": "Personalized Wedding Wine Glasses Set of 10 \u2014 Engraved Stemless Favors",
+  "etsy_title": "Personalized Wedding Wine Glasses Set of 10 — Engraved Stemless Favors",
   "type": "wine-glass",
   "price_ladder": "glass",
   "occasions": [
@@ -1949,21 +2253,24 @@
    "etsy_sales_all_time": 16,
    "etsy_revenue_all_time": 1348
   },
-  "publish": true,
-  "hold_reason": null,
+  "publish": false,
+  "hold_reason": "merged: same photo (or the same scene shot twice) as listing 673801603; merged into that page",
   "grid_image": null
  },
  {
-  "slug_draft": "engraved-wedding-coaster-set-coaster-set",
-  "name": "Engraved Wedding Coaster Set",
-  "etsy_title": "Engraved Wedding Coaster Set \u2014 Custom Walnut and Maple Gift for Couples",
+  "slug": "laurel-wreath-family-name-coasters",
+  "name": "Laurel Wreath Family Name Coasters",
+  "etsy_title": "Engraved Wedding Coaster Set — Custom Walnut and Maple Gift for Couples",
   "type": "coaster-set",
   "price_ladder": "coaster",
   "occasions": [
-   "wedding"
+   "wedding",
+   "anniversary",
+   "housewarming"
   ],
   "recipients": [
-   "couples"
+   "couples",
+   "homeowners"
   ],
   "image": "/images/products/619425831.jpg",
   "source": {
@@ -1978,16 +2285,21 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"The [Last Name]s\" in script inside a laurel wreath, with your year.",
+  "description": "\"The\" and your family name in script inside a laurel wreath, with your year underneath. It is a soft, simple design that suits a family name, which makes it an easy housewarming or anniversary gift. The photo shows it on walnut.\n\nChoose maple or walnut in a set of 2, 4 or 8, or a set of 16 for a bigger household or a party. A matching small or medium cutting board can be added in the same order. We send a free digital proof before we engrave, and the set is made to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "trust-me-i-m-an-engineer-wine-glass-wine-glass",
-  "name": "Trust Me I'm an Engineer Wine Glass",
-  "etsy_title": "Trust Me I'm an Engineer Wine Glass \u2014 Funny Graduation Gift for Him",
+  "slug": "trust-me-im-an-engineer-wine-glass",
+  "name": "Trust Me, I'm an Engineer Wine Glass",
+  "etsy_title": "Trust Me I'm an Engineer Wine Glass — Funny Graduation Gift for Him",
   "type": "wine-glass",
   "price_ladder": "glass",
   "occasions": [
-   "graduation"
+   "graduation",
+   "birthday",
+   "fathers-day"
   ],
   "recipients": [
    "him"
@@ -2005,12 +2317,15 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"Trust me, I'm an Engineer\" wrapped in rows of binary.",
+  "description": "\"Trust me, I'm an Engineer\" in bold capitals, wrapped in rows of ones and zeros. It is a graduation gift for a new engineer, or a birthday gift for one who has been saying it for thirty years.\n\nIt is a 21 oz stemless wine glass, laser engraved so the design is etched into the glass rather than printed on top. There is nothing to personalize: buy a single glass or a set of 2, 4 or 8, and add a note at checkout if you have a question. Made to order in Pryor, Oklahoma in 3-5 business days.",
+  "personalize": "saying"
  },
  {
-  "slug_draft": "funny-friend-wine-glass-wine-glass",
+  "slug": "funny-friend-wine-glass-wine-glass",
   "name": "Funny Friend Wine Glass",
-  "etsy_title": "Funny Friend Wine Glass \u2013 Etched BFF Birthday Bachelorette Gift",
+  "etsy_title": "Funny Friend Wine Glass – Etched BFF Birthday Bachelorette Gift",
   "type": "wine-glass",
   "price_ladder": "glass",
   "occasions": [
@@ -2030,11 +2345,11 @@
    "etsy_revenue_all_time": 1207
   },
   "publish": false,
-  "hold_reason": "profanity/adult humor \u2014 Jackson decides",
+  "hold_reason": "profanity/adult humor — Jackson decides",
   "grid_image": null
  },
  {
-  "slug_draft": "personalized-coasters-wooden-keepsake-set-for-wedding-and-anniversary-",
+  "slug": "personalized-coasters-wooden-keepsake-set-for-wedding-and-anniversary-",
   "name": "Personalized Coasters Wooden Keepsake Set for Wedding and Anniversary Gifts",
   "etsy_title": "Personalized Coasters Wooden Keepsake Set for Wedding and Anniversary Gifts",
   "type": "coaster-set",
@@ -2057,19 +2372,20 @@
    "etsy_sales_all_time": 31,
    "etsy_revenue_all_time": 1191
   },
-  "publish": true,
-  "hold_reason": null,
+  "publish": false,
+  "hold_reason": "photo shows a kraft gift box with tissue (NWW does not sell gift boxes). Needs a new main photo",
   "grid_image": null
  },
  {
-  "slug_draft": "i-m-good-with-math-engineer-wine-glass-wine-glass",
-  "name": "I'm Good With Math Engineer Wine Glass",
-  "etsy_title": "I'm Good With Math Engineer Wine Glass \u2014 Funny Gift for Dad or Husband",
+  "slug": "im-an-engineer-im-good-with-math-wine-glass",
+  "name": "I'm an Engineer, I'm Good With Math Wine Glass",
+  "etsy_title": "I'm Good With Math Engineer Wine Glass — Funny Gift for Dad or Husband",
   "type": "wine-glass",
   "price_ladder": "glass",
   "occasions": [
+   "graduation",
    "fathers-day",
-   "graduation"
+   "birthday"
   ],
   "recipients": [
    "him"
@@ -2087,16 +2403,20 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"I'm an engineer\" misspelled three times, then \"I'm good with math.\"",
+  "description": "\"I'm an\" and then \"engineer\" spelled wrong, crossed out and tried again, and finally \"I'm good with math.\" It is a gentle joke for the engineer in the family, graduating or long since graduated.\n\nLaser engraved on a 21 oz stemless wine glass in our shop in Pryor, Oklahoma. The saying is fixed, so there is nothing to fill in: choose one glass or a set of 2, 4 or 8 and add it to your cart. Every glass is made to order and ships in 3-5 business days. We suggest hand washing to keep the etching crisp.",
+  "personalize": "saying"
  },
  {
-  "slug_draft": "funny-mom-gifts-wine-glass-2",
-  "name": "Funny Mom Gifts: Sip Happens Stemless Wine Glass",
+  "slug": "sip-happens-wine-glass",
+  "name": "Sip Happens, It's OK to Wine Glass",
   "etsy_title": "Funny Mom Gifts: Sip Happens Stemless Wine Glass, Humorous Novelty Drinkware",
   "type": "wine-glass",
   "price_ladder": "glass",
   "occasions": [
-   "mothers-day"
+   "mothers-day",
+   "birthday"
   ],
   "recipients": [
    "her"
@@ -2114,19 +2434,24 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"sip happens\" in script, \"It's OK to wine\" underneath.",
+  "description": "\"sip happens\" in a big flowing script with \"It's OK to wine\" in small capitals below. It is an easy birthday or Mother's Day gift for someone who has had a week.\n\nLaser engraved on a 21 oz stemless wine glass in our shop in Pryor, Oklahoma. The saying is fixed, so there is nothing to fill in: choose one glass or a set of 2, 4 or 8 and add it to your cart. Every glass is made to order and ships in 3-5 business days. We suggest hand washing to keep the etching crisp.",
+  "personalize": "saying"
  },
  {
-  "slug_draft": "personalized-coordinates-cutting-board-cutting-board",
-  "name": "Personalized Coordinates Cutting Board",
-  "etsy_title": "Personalized Coordinates Cutting Board \u2013 Custom Engraved Housewarming Gift",
+  "slug": "home-sweet-home-coordinates-board",
+  "name": "Home Sweet Home Coordinates Board",
+  "etsy_title": "Personalized Coordinates Cutting Board – Custom Engraved Housewarming Gift",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
-   "housewarming"
+   "housewarming",
+   "realtor-closing-gift"
   ],
   "recipients": [
-   "homeowners"
+   "homeowners",
+   "realtors"
   ],
   "image": "/images/products/650383366.jpg",
   "source": {
@@ -2141,15 +2466,22 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"Home Sweet Home\" in script with the GPS coordinates of the house.",
+  "description": "\"Home Sweet Home\" in a formal script, with the latitude and longitude of the house underneath. Put the coordinates in the address field, or the street address and we will confirm the numbers on your proof. The photo shows it on maple. It is simple, a little mysterious to guests, and specific to one place.\n\nEvery board is one solid slab of maple or walnut, laser engraved in our shop in Pryor, Oklahoma. Sizes run 8x12 and 10x14 inches (0.75 in thick) and 12x16 inches (1.5 in thick), with a 16x24 inch walnut statement size. We email a free digital proof before we engrave, and each board is made to order in 3-5 business days.",
+  "personalize": "address"
  },
  {
-  "slug_draft": "personalized-couples-wine-glass-wine-glass",
-  "name": "Personalized Couples Wine Glass",
+  "slug": "couples-circle-monogram-wine-glasses",
+  "name": "Couples Circle Monogram Wine Glasses",
   "etsy_title": "Personalized Couples Wine Glass, Custom Engraved with Names and Date, Stemless 21oz",
   "type": "wine-glass",
   "price_ladder": "glass",
-  "occasions": [],
+  "occasions": [
+   "anniversary",
+   "wedding",
+   "christmas"
+  ],
   "recipients": [
    "couples"
   ],
@@ -2166,16 +2498,21 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "A pair of stemless glasses with the circle monogram, one for each of you.",
+  "description": "The circle monogram on a pair of stemless glasses, one for each of you: first names, initial, last name and date on both. Choose the set of 2 below. It is a good small anniversary gift, and a good add to a board.\n\nWe engrave it on a 21 oz stemless wine glass, one at a time, in our shop in Pryor, Oklahoma. Buy a single glass or a set of 2, 4 or 8. You get a free digital proof of your wording before we engrave, and it is made to order in 3-5 business days.",
+  "personalize": "name-glass"
  },
  {
-  "slug_draft": "handwritten-recipe-cutting-board-cutting-board",
-  "name": "Handwritten Recipe Cutting Board",
+  "slug": "handwritten-recipe-cutting-board",
+  "name": "Family Recipe Cutting Board",
   "etsy_title": "Handwritten Recipe Cutting Board, Custom Engraved Walnut Keepsake for Grandma",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
-   "family"
+   "family",
+   "mothers-day",
+   "christmas"
   ],
   "recipients": [
    "her",
@@ -2194,15 +2531,21 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "A family recipe, laid out in script with a title and sign-off, engraved on the board.",
+  "description": "The recipe that someone in your family has made a hundred times, engraved on a board: a script title, the ingredients in two columns, the steps, and a sign-off like \"Love, Grammy.\" Type the recipe in, or upload a photo of the original card. The free digital proof shows exactly how it will read before we engrave.\n\nWe cut it from one solid slab of maple or walnut and laser engrave it here in Pryor, Oklahoma. Choose 8x12 or 10x14 inches at 0.75 in thick, 12x16 at 1.5 in thick, or the 16x24 walnut board. A display stand, conditioning oil, a handwritten card and paper gift wrap are optional add-ons. Free digital proof first, then made to order in 3-5 business days.",
+  "personalize": "recipe"
  },
  {
-  "slug_draft": "i-make-money-moves-wine-glass-etched-stemless-glass-girl-boss-gift-win",
-  "name": "I Make Money Moves Wine Glass - Etched Stemless Glass - Girl Boss Gift",
+  "slug": "i-make-money-moves-wine-glass",
+  "name": "I Make Money Moves Wine Glass",
   "etsy_title": "I Make Money Moves Wine Glass - Etched Stemless Glass - Girl Boss Gift",
   "type": "wine-glass",
   "price_ladder": "glass",
-  "occasions": [],
+  "occasions": [
+   "birthday",
+   "graduation"
+  ],
   "recipients": [
    "her"
   ],
@@ -2219,16 +2562,26 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"I make MONEY moves\" in mixed script and tall capitals.",
+  "description": "\"I make\" and \"moves\" in brush script with \"MONEY\" in tall capitals between them. It is for a promotion, a first real paycheck or a side business that just took off.\n\nIt is a 21 oz stemless wine glass, laser engraved so the design is etched into the glass rather than printed on top. There is nothing to personalize: buy a single glass or a set of 2, 4 or 8, and add a note at checkout if you have a question. Made to order in Pryor, Oklahoma in 3-5 business days.",
+  "personalize": "saying"
  },
  {
-  "slug_draft": "favorite-child-stemless-wine-glass-wine-glass",
-  "name": "Favorite Child Stemless Wine Glass",
+  "slug": "sorry-you-had-to-raise-my-sibling-wine-glass",
+  "name": "Sorry You Had to Raise My Sibling Wine Glass",
   "etsy_title": "Favorite Child Stemless Wine Glass, Funny Parents with Engraved Message",
   "type": "wine-glass",
   "price_ladder": "glass",
-  "occasions": [],
-  "recipients": [],
+  "occasions": [
+   "mothers-day",
+   "fathers-day",
+   "birthday"
+  ],
+  "recipients": [
+   "her",
+   "him"
+  ],
   "image": "/images/products/789274102.jpg",
   "source": {
    "etsy_listing_id": "789274102",
@@ -2242,20 +2595,25 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"Sorry you had to raise my sibling,\" signed \"your favorite.\"",
+  "description": "\"Sorry you had to raise my sibling\" in big serif letters, signed with a heart and \"your favorite.\" It works for either parent, and it is funnier if the sibling is at the table when it gets opened.\n\nLaser engraved on a 21 oz stemless wine glass in our shop in Pryor, Oklahoma. The saying is fixed, so there is nothing to fill in: choose one glass or a set of 2, 4 or 8 and add it to your cart. Every glass is made to order and ships in 3-5 business days. We suggest hand washing to keep the etching crisp.",
+  "personalize": "saying"
  },
  {
-  "slug_draft": "custom-cutting-board-gift-set-with-engraved-coasters-board-coaster-set",
-  "name": "Custom Cutting Board Gift Set with Engraved Coasters",
+  "slug": "circle-monogram-board-and-coaster-gift-set",
+  "name": "Circle Monogram Board and Coaster Gift Set",
   "etsy_title": "Custom Cutting Board Gift Set with Engraved Coasters, Personalized Wedding or Anniversary",
   "type": "board-coaster-set",
   "price_ladder": "board",
   "occasions": [
    "wedding",
-   "anniversary"
+   "anniversary",
+   "housewarming"
   ],
   "recipients": [
-   "couples"
+   "couples",
+   "homeowners"
   ],
   "image": "/images/products/1701955254.jpg",
   "source": {
@@ -2270,12 +2628,15 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "The circle monogram board with coasters engraved to match, as one set.",
+  "description": "Our circle monogram, on a board and a set of coasters that match: your first names around the top of the dotted ring, your initial and last name in the middle, and your established date along the bottom. The photo shows the walnut board. Pick the board size and the coaster set separately below.\n\nThe set is one solid slab of maple or walnut in the size you choose (8x12 up to 16x24 inches), plus solid wood coasters in a set of 2, 4, 8 or 16. Coasters are engraved to match the board. Free digital proof first, then everything is made to order in 3-5 business days in Pryor, Oklahoma.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "personalized-bridesmaid-wine-glass-wine-glass",
-  "name": "Personalized Bridesmaid Wine Glass",
-  "etsy_title": "Personalized Bridesmaid Wine Glass \u2014 Custom Etched Bachelorette Gift",
+  "slug": "bridesmaid-name-wine-glass",
+  "name": "Bridesmaid Name Wine Glass",
+  "etsy_title": "Personalized Bridesmaid Wine Glass — Custom Etched Bachelorette Gift",
   "type": "wine-glass",
   "price_ladder": "glass",
   "occasions": [
@@ -2298,17 +2659,20 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"Bridesmaid\" (or any role), her name in large script and the wedding date.",
+  "description": "Her role in small capitals, her first name large in script, and the wedding date underneath. Change \"Bridesmaid\" to \"Maid of Honor\" or \"Bride\" in the text field. Order one per person, or a set of 4 or 8 if every glass gets the same name.\n\nWe engrave it on a 21 oz stemless wine glass, one at a time, in our shop in Pryor, Oklahoma. Buy a single glass or a set of 2, 4 or 8. You get a free digital proof of your wording before we engrave, and it is made to order in 3-5 business days.",
+  "personalize": "name-glass"
  },
  {
-  "slug_draft": "personalized-anniversary-cutting-board-cutting-board",
-  "name": "Personalized Anniversary Cutting Board",
+  "slug": "diagonal-monogram-anniversary-board",
+  "name": "Diagonal Monogram Anniversary Board",
   "etsy_title": "Personalized Anniversary Cutting Board, Custom Engraved Wood Gift for Couples, Walnut Wedding Gift, Gift for Her Him, Handmade USA",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
-   "wedding",
-   "anniversary"
+   "anniversary",
+   "wedding"
   ],
   "recipients": [
    "couples",
@@ -2327,12 +2691,15 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "Your initial, first names, last name and wedding date on a diagonal, as an anniversary gift.",
+  "description": "The diagonal monogram, set up for an anniversary: a large initial, your first names in script, the last name in spaced capitals and your wedding date along the bottom edge. Because it runs corner to corner it leaves open wood at two corners, which is where people rest a knife or a wedge of cheese.\n\nWe cut it from one solid slab of maple or walnut and laser engrave it here in Pryor, Oklahoma. Choose 8x12 or 10x14 inches at 0.75 in thick, 12x16 at 1.5 in thick, or the 16x24 walnut board. A display stand, conditioning oil, a handwritten card and paper gift wrap are optional add-ons. Free digital proof first, then made to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "personalized-wedding-coaster-gift-set-coaster-set",
-  "name": "Personalized Wedding Coaster Gift Set",
-  "etsy_title": "Personalized Wedding Coaster Gift Set \u2014 Engraved Wood Anniversary Keepsake",
+  "slug": "initial-last-name-coasters",
+  "name": "Initial and Last Name Coasters",
+  "etsy_title": "Personalized Wedding Coaster Gift Set — Engraved Wood Anniversary Keepsake",
   "type": "coaster-set",
   "price_ladder": "coaster",
   "occasions": [
@@ -2355,16 +2722,24 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "Initial, framed date, last name and first names, stacked on each square coaster.",
+  "description": "Our stacked layout at coaster size: a serif initial, a small framed date, your last name in capitals and your first names in script. The photo shows it on maple. It matches our initial and last name boards if you want a board and coasters together.\n\nThe coasters are solid maple or walnut, laser engraved in Pryor, Oklahoma, and sold in sets of 2, 4, 8 or 16. You can add a matching small or medium cutting board to the same order. Free digital proof first, then made to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "custom-cutting-board-cutting-board-11",
-  "name": "Custom Cutting Board",
+  "slug": "established-family-name-anniversary-board",
+  "name": "Established Family Name Anniversary Board",
   "etsy_title": "Custom Cutting Board, Engraved Walnut or Maple with Names and Dates",
   "type": "cutting-board",
   "price_ladder": "board",
-  "occasions": [],
-  "recipients": [],
+  "occasions": [
+   "anniversary",
+   "wedding"
+  ],
+  "recipients": [
+   "couples"
+  ],
   "image": "/images/products/4521641451.jpg",
   "source": {
    "etsy_listing_id": "4521641451",
@@ -2378,16 +2753,23 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "Your family name and \"Established\" year in a corner, as an anniversary serving board.",
+  "description": "The same understated \"The [Last Name]s, Established [year]\" layout, shown here as an anniversary board set for two. Because the engraving stays in one corner, the board can hold a full dinner spread and still show the names. Use the year you married.\n\nThe design is shown on a serving board; we engrave it on the size and wood you pick below. Each board is one solid slab of maple or walnut: 8x12 or 10x14 inches at 0.75 in thick, 12x16 inches at 1.5 in thick, or 16x24 in walnut. We send a free digital proof before we engrave, and make it to order in 3-5 business days in Pryor, Oklahoma.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "you-re-my-favorite-cardio-wine-glass-wine-glass",
+  "slug": "youre-my-favorite-cardio-wine-glass",
   "name": "You're My Favorite Cardio Wine Glass",
-  "etsy_title": "You're My Favorite Cardio Wine Glass \u2014 Funny Etched Stemless Gift",
+  "etsy_title": "You're My Favorite Cardio Wine Glass — Funny Etched Stemless Gift",
   "type": "wine-glass",
   "price_ladder": "glass",
-  "occasions": [],
-  "recipients": [],
+  "occasions": [
+   "birthday"
+  ],
+  "recipients": [
+   "her"
+  ],
   "image": "/images/products/676915235.jpg",
   "source": {
    "etsy_listing_id": "676915235",
@@ -2401,16 +2783,24 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"You're my favorite cardio\" in tall hand-lettered capitals.",
+  "description": "\"You're my favorite cardio\" in tall hand-lettered capitals, from someone who has been meaning to get back to the gym. A birthday gift that needs no explaining.\n\nLaser engraved on a 21 oz stemless wine glass in our shop in Pryor, Oklahoma. The saying is fixed, so there is nothing to fill in: choose one glass or a set of 2, 4 or 8 and add it to your cart. Every glass is made to order and ships in 3-5 business days. We suggest hand washing to keep the etching crisp.",
+  "personalize": "saying"
  },
  {
-  "slug_draft": "engraved-stemless-wine-glass-wine-glass",
-  "name": "Engraved Stemless Wine Glass: Funny Yoga Pants Gift",
+  "slug": "i-do-yoga-to-relax-wine-glass",
+  "name": "I Do Yoga to Relax Wine Glass",
   "etsy_title": "Engraved Stemless Wine Glass: Funny Yoga Pants Gift, 21 oz",
   "type": "wine-glass",
   "price_ladder": "glass",
-  "occasions": [],
-  "recipients": [],
+  "occasions": [
+   "birthday",
+   "mothers-day"
+  ],
+  "recipients": [
+   "her"
+  ],
   "image": "/images/products/676907063.jpg",
   "source": {
    "etsy_listing_id": "676907063",
@@ -2424,12 +2814,15 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"I do yoga to relax (just kidding, I drink wine in yoga pants).\"",
+  "description": "\"I do YOGA to relax,\" and then in small type underneath, \"just kidding, I drink wine in yoga pants.\" It is a birthday or Mother's Day glass for someone who owns the pants, at least.\n\nIt is a 21 oz stemless wine glass, laser engraved so the design is etched into the glass rather than printed on top. There is nothing to personalize: buy a single glass or a set of 2, 4 or 8, and add a note at checkout if you have a question. Made to order in Pryor, Oklahoma in 3-5 business days.",
+  "personalize": "saying"
  },
  {
-  "slug_draft": "personalized-grandma-christmas-ornament-ornament",
-  "name": "Personalized Grandma Christmas Ornament",
-  "etsy_title": "Personalized Grandma Christmas Ornament \u2014 Engraved Maple Wood Keepsake",
+  "slug": "always-christmas-at-grandmas-house-ornament",
+  "name": "It's Always Christmas at Grandma and Grandpa's House Ornament",
+  "etsy_title": "Personalized Grandma Christmas Ornament — Engraved Maple Wood Keepsake",
   "type": "ornament",
   "price_ladder": "ornament",
   "occasions": [
@@ -2437,8 +2830,8 @@
    "family"
   ],
   "recipients": [
-   "her",
-   "grandparents"
+   "grandparents",
+   "her"
   ],
   "image": "/images/products/657957557.jpg",
   "source": {
@@ -2453,18 +2846,24 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"It's always Christmas at Grandma & Grandpa's House\" with two small hearts.",
+  "description": "\"It's always Christmas at Grandma & Grandpa's House\" in mixed capitals and script, with two small hearts. Change the names to Nana and Papa, Mimi and Pop or whatever they go by. It is a gift from the grandkids that goes on the tree every year.\n\nIt is a laser-engraved wood ornament, made in our shop in Pryor, Oklahoma. Order a single ornament or a set of 2, 5 or 10. We send a free digital proof of your wording, and it is made to order in 3-5 business days.",
+  "personalize": "ornament"
  },
  {
-  "slug_draft": "custom-guest-book-sign-with-last-name-and-established-date-guest-book-",
-  "name": "Custom Guest Book Sign with Last Name and Established Date",
+  "slug": "round-guest-book-sign",
+  "name": "Round Guest Book Sign",
   "etsy_title": "Custom Guest Book Sign with Last Name and Established Date, Engraved Wood Decor",
   "type": "guest-book-sign",
   "price_ladder": "guestbook",
   "occasions": [
+   "wedding",
    "family"
   ],
-  "recipients": [],
+  "recipients": [
+   "couples"
+  ],
   "image": "/images/products/4500752896.jpg",
   "source": {
    "etsy_listing_id": "4500752896",
@@ -2478,18 +2877,24 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "A round sign with your last name in script, your first names and year, for guests to sign.",
+  "description": "A round wood sign with your last name in large script, your first names in capitals above it and \"Est.\" with the year below. Guests sign the open space around the names. The photo shows it on an easel at an outdoor ceremony.\n\nSizes run from 20 inches (about 30-45 guests) to 48 inches (about 200-250 guests), in a natural finish or stained, painted black or painted white. We send a free digital proof of your names and date before we cut, and every sign is made to order in 3-5 business days in Pryor, Oklahoma.",
+  "personalize": "guestbook"
  },
  {
-  "slug_draft": "etched-nurse-life-wine-glass-wine-glass",
-  "name": "Etched Nurse Life Wine Glass",
+  "slug": "nurse-life-wine-glass",
+  "name": "Nurse Life Wine Glass",
   "etsy_title": "Etched Nurse Life Wine Glass, Funny Stemless RN Appreciation Gift",
   "type": "wine-glass",
   "price_ladder": "glass",
   "occasions": [
-   "nurse-appreciation"
+   "nurse-appreciation",
+   "graduation"
   ],
-  "recipients": [],
+  "recipients": [
+   "her"
+  ],
   "image": "/images/products/678192863.jpg",
   "source": {
    "etsy_listing_id": "678192863",
@@ -2503,10 +2908,13 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"Nurse life\" in script with a stethoscope drawn around it.",
+  "description": "\"Nurse life\" in script, with a stethoscope curling around the words. It is a gift for nursing school graduation, Nurses Week, or a nurse who just finished a run of night shifts.\n\nLaser engraved on a 21 oz stemless wine glass in our shop in Pryor, Oklahoma. The saying is fixed, so there is nothing to fill in: choose one glass or a set of 2, 4 or 8 and add it to your cart. Every glass is made to order and ships in 3-5 business days. We suggest hand washing to keep the etching crisp.",
+  "personalize": "saying"
  },
  {
-  "slug_draft": "housewarming-gift-for-couple-cutting-board",
+  "slug": "housewarming-gift-for-couple-cutting-board",
   "name": "Housewarming Gift for Couple",
   "etsy_title": "Housewarming Gift for Couple, Custom Cutting Board for New Home",
   "type": "cutting-board",
@@ -2529,14 +2937,14 @@
    "etsy_sales_all_time": 6,
    "etsy_revenue_all_time": 492
   },
-  "publish": true,
-  "hold_reason": null,
+  "publish": false,
+  "hold_reason": "merged: same photo (or the same scene shot twice) as listing 4539468387; merged into that page",
   "grid_image": null
  },
  {
-  "slug_draft": "cheers-funny-wine-glass-wine-glass",
+  "slug": "cheers-funny-wine-glass-wine-glass",
   "name": "Cheers Funny Wine Glass",
-  "etsy_title": "Cheers Funny Wine Glass \u2014 Novelty Stemless Gift for Mom or Her",
+  "etsy_title": "Cheers Funny Wine Glass — Novelty Stemless Gift for Mom or Her",
   "type": "wine-glass",
   "price_ladder": "glass",
   "occasions": [
@@ -2557,21 +2965,22 @@
    "etsy_revenue_all_time": 487
   },
   "publish": false,
-  "hold_reason": "profanity/adult humor \u2014 Jackson decides",
+  "hold_reason": "profanity/adult humor — Jackson decides",
   "grid_image": null
  },
  {
-  "slug_draft": "personalized-realtor-closing-gift-cutting-board",
-  "name": "Personalized Realtor Closing Gift",
+  "slug": "home-sweet-home-agent-signature-board",
+  "name": "Home Sweet Home Board with Agent Signature",
   "etsy_title": "Personalized Realtor Closing Gift, Engraved Cutting Board with Family Name",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
    "realtor-closing-gift",
-   "family"
+   "housewarming"
   ],
   "recipients": [
-   "realtors"
+   "realtors",
+   "homeowners"
   ],
   "image": "/images/products/4497880489.jpg",
   "source": {
@@ -2586,16 +2995,21 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "Home Sweet Home with the buyers' names, plus a small \"Compliments of\" line with your name.",
+  "description": "Home Sweet Home over the buyers' names and year, with a small two-line signature in the corner: \"Compliments of\" and your name and title. Put your wording in the business line field, or upload a logo instead. The photo shows it on walnut.\n\nWe cut it from one solid slab of maple or walnut and laser engrave it here in Pryor, Oklahoma. Choose 8x12 or 10x14 inches at 0.75 in thick, 12x16 at 1.5 in thick, or the 16x24 walnut board. A display stand, conditioning oil, a handwritten card and paper gift wrap are optional add-ons. Free digital proof first, then made to order in 3-5 business days.",
+  "personalize": "names-logo"
  },
  {
-  "slug_draft": "personalized-charcuterie-board-charcuterie-board-2",
-  "name": "Personalized Charcuterie Board",
-  "etsy_title": "Personalized Charcuterie Board \u2014 Engraved Wedding Gift for Bride and Couple",
+  "slug": "mr-and-mrs-last-name-board",
+  "name": "Mr and Mrs Last Name Board",
+  "etsy_title": "Personalized Charcuterie Board — Engraved Wedding Gift for Bride and Couple",
   "type": "charcuterie-board",
   "price_ladder": "board",
   "occasions": [
-   "wedding"
+   "wedding",
+   "bridal-shower",
+   "engagement"
   ],
   "recipients": [
    "couples",
@@ -2614,17 +3028,24 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"mr & mrs\" in script over your last name and your wedding date.",
+  "description": "\"mr & mrs\" in a relaxed script, your last name large underneath, and your wedding date written out below. It photographs well at a shower and goes straight into the kitchen afterward. The photo shows it on maple.\n\nPick maple, which is light and creamy, or walnut, which is dark brown with more grain movement. It comes in 8x12, 10x14 or 12x16 inches, or 16x24 in walnut; the two larger sizes are 1.5 in thick. It is one solid slab, not glued-up strips. You see a free digital proof before the laser runs, and we make it to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "custom-cutting-board-cutting-board-12",
-  "name": "Custom Cutting Board",
+  "slug": "split-letter-last-name-board",
+  "name": "Split Letter Last Name Board",
   "etsy_title": "Custom Cutting Board, Engraved Walnut Wood for Couples",
   "type": "cutting-board",
   "price_ladder": "board",
-  "occasions": [],
+  "occasions": [
+   "wedding",
+   "housewarming"
+  ],
   "recipients": [
-   "couples"
+   "couples",
+   "homeowners"
   ],
   "image": "/images/products/1331635616.jpg",
   "source": {
@@ -2639,16 +3060,20 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "A tall initial split by your last name in script, centered on the board.",
+  "description": "The split-letter monogram, centered: a tall initial, with a band across the middle that carries your last name in script. It suits a family name more than a couple's first names, which makes it an easy housewarming gift when you know the last name and not much else.\n\nPick maple, which is light and creamy, or walnut, which is dark brown with more grain movement. It comes in 8x12, 10x14 or 12x16 inches, or 16x24 in walnut; the two larger sizes are 1.5 in thick. It is one solid slab, not glued-up strips. You see a free digital proof before the laser runs, and we make it to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "funny-mom-gifts-wine-glass-3",
-  "name": "Funny Mom Gifts: Engraved Stemless Wine Glass for Mother's Day",
+  "slug": "mom-sorry-you-had-to-raise-my-sibling-wine-glass",
+  "name": "Mom, Sorry You Had to Raise My Sibling Wine Glass",
   "etsy_title": "Funny Mom Gifts: Engraved Stemless Wine Glass for Mother's Day",
   "type": "wine-glass",
   "price_ladder": "glass",
   "occasions": [
-   "mothers-day"
+   "mothers-day",
+   "birthday"
   ],
   "recipients": [
    "her"
@@ -2666,15 +3091,21 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"Mom\" in script, then the full \"spoiled, bratty, messy and ungrateful\" apology, signed \"your favorite.\"",
+  "description": "\"Mom\" in script, then the long version: sorry you had to raise such a spoiled, bratty, messy and ungrateful child, like my sibling. Signed \"your favorite.\" It is a mouthful, which is the joke.\n\nIt is a 21 oz stemless wine glass, laser engraved so the design is etched into the glass rather than printed on top. There is nothing to personalize: buy a single glass or a set of 2, 4 or 8, and add a note at checkout if you have a question. Made to order in Pryor, Oklahoma in 3-5 business days.",
+  "personalize": "saying"
  },
  {
-  "slug_draft": "started-from-the-bottle-funny-wine-glass-wine-glass",
-  "name": "Started From The Bottle Funny Wine Glass",
-  "etsy_title": "Started From The Bottle Funny Wine Glass \u2014 Etched Stemless Novelty Gift",
+  "slug": "started-from-the-bottle-wine-glass",
+  "name": "Started From the Bottle, Now I'm Here Wine Glass",
+  "etsy_title": "Started From The Bottle Funny Wine Glass — Etched Stemless Novelty Gift",
   "type": "wine-glass",
   "price_ladder": "glass",
-  "occasions": [],
+  "occasions": [
+   "birthday",
+   "graduation"
+  ],
   "recipients": [],
   "image": "/images/products/663072796.jpg",
   "source": {
@@ -2689,16 +3120,21 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"Started from the bottle, now I'm here\" in tall stacked capitals.",
+  "description": "\"Started from the bottle, now I'm here\" in five lines of tall capitals. It is a birthday glass, a graduation glass, or a new-job glass, for anyone who likes a pun.\n\nLaser engraved on a 21 oz stemless wine glass in our shop in Pryor, Oklahoma. The saying is fixed, so there is nothing to fill in: choose one glass or a set of 2, 4 or 8 and add it to your cart. Every glass is made to order and ships in 3-5 business days. We suggest hand washing to keep the etching crisp.",
+  "personalize": "saying"
  },
  {
-  "slug_draft": "funny-mom-gifts-wine-glass-4",
-  "name": "Funny Mom Gifts: Engraved Wine Glass",
+  "slug": "wine-because-adulting-is-hard-glass",
+  "name": "Wine, Because Adulting Is Hard Glass",
   "etsy_title": "Funny Mom Gifts: Engraved Wine Glass, Adulting Is Hard Stemless",
   "type": "wine-glass",
   "price_ladder": "glass",
   "occasions": [
-   "mothers-day"
+   "birthday",
+   "mothers-day",
+   "graduation"
   ],
   "recipients": [
    "her"
@@ -2716,10 +3152,13 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"Wine\" with a glass for the i, then \"because adulting is hard.\"",
+  "description": "\"Wine\" in script with a small wine glass standing in for the i, and \"because adulting is hard\" in spaced capitals. It is a good graduation gift, and an honest one.\n\nIt is a 21 oz stemless wine glass, laser engraved so the design is etched into the glass rather than printed on top. There is nothing to personalize: buy a single glass or a set of 2, 4 or 8, and add a note at checkout if you have a question. Made to order in Pryor, Oklahoma in 3-5 business days.",
+  "personalize": "saying"
  },
  {
-  "slug_draft": "funny-wine-glass-wine-glass",
+  "slug": "funny-wine-glass-wine-glass",
   "name": "Funny Wine Glass",
   "etsy_title": "Funny Wine Glass, Beauty and Beast Etched Stemless for Lovers",
   "type": "wine-glass",
@@ -2742,13 +3181,14 @@
   "grid_image": null
  },
  {
-  "slug_draft": "personalized-wedding-cutting-board-cutting-board",
-  "name": "Personalized Wedding Cutting Board",
+  "slug": "bold-last-name-wedding-cutting-board",
+  "name": "Bold Last Name Wedding Cutting Board",
   "etsy_title": "Personalized Wedding Cutting Board, Custom Engraved Walnut for Couples",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
-   "wedding"
+   "wedding",
+   "bridal-shower"
   ],
   "recipients": [
    "couples"
@@ -2766,16 +3206,21 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "A wedding board with the couple's new last name in large capitals and their wedding date.",
+  "description": "For the couple who just married: their shared last name in large serif capitals, their first names in script above it, and the wedding date written out below a thin rule. It is an easy gift to buy off a registry-free couple, because every kitchen can use a board and nobody else will bring one with their name on it.\n\nPick maple, which is light and creamy, or walnut, which is dark brown with more grain movement. It comes in 8x12, 10x14 or 12x16 inches, or 16x24 in walnut; the two larger sizes are 1.5 in thick. It is one solid slab, not glued-up strips. You see a free digital proof before the laser runs, and we make it to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "personalized-couples-first-christmas-ornament-ornament",
-  "name": "Personalized Couples First Christmas Ornament",
-  "etsy_title": "Personalized Couples First Christmas Ornament \u2014 Engraved Maple Wood",
+  "slug": "our-first-christmas-together-ornament",
+  "name": "Our First Christmas Together Ornament",
+  "etsy_title": "Personalized Couples First Christmas Ornament — Engraved Maple Wood",
   "type": "ornament",
   "price_ladder": "ornament",
   "occasions": [
-   "christmas"
+   "christmas",
+   "anniversary",
+   "wedding"
   ],
   "recipients": [
    "couples"
@@ -2793,15 +3238,21 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "String lights across the top, \"Our first Christmas together,\" your names and the year.",
+  "description": "A strand of string lights across the top of a round ornament, then \"Our first Christmas together,\" your first names in script and the year. It is for a first Christmas married, engaged or just together, and it is the ornament that gets hung first every year after.\n\nWe laser engrave it on a wood ornament here in Pryor, Oklahoma. Buy one, or a set of 2, 5 or 10 for family, a team or a classroom. You get a free digital proof first, and each order is made in 3-5 business days.",
+  "personalize": "ornament"
  },
  {
-  "slug_draft": "girl-boss-stemless-wine-glass-wine-glass",
-  "name": "Girl Boss Stemless Wine Glass",
+  "slug": "girl-boss-wine-glass",
+  "name": "Girl Boss Wine Glass",
   "etsy_title": "Girl Boss Stemless Wine Glass, Custom Etched Motivational Drinkware",
   "type": "wine-glass",
   "price_ladder": "glass",
-  "occasions": [],
+  "occasions": [
+   "birthday",
+   "graduation"
+  ],
   "recipients": [
    "her"
   ],
@@ -2818,11 +3269,14 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"girl\" in script over \"BOSS\" in tall capitals.",
+  "description": "\"girl\" in a looping script over \"BOSS\" in tall narrow capitals. Short and to the point. It is a good gift for a new job, a promotion or the friend who runs everything.\n\nLaser engraved on a 21 oz stemless wine glass in our shop in Pryor, Oklahoma. The saying is fixed, so there is nothing to fill in: choose one glass or a set of 2, 4 or 8 and add it to your cart. Every glass is made to order and ships in 3-5 business days. We suggest hand washing to keep the etching crisp.",
+  "personalize": "saying"
  },
  {
-  "slug_draft": "festive-af-wine-glass-wine-glass",
-  "name": "Festive AF Wine Glass",
+  "slug": "festive-af-holiday-wine-glass",
+  "name": "Festive AF Holiday Wine Glass",
   "etsy_title": "Festive AF Wine Glass, Funny Holiday Gift, Engraved Stemless 21oz, Christmas Gift for Her, Stocking Stuffer, White Elephant Gift",
   "type": "wine-glass",
   "price_ladder": "glass",
@@ -2845,12 +3299,15 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"festive AF\" in script and capitals with a sprig and sparkles.",
+  "description": "\"festive\" in a tall script and \"AF\" in capitals, with a small sprig and a few sparkles. It is a holiday glass for a friend, a sister or a white-elephant exchange.\n\nLaser engraved on a 21 oz stemless wine glass in our shop in Pryor, Oklahoma. The saying is fixed, so there is nothing to fill in: choose one glass or a set of 2, 4 or 8 and add it to your cart. Every glass is made to order and ships in 3-5 business days. We suggest hand washing to keep the etching crisp.",
+  "personalize": "saying"
  },
  {
-  "slug_draft": "custom-engraved-wedding-coasters-coaster-set",
-  "name": "Custom Engraved Wedding Coasters",
-  "etsy_title": "Custom Engraved Wedding Coasters \u2014 Personalized Wooden Anniversary Gift Set",
+  "slug": "split-initial-names-date-coasters",
+  "name": "Split Initial Names and Date Coasters",
+  "etsy_title": "Custom Engraved Wedding Coasters — Personalized Wooden Anniversary Gift Set",
   "type": "coaster-set",
   "price_ladder": "coaster",
   "occasions": [
@@ -2873,16 +3330,20 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "First names on top, a tall initial with your last name, and your full date along the bottom.",
+  "description": "Your first names across the top, a tall initial with your last name set across it, and your full date written out along the bottom. It is a little more formal than our round monograms. The photo shows it on walnut.\n\nThe coasters are solid maple or walnut, laser engraved in Pryor, Oklahoma, and sold in sets of 2, 4, 8 or 16. You can add a matching small or medium cutting board to the same order. Free digital proof first, then made to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "personalized-dog-paw-christmas-ornament-ornament",
-  "name": "Personalized Dog Paw Christmas Ornament",
-  "etsy_title": "Personalized Dog Paw Christmas Ornament \u2014 Laser Cut Wood Pet Keepsake",
+  "slug": "pet-paw-name-ornament",
+  "name": "Pet Paw Name Ornament",
+  "etsy_title": "Personalized Dog Paw Christmas Ornament — Laser Cut Wood Pet Keepsake",
   "type": "ornament",
   "price_ladder": "ornament",
   "occasions": [
-   "christmas"
+   "christmas",
+   "memorial-sympathy"
   ],
   "recipients": [
    "pet-lovers"
@@ -2900,16 +3361,20 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "A paw-shaped ornament with your pet's name in the pad.",
+  "description": "A paw-shaped ornament with your pet's name engraved in the pad. It is for the dog or cat who gets their own stocking, and it also works as a memorial for one who is gone.\n\nWe laser engrave it on a wood ornament here in Pryor, Oklahoma. Buy one, or a set of 2, 5 or 10 for family, a team or a classroom. You get a free digital proof first, and each order is made in 3-5 business days.",
+  "personalize": "pet"
  },
  {
-  "slug_draft": "gifts-for-mom-wine-glass",
-  "name": "Gifts For Mom",
+  "slug": "youre-an-amazing-mother-wine-glass",
+  "name": "You're an Amazing Mother Wine Glass",
   "etsy_title": "Gifts For Mom, Gift for Mother Stemless Wine Glass",
   "type": "wine-glass",
   "price_ladder": "glass",
   "occasions": [
-   "mothers-day"
+   "mothers-day",
+   "birthday"
   ],
   "recipients": [
    "her"
@@ -2923,15 +3388,24 @@
     "113.85"
    ],
    "etsy_sales_all_time": 19,
-   "etsy_revenue_all_time": 218
+   "etsy_revenue_all_time": 218,
+   "duplicate_etsy_listings": [
+    "789273316"
+   ],
+   "merged_sales_all_time": {
+    "789273316": 11
+   }
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"you're an Amazing mother\" with a small heart, in mixed serif and script.",
+  "description": "\"you're an\" in serif, \"Amazing\" in a large flowing script, and \"mother\" with a small heart. It is the sincere one in our Mother's Day glasses, for when the joke glasses are not the right fit.\n\nIt is a 21 oz stemless wine glass, laser engraved so the design is etched into the glass rather than printed on top. There is nothing to personalize: buy a single glass or a set of 2, 4 or 8, and add a note at checkout if you have a question. Made to order in Pryor, Oklahoma in 3-5 business days.",
+  "personalize": "saying"
  },
  {
-  "slug_draft": "custom-guest-book-alternative-guest-book-sign-2",
-  "name": "Custom Guest Book Alternative",
+  "slug": "last-name-signature-frame-guest-book",
+  "name": "Last Name Signature Frame Guest Book",
   "etsy_title": "Custom Guest Book Alternative, Personalized Last Name Signature Board for Weddings",
   "type": "guest-book-sign",
   "price_ladder": "guestbook",
@@ -2955,16 +3429,25 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "The 3D last-name signature frame, shown hanging over a bed after the wedding.",
+  "description": "The 3D last-name signature frame, shown hanging over a bed after the wedding. Your last name is cut in script and raised in the open center with the date below, and the frame around it holds your guests' signatures and notes.\n\nSizes run from 20 inches (about 30-45 guests) to 48 inches (about 200-250 guests), in a natural finish or stained, painted black or painted white. We send a free digital proof of your names and date before we cut, and every sign is made to order in 3-5 business days in Pryor, Oklahoma.",
+  "personalize": "guestbook"
  },
  {
-  "slug_draft": "custom-coasters-set-coaster-set",
-  "name": "Custom Coasters Set",
+  "slug": "home-state-names-coasters",
+  "name": "Home State Names Coasters",
   "etsy_title": "Custom Coasters Set, Engraved Walnut or Maple Wood Keepsake",
   "type": "coaster-set",
   "price_ladder": "coaster",
-  "occasions": [],
-  "recipients": [],
+  "occasions": [
+   "housewarming",
+   "realtor-closing-gift"
+  ],
+  "recipients": [
+   "homeowners",
+   "realtors"
+  ],
   "image": "/images/products/605589380.jpg",
   "source": {
    "etsy_listing_id": "605589380",
@@ -2978,17 +3461,20 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"HOME\" with your state as the O, your names and your date, on each coaster.",
+  "description": "The home state design on coasters: HOME with the outline of a state in place of the O, your names in script and your date. The photo shows Oklahoma on walnut. Tell us the state in the state field.\n\nChoose maple or walnut in a set of 2, 4 or 8, or a set of 16 for a bigger household or a party. A matching small or medium cutting board can be added in the same order. We send a free digital proof before we engrave, and the set is made to order in 3-5 business days.",
+  "personalize": "state"
  },
  {
-  "slug_draft": "employee-appreciation-gift-cutting-board",
-  "name": "Employee Appreciation Gift",
+  "slug": "years-of-service-appreciation-board",
+  "name": "Years of Service Appreciation Board",
   "etsy_title": "Employee Appreciation Gift, Personalized Engraved Walnut Board, Corporate Recognition Award, Years of Service Gift for Staff",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
-   "corporate-gifts",
-   "employee-appreciation"
+   "employee-appreciation",
+   "corporate-gifts"
   ],
   "recipients": [
    "businesses"
@@ -3006,19 +3492,25 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "An appreciation board with your company name, the employee's name, a line of thanks and their years.",
+  "description": "A recognition gift that gets used: your company name or logo at the top, \"In Appreciation of\" and the employee's name, a line like \"For Ten Years of Dedication to Our Team,\" and the years of service. The sample names in the photo are placeholders. Write your exact wording in the fields and we will set it.\n\nWe cut it from one solid slab of maple or walnut and laser engrave it here in Pryor, Oklahoma. Choose 8x12 or 10x14 inches at 0.75 in thick, 12x16 at 1.5 in thick, or the 16x24 walnut board. A display stand, conditioning oil, a handwritten card and paper gift wrap are optional add-ons. Free digital proof first, then made to order in 3-5 business days.",
+  "personalize": "employee"
  },
  {
-  "slug_draft": "personalized-maple-christmas-ornament-ornament",
-  "name": "Personalized Maple Christmas Ornament",
-  "etsy_title": "Personalized Maple Christmas Ornament \u2014 Engraved Deer Family Keepsake",
+  "slug": "deer-family-first-christmas-ornament",
+  "name": "Deer Family First Christmas Ornament",
+  "etsy_title": "Personalized Maple Christmas Ornament — Engraved Deer Family Keepsake",
   "type": "ornament",
   "price_ladder": "ornament",
   "occasions": [
    "christmas",
    "family"
   ],
-  "recipients": [],
+  "recipients": [
+   "her",
+   "grandparents"
+  ],
   "image": "/images/products/657058427.jpg",
   "source": {
    "etsy_listing_id": "657058427",
@@ -3032,10 +3524,13 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "A doe and fawn with a heart, and \"My first Christmas as\" your title, with the year.",
+  "description": "A doe and fawn with a small heart between them, then \"My first Christmas as\" and a title you choose, \"Mommy,\" \"Grandma,\" \"Aunt,\" with the year. It is for the first Christmas after a new baby arrives. Put the title and year in the fields.\n\nIt is a laser-engraved wood ornament, made in our shop in Pryor, Oklahoma. Order a single ornament or a set of 2, 5 or 10. We send a free digital proof of your wording, and it is made to order in 3-5 business days.",
+  "personalize": "title"
  },
  {
-  "slug_draft": "funny-mom-gifts-wine-glass-5",
+  "slug": "funny-mom-gifts-wine-glass-5",
   "name": "Funny Mom Gifts: Engraved Wine Glass",
   "etsy_title": "Funny Mom Gifts: Engraved Wine Glass, Humorous Stemless for Mother's Day",
   "type": "wine-glass",
@@ -3057,17 +3552,20 @@
    "etsy_sales_all_time": 11,
    "etsy_revenue_all_time": 154
   },
-  "publish": true,
-  "hold_reason": null,
+  "publish": false,
+  "hold_reason": "merged: same photo (or the same scene shot twice) as listing 789264736; merged into that page",
   "grid_image": null
  },
  {
-  "slug_draft": "personalized-coaster-set-coaster-set",
-  "name": "Personalized Coaster Set",
+  "slug": "circle-monogram-anniversary-coasters",
+  "name": "Circle Monogram Anniversary Coasters",
   "etsy_title": "Personalized Coaster Set, Custom Engraved Wood for Couples",
   "type": "coaster-set",
   "price_ladder": "coaster",
-  "occasions": [],
+  "occasions": [
+   "anniversary",
+   "wedding"
+  ],
   "recipients": [
    "couples"
   ],
@@ -3080,25 +3578,34 @@
     "419.00"
    ],
    "etsy_sales_all_time": 2,
-   "etsy_revenue_all_time": 145
+   "etsy_revenue_all_time": 145,
+   "duplicate_etsy_listings": [
+    "4510078135"
+   ],
+   "merged_sales_all_time": {
+    "4510078135": 0
+   }
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "Circle monogram coasters with your names and wedding date, stacked as an anniversary gift.",
+  "description": "The circle monogram coasters as an anniversary gift: your names, initial, last name and wedding date on each coaster. A set of 4 is the usual choice for a couple. Wood is the traditional 5th-anniversary material, and coasters are an easy way to give it.\n\nChoose maple or walnut in a set of 2, 4 or 8, or a set of 16 for a bigger household or a party. A matching small or medium cutting board can be added in the same order. We send a free digital proof before we engrave, and the set is made to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "realtor-gift-cutting-board",
-  "name": "Realtor Gift: Custom Logo Cutting Board for Real Estate Agents",
+  "slug": "realtor-signature-corner-board",
+  "name": "Realtor Signature Corner Board",
   "etsy_title": "Realtor Gift: Custom Logo Cutting Board for Real Estate Agents",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
    "realtor-closing-gift",
-   "corporate-gifts"
+   "housewarming"
   ],
   "recipients": [
    "realtors",
-   "businesses"
+   "homeowners"
   ],
   "image": "/images/products/4508124734.jpg",
   "source": {
@@ -3113,17 +3620,21 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "A plain walnut board with the buyers' family name and your name and number small in the corner.",
+  "description": "The quietest closing gift we make: the buyers' family name in the lower corner, with your name, title and phone number in small type below it. Most of the board stays clean, so it gets used every day, and your details stay on the counter for the next time they need an agent.\n\nEvery board is one solid slab of maple or walnut, laser engraved in our shop in Pryor, Oklahoma. Sizes run 8x12 and 10x14 inches (0.75 in thick) and 12x16 inches (1.5 in thick), with a 16x24 inch walnut statement size. We email a free digital proof before we engrave, and each board is made to order in 3-5 business days.",
+  "personalize": "names-logo"
  },
  {
-  "slug_draft": "personalized-newlywed-cutting-board-cutting-board",
-  "name": "Personalized Newlywed Cutting Board",
+  "slug": "filigree-last-name-newlywed-board",
+  "name": "Filigree Last Name Newlywed Board",
   "etsy_title": "Personalized Newlywed Cutting Board, Custom Engraved Walnut Wedding Gift, Gift for Bride and Groom, Engagement Gift, Couples Gift",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
    "wedding",
-   "engagement"
+   "engagement",
+   "bridal-shower"
   ],
   "recipients": [
    "couples",
@@ -3142,10 +3653,13 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "The filigree last-name layout as a newlywed gift, with your wedding date underneath.",
+  "description": "The filigree layout, set up for newlyweds: their new last name in large capitals between two ornamental borders, their first names in script and the wedding date underneath. It is a good bridal shower gift because it needs only the names and the date, which everyone at the shower already knows.\n\nPick maple, which is light and creamy, or walnut, which is dark brown with more grain movement. It comes in 8x12, 10x14 or 12x16 inches, or 16x24 in walnut; the two larger sizes are 1.5 in thick. It is one solid slab, not glued-up strips. You see a free digital proof before the laser runs, and we make it to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "custom-cutting-board-set-board-coaster-set",
+  "slug": "custom-cutting-board-set-board-coaster-set",
   "name": "Custom Cutting Board Set",
   "etsy_title": "Custom Cutting Board Set, Engraved Walnut for Couples with Matching Coasters",
   "type": "board-coaster-set",
@@ -3165,12 +3679,12 @@
    "etsy_sales_all_time": 0,
    "etsy_revenue_all_time": 135
   },
-  "publish": true,
-  "hold_reason": null,
+  "publish": false,
+  "hold_reason": "photo carries unverified badge claims (\"Food-Safe Finish\", \"does not warp or split\", \"made to last a lifetime\") and shows no coasters although the listing is a board + coaster set. Needs a new photo",
   "grid_image": null
  },
  {
-  "slug_draft": "funny-wine-glass-wine-glass-2",
+  "slug": "funny-wine-glass-wine-glass-2",
   "name": "Funny Wine Glass",
   "etsy_title": "Funny Wine Glass, Thanks for All the Orgasms Engraved Stemless",
   "type": "wine-glass",
@@ -3189,19 +3703,19 @@
    "etsy_revenue_all_time": 129
   },
   "publish": false,
-  "hold_reason": "profanity/adult humor \u2014 Jackson decides",
+  "hold_reason": "profanity/adult humor — Jackson decides",
   "grid_image": null
  },
  {
-  "slug_draft": "give-me-wine-tell-me-im-pretty-glass-wine-glass",
-  "name": "Give Me Wine Tell Me Im Pretty Glass",
+  "slug": "give-me-wine-tell-me-im-pretty-glass",
+  "name": "Give Me Wine and Tell Me I'm Pretty Glass",
   "etsy_title": "Give Me Wine Tell Me Im Pretty Glass, Funny Gift for Her, Engraved Stemless 21oz, Birthday Gift for Mom, Bachelorette Party Gift",
   "type": "wine-glass",
   "price_ladder": "glass",
   "occasions": [
-   "mothers-day",
+   "birthday",
    "bachelorette",
-   "birthday"
+   "mothers-day"
   ],
   "recipients": [
    "her"
@@ -3219,11 +3733,14 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"Give me wine\" in script, \"and tell me I'm pretty\" underneath.",
+  "description": "\"Give me wine\" in a large script, and \"and tell me I'm pretty\" in spaced capitals below. It is a birthday glass, a bachelorette favor, or a Mother's Day glass for a mom who would like both.\n\nIt is a 21 oz stemless wine glass, laser engraved so the design is etched into the glass rather than printed on top. There is nothing to personalize: buy a single glass or a set of 2, 4 or 8, and add a note at checkout if you have a question. Made to order in Pryor, Oklahoma in 3-5 business days.",
+  "personalize": "saying"
  },
  {
-  "slug_draft": "custom-cutting-board-cutting-board-13",
-  "name": "Custom Cutting Board",
+  "slug": "established-family-name-wedding-board",
+  "name": "Established Family Name Wedding Board",
   "etsy_title": "Custom Cutting Board, Engraved Wedding Couples, Anniversary Keepsake",
   "type": "cutting-board",
   "price_ladder": "board",
@@ -3247,17 +3764,20 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"The [Last Name]s, Established [year]\" as a wedding gift, shown on maple.",
+  "description": "The family-name layout as a wedding gift: \"The\" with the couple's last name, a small diamond rule and \"Established\" with the wedding year. On maple, shown here, the engraving is dark against light wood; on walnut it is a quieter tone-on-tone.\n\nWe cut it from one solid slab of maple or walnut and laser engrave it here in Pryor, Oklahoma. Choose 8x12 or 10x14 inches at 0.75 in thick, 12x16 at 1.5 in thick, or the 16x24 walnut board. A display stand, conditioning oil, a handwritten card and paper gift wrap are optional add-ons. Free digital proof first, then made to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "personalized-teacher-christmas-ornament-ornament",
-  "name": "Personalized Teacher Christmas Ornament",
-  "etsy_title": "Personalized Teacher Christmas Ornament \u2014 Engraved Birch Wood Pencil Gift",
+  "slug": "teacher-pencil-ornament",
+  "name": "Teacher Pencil Ornament",
+  "etsy_title": "Personalized Teacher Christmas Ornament — Engraved Birch Wood Pencil Gift",
   "type": "ornament",
   "price_ladder": "ornament",
   "occasions": [
-   "christmas",
-   "teacher-appreciation"
+   "teacher-appreciation",
+   "christmas"
   ],
   "recipients": [
    "teachers"
@@ -3271,21 +3791,31 @@
     "63.25"
    ],
    "etsy_sales_all_time": 7,
-   "etsy_revenue_all_time": 90
+   "etsy_revenue_all_time": 90,
+   "duplicate_etsy_listings": [
+    "1804392972"
+   ],
+   "merged_sales_all_time": {
+    "1804392972": 0
+   }
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "A pencil-shaped ornament with the teacher's name, who it is from and the school year.",
+  "description": "A pencil-shaped ornament with three lines: who it is from, the teacher's name in bold script, and \"Teach. Inspire. Grow.\" The school year runs down the eraser end. It is a small, personal gift for the holidays or the end of the year.\n\nIt is a laser-engraved wood ornament, made in our shop in Pryor, Oklahoma. Order a single ornament or a set of 2, 5 or 10. We send a free digital proof of your wording, and it is made to order in 3-5 business days.",
+  "personalize": "teacher"
  },
  {
-  "slug_draft": "custom-wedding-cutting-board-cutting-board",
-  "name": "Custom Wedding Cutting Board",
+  "slug": "script-family-name-and-year-board",
+  "name": "Script Family Name and Year Board",
   "etsy_title": "Custom Wedding Cutting Board, Engraved Walnut Keepsake Gift for Newlywed Couple, Bridal Shower Present",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
    "wedding",
-   "bridal-shower"
+   "bridal-shower",
+   "anniversary"
   ],
   "recipients": [
    "couples"
@@ -3303,16 +3833,20 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"The [Last Name]s\" in large script with \"Est.\" and the year, set on a slight angle.",
+  "description": "\"The\" and your family name in one large sweep of script, set on a slight angle, with \"Est.\" and the year beneath. It is a softer, handwritten look than our serif designs. The photo shows it on walnut with a holiday cheese spread.\n\nEvery board is one solid slab of maple or walnut, laser engraved in our shop in Pryor, Oklahoma. Sizes run 8x12 and 10x14 inches (0.75 in thick) and 12x16 inches (1.5 in thick), with a 16x24 inch walnut statement size. We email a free digital proof before we engrave, and each board is made to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "festive-af-wine-glass-wine-glass-2",
-  "name": "Festive AF Wine Glass",
+  "slug": "festive-af-christmas-wine-glass",
+  "name": "Festive AF Christmas Wine Glass",
   "etsy_title": "Festive AF Wine Glass, Funny Christmas Gift, Engraved Stemless Glass 21oz, Holiday Gift for Her, Stocking Stuffer, Secret Santa Gift",
   "type": "wine-glass",
   "price_ladder": "glass",
   "occasions": [
-   "christmas"
+   "christmas",
+   "birthday"
   ],
   "recipients": [
    "her"
@@ -3330,11 +3864,14 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "The \"festive AF\" design with a sprig and sparkles, for the Christmas party.",
+  "description": "The same \"festive AF\" design, script and capitals with a sprig and sparkles, for the holiday party crowd. It is a good stocking stuffer or gift-exchange glass, and a set of 4 covers a whole friend group.\n\nIt is a 21 oz stemless wine glass, laser engraved so the design is etched into the glass rather than printed on top. There is nothing to personalize: buy a single glass or a set of 2, 4 or 8, and add a note at checkout if you have a question. Made to order in Pryor, Oklahoma in 3-5 business days.",
+  "personalize": "saying"
  },
  {
-  "slug_draft": "wood-guest-book-alternative-guest-book-sign",
-  "name": "Wood Guest Book Alternative",
+  "slug": "round-family-name-guest-book",
+  "name": "Round Family Name Guest Book",
   "etsy_title": "Wood Guest Book Alternative, Engraved Round Family Name Sign for Weddings",
   "type": "guest-book-sign",
   "price_ladder": "guestbook",
@@ -3358,16 +3895,20 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "The round last-name guest book, shown on a mantel after the wedding.",
+  "description": "The round guest book after the wedding: your last name in script, your first names and year, and every signature around it, displayed on a mantel. It is round, so it reads as art rather than a sign.\n\nSizes run from 20 inches (about 30-45 guests) to 48 inches (about 200-250 guests), in a natural finish or stained, painted black or painted white. We send a free digital proof of your names and date before we cut, and every sign is made to order in 3-5 business days in Pryor, Oklahoma.",
+  "personalize": "guestbook"
  },
  {
-  "slug_draft": "mothers-day-wine-glass-wine-glass",
-  "name": "Mothers Day Wine Glass",
+  "slug": "favorite-child-mothers-day-wine-glass",
+  "name": "Favorite Child Mother's Day Wine Glass",
   "etsy_title": "Mothers Day Wine Glass, Funny with My Favorite Child Saying",
   "type": "wine-glass",
   "price_ladder": "glass",
   "occasions": [
-   "mothers-day"
+   "mothers-day",
+   "birthday"
   ],
   "recipients": [
    "her"
@@ -3385,16 +3926,25 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "The \"My favorite child gave me this glass\" saying, as a Mother's Day gift.",
+  "description": "The same \"My favorite child gave me this glass\" saying, in tall hand-lettered capitals, for Mother's Day. If there is more than one of you, it is only fair that whoever orders first gets to be the favorite. There is nothing to personalize.\n\nIt is a 21 oz stemless wine glass, laser engraved so the design is etched into the glass rather than printed on top. There is nothing to personalize: buy a single glass or a set of 2, 4 or 8, and add a note at checkout if you have a question. Made to order in Pryor, Oklahoma in 3-5 business days.",
+  "personalize": "saying"
  },
  {
-  "slug_draft": "personalized-serving-board-charcuterie-board-3",
-  "name": "Personalized Serving Board",
+  "slug": "names-and-date-serving-tray",
+  "name": "Names and Date Serving Tray",
   "etsy_title": "Personalized Serving Board, Engraved Walnut Cheese Tray with Custom Names",
   "type": "charcuterie-board",
   "price_ladder": "board",
-  "occasions": [],
-  "recipients": [],
+  "occasions": [
+   "wedding",
+   "anniversary",
+   "housewarming"
+  ],
+  "recipients": [
+   "couples"
+  ],
   "image": "/images/products/4524330343.jpg",
   "source": {
    "etsy_listing_id": "4524330343",
@@ -3408,15 +3958,19 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "First names, last name and established date engraved at one end of a walnut serving board.",
+  "description": "The last-name layout at the end of a serving board: first names in script, the last name in capitals under a tall first letter, and the established date on the line below. It sits low so a full spread fits above it. The photo shows it on walnut.\n\nThe design is shown on a serving board; we engrave it on the size and wood you pick below. Each board is one solid slab of maple or walnut: 8x12 or 10x14 inches at 0.75 in thick, 12x16 inches at 1.5 in thick, or 16x24 in walnut. We send a free digital proof before we engrave, and make it to order in 3-5 business days in Pryor, Oklahoma.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "funny-mom-gifts-wine-glass-6",
-  "name": "Funny Mom Gifts: Will Wrap for Wine Stemless Glass for Mom",
+  "slug": "will-wrap-for-wine-glass",
+  "name": "Will Wrap for Wine Glass",
   "etsy_title": "Funny Mom Gifts: Will Wrap for Wine Stemless Glass for Mom",
   "type": "wine-glass",
   "price_ladder": "glass",
   "occasions": [
+   "christmas",
    "mothers-day"
   ],
   "recipients": [
@@ -3435,19 +3989,25 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"Will wrap for wine\" with little presents and stars.",
+  "description": "\"Will wrap for wine,\" with a few little drawn presents and stars around the words. It is for whoever does all the holiday wrapping in the family, and would like something in return.\n\nLaser engraved on a 21 oz stemless wine glass in our shop in Pryor, Oklahoma. The saying is fixed, so there is nothing to fill in: choose one glass or a set of 2, 4 or 8 and add it to your cart. Every glass is made to order and ships in 3-5 business days. We suggest hand washing to keep the etching crisp.",
+  "personalize": "saying"
  },
  {
-  "slug_draft": "housewarming-gift-charcuterie-board",
-  "name": "Housewarming Gift",
+  "slug": "new-home-key-serving-board",
+  "name": "New Home Key Serving Board",
   "etsy_title": "Housewarming Gift, Engraved Charcuterie Board for New Homeowners",
   "type": "charcuterie-board",
   "price_ladder": "board",
   "occasions": [
-   "housewarming"
+   "housewarming",
+   "realtor-closing-gift"
   ],
   "recipients": [
-   "homeowners"
+   "homeowners",
+   "couples",
+   "realtors"
   ],
   "image": "/images/products/4510103856.jpg",
   "source": {
@@ -3458,21 +4018,30 @@
     "227.69"
    ],
    "etsy_sales_all_time": 0,
-   "etsy_revenue_all_time": 46
+   "etsy_revenue_all_time": 46,
+   "duplicate_etsy_listings": [
+    "4510079166"
+   ],
+   "merged_sales_all_time": {
+    "4510079166": 0
+   }
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "The \"new home, new adventures, new memories\" keys design, shown on walnut.",
+  "description": "The keys design on walnut: a pair of skeleton keys, \"new home,\" \"new adventures\" in script, \"new memories,\" and your names on the last line. Walnut makes the engraving read darker and more formal than it does on maple. It suits an agent who wants a closing gift that is personal rather than branded.\n\nThe design is shown on a serving board; we engrave it on the size and wood you pick below. Each board is one solid slab of maple or walnut: 8x12 or 10x14 inches at 0.75 in thick, 12x16 inches at 1.5 in thick, or 16x24 in walnut. We send a free digital proof before we engrave, and make it to order in 3-5 business days in Pryor, Oklahoma.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "im-on-cloud-wine-glass-wine-glass",
-  "name": "Im on Cloud Wine Glass",
+  "slug": "im-on-cloud-wine-glass",
+  "name": "I'm On Cloud Wine Glass",
   "etsy_title": "Im on Cloud Wine Glass, Funny Gift for Mom, Engraved Stemless 21oz, Birthday Gift for Her, Wine Lover Gift, Handmade USA Glass",
   "type": "wine-glass",
   "price_ladder": "glass",
   "occasions": [
-   "mothers-day",
-   "birthday"
+   "birthday",
+   "mothers-day"
   ],
   "recipients": [
    "her"
@@ -3490,10 +4059,13 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"I'm on cloud wine\" in soft script.",
+  "description": "\"I'm on\" in small capitals over \"cloud wine\" in a soft, looping script. It is a light, pretty glass for a birthday or Mother's Day.\n\nIt is a 21 oz stemless wine glass, laser engraved so the design is etched into the glass rather than printed on top. There is nothing to personalize: buy a single glass or a set of 2, 4 or 8, and add a note at checkout if you have a question. Made to order in Pryor, Oklahoma in 3-5 business days.",
+  "personalize": "saying"
  },
  {
-  "slug_draft": "game-of-thrones-cutting-board-charcuterie-board-3",
+  "slug": "game-of-thrones-cutting-board-charcuterie-board-3",
   "name": "Game of Thrones Cutting Board",
   "etsy_title": "Game of Thrones Cutting Board, Dinner Is Coming Engraved Maple Serving",
   "type": "charcuterie-board",
@@ -3516,8 +4088,8 @@
   "grid_image": null
  },
  {
-  "slug_draft": "family-ornament-ornament",
-  "name": "Family Ornament",
+  "slug": "this-is-us-family-names-ornament",
+  "name": "This Is Us Family Names Ornament",
   "etsy_title": "Family Ornament, Personalized Maple Wood Keepsake with Custom Names",
   "type": "ornament",
   "price_ladder": "ornament",
@@ -3525,7 +4097,9 @@
    "christmas",
    "family"
   ],
-  "recipients": [],
+  "recipients": [
+   "her"
+  ],
   "image": "/images/products/1820118765.jpg",
   "source": {
    "etsy_listing_id": "1820118765",
@@ -3539,16 +4113,26 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"this is us\" in script, with the year and every family member's name.",
+  "description": "\"this is us\" in a large script, with the year at the top and every name in the family underneath, separated by small hearts. It is a gift for a mom, or a family's own tree.\n\nWe laser engrave it on a wood ornament here in Pryor, Oklahoma. Buy one, or a set of 2, 5 or 10 for family, a team or a classroom. You get a free digital proof first, and each order is made in 3-5 business days.",
+  "personalize": "ornament"
  },
  {
-  "slug_draft": "birth-flower-gift-cutting-board",
-  "name": "Birth Flower Gift",
+  "slug": "moms-kitchen-birth-flower-board",
+  "name": "Mom's Kitchen Birth Flower Board",
   "etsy_title": "Birth Flower Gift, Personalized Walnut Cutting Board with Engraved Names",
   "type": "cutting-board",
   "price_ladder": "board",
-  "occasions": [],
-  "recipients": [],
+  "occasions": [
+   "mothers-day",
+   "family",
+   "birthday"
+  ],
+  "recipients": [
+   "her",
+   "grandparents"
+  ],
   "image": "/images/products/4492150137.jpg",
   "source": {
    "etsy_listing_id": "4492150137",
@@ -3562,10 +4146,13 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "\"Everything is better in Mom's Kitchen\" with a birth flower, name and year for each child.",
+  "description": "\"Everything is better in\" over \"Mom's Kitchen\" in script, then a row of birth flowers, one per child, each with a name and birth year underneath. Swap \"Mom\" for \"Grandma,\" \"Nana\" or whatever she is called. Tell us each name and birth month in the names field.\n\nEvery board is one solid slab of maple or walnut, laser engraved in our shop in Pryor, Oklahoma. Sizes run 8x12 and 10x14 inches (0.75 in thick) and 12x16 inches (1.5 in thick), with a 16x24 inch walnut statement size. We email a free digital proof before we engrave, and each board is made to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "grinch-christmas-ornament-ornament",
+  "slug": "grinch-christmas-ornament-ornament",
   "name": "Grinch Christmas Ornament",
   "etsy_title": "Grinch Christmas Ornament, Funny Holiday Gift, Engraved Wood Gag Gift, Stocking Stuffer, White Elephant Gift, Secret Santa Gift",
   "type": "ornament",
@@ -3590,7 +4177,7 @@
   "grid_image": null
  },
  {
-  "slug_draft": "personalized-teacher-christmas-ornament-ornament-2",
+  "slug": "personalized-teacher-christmas-ornament-ornament-2",
   "name": "Personalized Teacher Christmas Ornament",
   "etsy_title": "Personalized Teacher Christmas Ornament, Custom Engraved Pencil Wood Gift, Teacher Appreciation Gift, End of Year Gift, Maple Keepsake",
   "type": "ornament",
@@ -3613,13 +4200,13 @@
    "etsy_sales_all_time": 0,
    "etsy_revenue_all_time": 0
   },
-  "publish": true,
-  "hold_reason": null,
+  "publish": false,
+  "hold_reason": "merged: same photo (or the same scene shot twice) as listing 620759142; merged into that page",
   "grid_image": null
  },
  {
-  "slug_draft": "family-ornament-ornament-2",
-  "name": "Family Ornament",
+  "slug": "this-is-us-family-year-ornament",
+  "name": "This Is Us Family Year Ornament",
   "etsy_title": "Family Ornament, Custom Engraved Maple Wood Keepsake for Holiday Decor",
   "type": "ornament",
   "price_ladder": "ornament",
@@ -3627,7 +4214,9 @@
    "christmas",
    "family"
   ],
-  "recipients": [],
+  "recipients": [
+   "grandparents"
+  ],
   "image": "/images/products/1820119155.jpg",
   "source": {
    "etsy_listing_id": "1820119155",
@@ -3641,15 +4230,22 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "The \"this is us\" ornament with the year and your family's names.",
+  "description": "The \"this is us\" ornament: the year at the top, \"this is us\" in script, and your family's first names below. Grandparents often get one each year with the new year on it, so the tree ends up with a small history of the family on it.\n\nIt is a laser-engraved wood ornament, made in our shop in Pryor, Oklahoma. Order a single ornament or a set of 2, 5 or 10. We send a free digital proof of your wording, and it is made to order in 3-5 business days.",
+  "personalize": "ornament"
  },
  {
-  "slug_draft": "custom-cutting-board-cutting-board-14",
-  "name": "Custom Cutting Board",
+  "slug": "bold-last-name-couples-cutting-board",
+  "name": "Bold Last Name Couples Cutting Board",
   "etsy_title": "Custom Cutting Board, Personalized Engraved Couples Names and Date, Walnut or Maple Options",
   "type": "cutting-board",
   "price_ladder": "board",
-  "occasions": [],
+  "occasions": [
+   "wedding",
+   "anniversary",
+   "engagement"
+  ],
   "recipients": [
    "couples"
   ],
@@ -3666,10 +4262,13 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "Your first names, last name and established date in our bold serif layout, in maple or walnut.",
+  "description": "The same bold last-name layout, sized for everyday use: first names in a flowing script, the last name in large capitals with an oversized first letter, and an established date below. Engagement, wedding or anniversary, the layout does not change, only the date does.\n\nWe cut it from one solid slab of maple or walnut and laser engrave it here in Pryor, Oklahoma. Choose 8x12 or 10x14 inches at 0.75 in thick, 12x16 at 1.5 in thick, or the 16x24 walnut board. A display stand, conditioning oil, a handwritten card and paper gift wrap are optional add-ons. Free digital proof first, then made to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "coasters-for-anniversary-gift-coaster-set",
+  "slug": "coasters-for-anniversary-gift-coaster-set",
   "name": "Coasters For Anniversary Gift",
   "etsy_title": "Coasters For Anniversary Gift, Set of 4 Engraved Wood Coasters, Custom Engraved Keepsake, Handmade in USA",
   "type": "coaster-set",
@@ -3691,12 +4290,12 @@
    "etsy_sales_all_time": 0,
    "etsy_revenue_all_time": 0
   },
-  "publish": true,
-  "hold_reason": null,
+  "publish": false,
+  "hold_reason": "merged: same photo (or the same scene shot twice) as listing 4484492156; merged into that page",
   "grid_image": null
  },
  {
-  "slug_draft": "custom-cutting-board-cutting-board-15",
+  "slug": "custom-cutting-board-cutting-board-15",
   "name": "Custom Cutting Board",
   "etsy_title": "Custom Cutting Board, Engraved Walnut or Maple Wood for New Homeowners",
   "type": "cutting-board",
@@ -3718,18 +4317,19 @@
    "etsy_sales_all_time": 0,
    "etsy_revenue_all_time": 0
   },
-  "publish": true,
-  "hold_reason": null,
+  "publish": false,
+  "hold_reason": "merged: same photo (or the same scene shot twice) as listing 4510103856; merged into that page",
   "grid_image": null
  },
  {
-  "slug_draft": "anniversary-gift-for-couple-cutting-board",
-  "name": "Anniversary Gift for Couple",
+  "slug": "established-family-name-couples-board",
+  "name": "Established Family Name Couples Board",
   "etsy_title": "Anniversary Gift for Couple, Personalized Cutting Board Engraved Walnut Board",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
-   "anniversary"
+   "anniversary",
+   "christmas"
   ],
   "recipients": [
    "couples"
@@ -3747,11 +4347,14 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "A thick board with your family name and established year in the corner, for a couple.",
+  "description": "Your family name and \"Established\" year, engraved in the corner of a board that will spend most of its life on a table. The photo shows the 12x16 inch size, 1.5 inches thick, set with wine and cheese for an anniversary or a holiday dinner.\n\nIt is one solid slab of maple or walnut with a flat face, so the whole surface is usable for cheese, bread and fruit. Sizes run from 8x12 inches up to a 16x24 inch walnut board, and the design is scaled to fit whatever you choose. Free digital proof before the laser runs; made to order in 3-5 business days.",
+  "personalize": "names"
  },
  {
-  "slug_draft": "guest-book-or-wedding-sign-for-guests-guest-book-sign",
-  "name": "Guest Book or Wedding Sign for Guests",
+  "slug": "round-guest-book-wall-art",
+  "name": "Round Guest Book Wall Art",
   "etsy_title": "Guest Book or Wedding Sign for Guests, Wall Hanging Art After Wedding",
   "type": "guest-book-sign",
   "price_ladder": "guestbook",
@@ -3774,11 +4377,14 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "A round guest book sign that hangs as wall art after the wedding.",
+  "description": "A round guest book designed to hang afterward: your last name in script in the center, your first names and year around it, and room for dozens of signatures. The photo shows the design on linen, before guests sign.\n\nSizes run from 20 inches (about 30-45 guests) to 48 inches (about 200-250 guests), in a natural finish or stained, painted black or painted white. We send a free digital proof of your names and date before we cut, and every sign is made to order in 3-5 business days in Pryor, Oklahoma.",
+  "personalize": "guestbook"
  },
  {
-  "slug_draft": "guest-book-alternative-guest-book-sign",
-  "name": "Guest Book Alternative",
+  "slug": "round-wedding-signature-sign",
+  "name": "Round Wedding Signature Sign",
   "etsy_title": "Guest Book Alternative, Wedding Sign for Guests, Wall Hanging Art After Wedding",
   "type": "guest-book-sign",
   "price_ladder": "guestbook",
@@ -3801,11 +4407,14 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "A round signature sign for the reception, with your names and year in the center.",
+  "description": "The round signature sign at the reception, next to the champagne: your last name in script, your first names above and the year below, with guests' notes filling the space around it.\n\nSizes run from 20 inches (about 30-45 guests) to 48 inches (about 200-250 guests), in a natural finish or stained, painted black or painted white. We send a free digital proof of your names and date before we cut, and every sign is made to order in 3-5 business days in Pryor, Oklahoma.",
+  "personalize": "guestbook"
  },
  {
-  "slug_draft": "logo-in-corner-cutting-board",
-  "name": "Logo in Corner",
+  "slug": "realtor-logo-corner-closing-board",
+  "name": "Realtor Logo Corner Closing Board",
   "etsy_title": "Logo in Corner, Realtor Closing Gift",
   "type": "cutting-board",
   "price_ladder": "board",
@@ -3830,17 +4439,20 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "Your brokerage logo and a \"Compliments of\" line with your contact details, in the corner.",
+  "description": "Your brokerage logo engraved in the lower corner, with \"Compliments of,\" your name, email and phone underneath. The photo shows a real customer's brokerage logo on walnut. Upload your logo file and put the text lines in the business line field.\n\nPick maple, which is light and creamy, or walnut, which is dark brown with more grain movement. It comes in 8x12, 10x14 or 12x16 inches, or 16x24 in walnut; the two larger sizes are 1.5 in thick. It is one solid slab, not glued-up strips. You see a free digital proof before the laser runs, and we make it to order in 3-5 business days.",
+  "personalize": "logo"
  },
  {
-  "slug_draft": "employee-appreciation-gifts-cutting-board",
-  "name": "Employee Appreciation Gifts",
+  "slug": "employee-appreciation-logo-board",
+  "name": "Employee Appreciation Logo Board",
   "etsy_title": "Employee Appreciation Gifts, Great Practical Gift to Take Home After Corporate Event!",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
-   "corporate-gifts",
-   "employee-appreciation"
+   "employee-appreciation",
+   "corporate-gifts"
   ],
   "recipients": [
    "businesses"
@@ -3858,16 +4470,21 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "Your company logo on a solid wood board, as a gift employees take home.",
+  "description": "A logo board for your team rather than your clients: your company logo engraved large, a board they will use at home, and one order for everyone. The photo shows our own logo on walnut. Order the quantity you need in one cart; for large quantities, see our business page.\n\nPick maple, which is light and creamy, or walnut, which is dark brown with more grain movement. It comes in 8x12, 10x14 or 12x16 inches, or 16x24 in walnut; the two larger sizes are 1.5 in thick. It is one solid slab, not glued-up strips. You see a free digital proof before the laser runs, and we make it to order in 3-5 business days.",
+  "personalize": "logo"
  },
  {
-  "slug_draft": "personalized-cutting-board-cutting-board-6",
-  "name": "Personalized Cutting Board",
+  "slug": "script-names-last-name-date-board",
+  "name": "Script Names, Last Name and Date Board",
   "etsy_title": "Personalized Cutting Board, Custom Engraved Wood for Weddings",
   "type": "cutting-board",
   "price_ladder": "board",
   "occasions": [
-   "wedding"
+   "wedding",
+   "anniversary",
+   "engagement"
   ],
   "recipients": [
    "couples"
@@ -3885,6 +4502,9 @@
   },
   "publish": true,
   "hold_reason": null,
-  "grid_image": null
+  "grid_image": null,
+  "short": "Your first names in large script, your last name in capitals and your date, centered.",
+  "description": "A centered, balanced layout: your first names large in script across the top, a small flourish, your last name in serif capitals, and your established date in spaced numerals underneath. It is quieter than our bold layouts and works well on a board that will hang on the wall or stand on a display stand.\n\nEvery board is one solid slab of maple or walnut, laser engraved in our shop in Pryor, Oklahoma. Sizes run 8x12 and 10x14 inches (0.75 in thick) and 12x16 inches (1.5 in thick), with a 16x24 inch walnut statement size. We email a free digital proof before we engrave, and each board is made to order in 3-5 business days.",
+  "personalize": "names"
  }
 ]
