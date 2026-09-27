@@ -60,8 +60,9 @@ const pixelOn = !!META_PIXEL_ID && !isPlaceholder(META_PIXEL_ID);
   {pixelOn && (
     <script is:inline define:vars={{ PIXEL: META_PIXEL_ID }}>
       !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];
-      function go(){t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}
-      if(b.readyState==='complete'){setTimeout(go,1500)}else{f.addEventListener('load',function(){setTimeout(go,1500)})}}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+      // Pixel script loads on first interaction (or after 10 s) so it never blocks the page; queued events still send.
+      var done=0,EV=['pointerdown','keydown','touchstart','scroll'];function go(){if(done)return;done=1;EV.forEach(function(x){f.removeEventListener(x,go)});t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}
+      EV.forEach(function(x){f.addEventListener(x,go,{passive:true})});setTimeout(go,10000)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
       fbq('init', PIXEL); fbq('track', 'PageView');
     </script>
   )}

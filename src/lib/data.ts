@@ -3,6 +3,7 @@ import productsRaw from '../../data/products.json';
 import laddersRaw from '../../data/price-ladders.json';
 import taxonomy from '../../data/taxonomy.json';
 import hubCopyRaw from '../../data/hub-copy.json';
+import proof from '../../data/proof.json';
 import { SITE_URL } from '../config';
 
 export type Faq = { q: string; a: string };
@@ -135,9 +136,18 @@ export function soldLine(p: Product): string | null {
   const r = Math.floor(n / 100) * 100;
   return `${r.toLocaleString('en-US')}+ sold on Etsy`;
 }
+// Only ratings listed in data/proof.json (fact etsy_listing_ratings) may be shown.
+const PROOF_RATINGS: Record<string, { stars: number; reviews: number }> = (() => {
+  const src = (proof as any).facts.find((f: any) => f.id === 'etsy_listing_ratings')?.source || '';
+  const out: Record<string, { stars: number; reviews: number }> = {};
+  for (const m of src.matchAll(/(\d{6,})\s+([\d.]+)\s+\((\d[\d,]*)(?: reviews)?\)/g)) out[m[1]] = { stars: +m[2], reviews: +m[3].replace(/,/g, '') };
+  return out;
+})();
 export function ratingLine(p: Product) {
   const r = p.source.etsy_rating;
   if (!r) return null;
+  const ok = PROOF_RATINGS[r.listing];
+  if (!ok || ok.stars !== r.stars || ok.reviews !== r.reviews) return null;
   return { text: `${r.stars} stars from ${r.reviews.toLocaleString('en-US')} Etsy reviews`, url: `https://www.etsy.com/listing/${r.listing}` };
 }
 
@@ -203,8 +213,6 @@ export function factsFor(p: Product): [string, string][] {
   } else if (t === 'guest-book-sign') {
     f.push(['Sizes', '20 in to 48 in wide, sized for about 30 to 250 guests']);
     f.push(['Finish', 'Natural, stained, painted black or painted white']);
-  } else if (t === 'cake-topper') {
-    f.push(['Made by', 'Laser cut']);
   }
   f.push(['Engraving', t === 'cake-topper' ? 'Laser cut' : 'Laser engraved']);
   f.push(['Personalization', personalizationSummary(p)]);

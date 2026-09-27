@@ -273,3 +273,4 @@ body.cart-open .q-float { display: none; }
 .foot-brand .logo .l1 { color: #fff; }
 .foot-brand .logo .l2 { color: #e0c46a; }
 .foot-bottom { border-top: 1px solid rgba(255,255,255,.14); padding-top: 18px; padding-bottom: 90px; font-size: .78rem; color: #bdb6a6; display: flex; flex-wrap: wrap; gap: 8px 20px; justify-content: space-between; }
+.q-lead .consent span { font-weight: 400; }

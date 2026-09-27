@@ -55,7 +55,7 @@ async function newPage(w, h) {
   await page.addInitScript(() => { try { localStorage.setItem('nwwQuizSeen', '1'); } catch {} });
   return { ctx, page };
 }
-const shot = async (page, name, full = true) => { await page.screenshot({ path: path.join(OUT, `${name}.png`), fullPage: full }); console.log('shot', name); };
+const shot = async (page, name, full = true) => { await page.screenshot({ path: path.join(OUT, `${name}.jpg`), fullPage: full, type: 'jpeg', quality: 70 }); console.log('shot', name); };
 const noHScroll = async (page, name) => {
   const o = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
   if (o > 1) consoleErrors.push(`${name}: horizontal overflow ${o}px`);
@@ -75,34 +75,34 @@ for (const [w, h, tag] of widths) {
   if (!only || only.includes('quiz')) {
     await page.goto(BASE + '/', { waitUntil: 'networkidle' });
     const q = page.locator('.hero [data-quiz]');
-    await q.screenshot({ path: path.join(OUT, `quiz-1-who-${tag}.png`) });
+    await q.screenshot({ path: path.join(OUT, `quiz-1-who-${tag}.jpg`), type: 'jpeg', quality: 70 });
     await q.locator('[data-path="anniversary"]').click();
     await q.locator('[data-k="month"]').selectOption('6');
     await q.locator('[data-k="day"]').selectOption('14');
     const yr = new Date().getFullYear() - 5 + (new Date() > new Date(new Date().getFullYear(), 5, 14) ? 1 : 0);
     await q.locator('[data-k="year"]').fill(String(yr));
     await page.waitForTimeout(200);
-    await q.screenshot({ path: path.join(OUT, `quiz-2-anniversary-${tag}.png`) });
+    await q.screenshot({ path: path.join(OUT, `quiz-2-anniversary-${tag}.jpg`), type: 'jpeg', quality: 70 });
     await q.locator('[data-branch="anniversary"] [data-next]').click();
     await page.waitForTimeout(300);
     if (await q.locator('[data-step="3"]').isVisible()) {
-      await q.screenshot({ path: path.join(OUT, `quiz-3-lead-${tag}.png`) });
+      await q.screenshot({ path: path.join(OUT, `quiz-3-lead-${tag}.jpg`), type: 'jpeg', quality: 70 });
       await q.locator('[data-skip]').click();
     }
     await page.waitForSelector('.hero [data-results] .card', { timeout: 5000 });
     await page.waitForTimeout(600);
-    await q.screenshot({ path: path.join(OUT, `quiz-4-results-${tag}.png`) });
+    await q.screenshot({ path: path.join(OUT, `quiz-4-results-${tag}.jpg`), type: 'jpeg', quality: 70 });
     // realtor path
     await q.locator('[data-restart]').click();
     await q.locator('[data-path="realtor"]').click();
     await q.locator('[data-k="brokerage"]').fill('Sample Realty');
     await q.locator('[data-k="closings_per_month"]').selectOption('3-5');
-    await q.screenshot({ path: path.join(OUT, `quiz-2-realtor-${tag}.png`) });
+    await q.screenshot({ path: path.join(OUT, `quiz-2-realtor-${tag}.jpg`), type: 'jpeg', quality: 70 });
     await q.locator('[data-branch="realtor"] [data-next]').click();
     if (await q.locator('[data-step="3"]').isVisible()) await q.locator('[data-skip]').click();
     await page.waitForSelector('.hero [data-results] .card');
     await page.waitForTimeout(500);
-    await q.screenshot({ path: path.join(OUT, `quiz-4-realtor-results-${tag}.png`) });
+    await q.screenshot({ path: path.join(OUT, `quiz-4-realtor-results-${tag}.jpg`), type: 'jpeg', quality: 70 });
     // modal on another page
     await page.goto(BASE + '/shop/', { waitUntil: 'networkidle' });
     await page.locator('.q-float').click();
@@ -126,7 +126,7 @@ for (const [w, h, tag] of widths) {
     // required field empty -> validation message
     await page.locator('#add-btn').click();
     await page.waitForTimeout(3000);
-    await page.locator('.personalizer').screenshot({ path: path.join(OUT, `cart-0-validation-${tag}.png`) });
+    await page.locator('.personalizer').screenshot({ path: path.join(OUT, `cart-0-validation-${tag}.jpg`), type: 'jpeg', quality: 70 });
     await page.locator('#f-names').fill('Your first names & your last name');
     await page.locator('#f-date').fill('Est. 06.14.2021');
     await page.evaluate(() => { window.__adding = null; try { Snipcart.events.on('item.adding', (ev, item) => { window.__adding = JSON.parse(JSON.stringify(item || ev || {})); }); } catch (e) { window.__adding = 'no-snipcart:' + e.message; } });
