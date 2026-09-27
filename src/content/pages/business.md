@@ -37,7 +37,7 @@ You upload the file on the product page. Our designer places it and sends you a 
 
 ## Timing and planning
 
-Each piece is made to order in 3-5 business days, then it ships. For a larger order, the proof and the list of names take their own time, so build that in. Holiday gifts are the most common business order, and the easiest ones are the ones where we know the quantity and date early. If you are up against a date, ask us about rush.
+Each piece is made to order in 3-5 business days, then it ships. For a larger order, the proof and the list of names take their own time, so build that in. Holiday gifts need the most lead time, and the easiest ones are the ones where we know the quantity and date early. If you are up against a date, ask us about rush.
 
 Our [corporate gift guide](/guides/corporate-gift-guide/) covers how to choose between logo-forward and name-forward gifts, and what tends to get kept.
 

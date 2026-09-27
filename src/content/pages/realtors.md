@@ -9,7 +9,7 @@ faqs:
   - q: "How far ahead of closing should I order?"
     a: "Every board is made to order in 3-5 business days, then it ships. Add shipping time on top and order as soon as the closing date is set. If a closing moves up, ask us about rush."
   - q: "What should I engrave for the buyers?"
-    a: "The family name with the year they bought the home is the most common choice. First names with a Home Sweet Home line, or the new address, also work well. Our guide on what to engrave on a cutting board has more ideas."
+    a: "The family name with the year they bought the home is a simple choice. First names with a Home Sweet Home line, or the new address, also work well. Our guide on what to engrave on a cutting board has more ideas."
   - q: "I close a lot of deals. Is there a better way to order?"
     a: "Yes. Our dedicated realtor site, foreverclientgifts.com, is built for agents who send closing gifts regularly. For larger or recurring orders, ask us and we will work out the details with you."
 ---
@@ -18,9 +18,9 @@ Our realtor closing gifts are engraved wood boards with your buyers' names or fa
 
 ## What goes on the board
 
-The buyers come first. Most agents choose the family name and the year, the couple's first names, or a design built around the new home, like a Home Sweet Home line, a house key or the street address. If you want to be remembered as the person who handed them the keys, add your logo or a short "Compliments of" line small in a corner. It reads as a signature, not an ad, and that is usually what makes a closing gift feel like a gift.
+The buyers come first. Agents often choose the family name and the year, the couple's first names, or a design built around the new home, like a Home Sweet Home line, a house key or the street address. If you want to be remembered as the person who handed them the keys, add your logo or a short "Compliments of" line small in a corner. It reads as a signature, not an ad, and that is usually what makes a closing gift feel like a gift.
 
-A few of the designs agents order most:
+A few designs built for closings:
 
 - [Home Sweet Home Realtor Closing Board](/p/home-sweet-home-realtor-closing-board/), from $29.70
 - [Realtor Logo Corner Closing Board](/p/realtor-logo-corner-closing-board/), from $29.70

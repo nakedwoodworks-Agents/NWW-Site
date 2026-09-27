@@ -65,7 +65,7 @@ For more on this year in particular, read our [5th anniversary gift guide](/guid
 
 We are a wood shop, so we will not pretend a cutting board is a pearl. A few other years do line up well:
 
-- **3rd (modern crystal or glass) and 15th (traditional crystal):** [Couples Circle Monogram Wine Glasses](/p/couples-circle-monogram-wine-glasses/) are a pair of 21 oz stemless glasses engraved with your monogram. They are glass, not crystal, so they suit the modern 3rd most directly, and they make an easy add-on to a crystal gift for the 15th.
+- **3rd (modern crystal or glass) and 15th (traditional crystal):** [Couples Circle Monogram Wine Glasses](/p/couples-circle-monogram-wine-glasses/) are 21 oz stemless glasses engraved with your monogram; order the set of 2. They are glass, not crystal, so they suit the modern 3rd most directly, and they make an easy add-on to a crystal gift for the 15th.
 - **1st anniversary:** paper is the traditional gift, and a handwritten card is one of our board add-ons. Some couples also mark their first year with the [Our First Christmas Together Ornament](/p/our-first-christmas-together-ornament/) when the anniversary falls near the holidays.
 - **Any milestone year:** a board engraved with your names, wedding date and a line such as "25 years" works for 10th, 25th and 50th anniversaries alike, because it is about the marriage rather than the material.
 
@@ -83,4 +83,4 @@ Engraved gifts are good for that last approach, because the personal part is bui
 
 Keep the engraving to what will still be true in twenty years: names, the shared last name or an initial, and the wedding date. Add a year count only if you want the gift tied to this specific anniversary. Our guide on [what to engrave on a cutting board](/guides/what-to-engrave-on-a-cutting-board/) walks through name order, date formats and how much text fits.
 
-Every order gets a free digital proof before we engrave, and is made to order in 3-5 business days after you approve it. Browse the full range on our [anniversary gifts page](/occasion/anniversary-gifts/).
+Every order gets a free digital proof before we engrave, and is made to order in 3-5 business days. Browse the full range on our [anniversary gifts page](/occasion/anniversary-gifts/).

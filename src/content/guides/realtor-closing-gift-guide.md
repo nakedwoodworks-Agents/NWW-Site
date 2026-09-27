@@ -52,7 +52,7 @@ Exact prices for each size and wood show on each product page. If you are buying
 
 ## Timing and logistics
 
-Every board is made to order in 3-5 business days after you approve the proof, and shipping time comes on top of that. A few habits make it easier:
+Every board is made to order in 3-5 business days, and shipping time comes on top of that. A few habits make it easier:
 
 - Order when the contract goes pending, not the week of closing. You have the names by then.
 - Keep a clean logo file handy so you are not hunting for it every time. A vector file is best; a high-resolution image works too.

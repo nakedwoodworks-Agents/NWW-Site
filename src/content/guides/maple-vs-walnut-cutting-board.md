@@ -41,7 +41,7 @@ Neither wood needs special treatment. Hand wash, dry right away and oil when the
 
 ## Matching the kitchen
 
-A few rules of thumb from what we see:
+A few rules of thumb:
 
 - White or light cabinets, marble or quartz counters: maple blends in; walnut becomes a contrast piece. Both work, they just do different jobs.
 - Dark cabinets, butcher block or warm wood tones: walnut usually fits in; maple can look very bright.
@@ -62,7 +62,7 @@ The 1.5 in boards are noticeably heavier and sit solidly on the counter. The 0.7
 
 ## Price
 
-Boards start from $29.70 for an 8x12 in maple board. Walnut costs a little more at every size, because walnut lumber costs more to begin with. The exact price for each wood and size shows on each product page before you add it to your cart.
+Boards start from $29.70 for an 8x12 in maple board. Walnut costs a little more at every size. The exact price for each wood and size shows on each product page before you add it to your cart.
 
 ## Serving boards and coasters
 

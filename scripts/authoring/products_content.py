@@ -29,7 +29,7 @@ SERVING = [
     "It is one solid slab of maple or walnut with a flat face, so the whole surface is usable for cheese, bread and fruit. Sizes run from 8x12 inches up to a 16x24 inch walnut board, and the design is scaled to fit whatever you choose. Free digital proof before the laser runs; made to order in 3-5 business days.",
 ]
 GLASS = [
-    "Laser engraved on a 21 oz stemless wine glass in our shop in Pryor, Oklahoma. The saying is fixed, so there is nothing to fill in: choose one glass or a set of 2, 4 or 8 and add it to your cart. Every glass is made to order and ships in 3-5 business days. We suggest hand washing to keep the etching crisp.",
+    "Laser engraved on a 21 oz stemless wine glass in our shop in Pryor, Oklahoma. The saying is fixed, so there is nothing to fill in: choose one glass or a set of 2, 4 or 8 and add it to your cart. Every glass is made to order and ships in 3-5 business days. We suggest hand washing to protect the glass.",
     "It is a 21 oz stemless wine glass, laser engraved so the design is etched into the glass rather than printed on top. There is nothing to personalize: buy a single glass or a set of 2, 4 or 8, and add a note at checkout if you have a question. Made to order in Pryor, Oklahoma in 3-5 business days.",
 ]
 GLASS_PERSONAL = "We engrave it on a 21 oz stemless wine glass, one at a time, in our shop in Pryor, Oklahoma. Buy a single glass or a set of 2, 4 or 8. You get a free digital proof of your wording before we engrave, and it is made to order in 3-5 business days."
@@ -89,7 +89,7 @@ add(23, 'bold-last-name-anniversary-cutting-board', 'Bold Last Name Anniversary 
 add(102, 'bold-last-name-wedding-cutting-board', 'Bold Last Name Wedding Cutting Board',
     ['wedding', 'bridal-shower'], ['couples'], 'names',
     'A wedding board with the couple\'s new last name in large capitals and their wedding date.',
-    'For the couple who just married: their shared last name in large serif capitals, their first names in script above it, and the wedding date written out below a thin rule. It is an easy gift to buy off a registry-free couple, because every kitchen can use a board and nobody else will bring one with their name on it.',
+    'For the couple who just married: their shared last name in large serif capitals, their first names in script above it, and the wedding date written out below a thin rule. It is an easy gift to buy off a registry-free couple, because every kitchen can use a board and this one has their name on it.',
     BOARD[1])
 add(136, 'bold-last-name-couples-cutting-board', 'Bold Last Name Couples Cutting Board',
     ['wedding', 'anniversary', 'engagement'], ['couples'], 'names',
@@ -214,7 +214,7 @@ add(70, 'welcome-home-address-cutting-board', 'Welcome Home Address Cutting Boar
 add(78, 'home-sweet-home-coordinates-board', 'Home Sweet Home Coordinates Board',
     ['housewarming', 'realtor-closing-gift'], ['homeowners', 'realtors'], 'address',
     '"Home Sweet Home" in script with the GPS coordinates of the house.',
-    '"Home Sweet Home" in a formal script, with the latitude and longitude of the house underneath. Put the coordinates in the address field, or the street address and we will confirm the numbers on your proof. The photo shows it on maple. It is simple, a little mysterious to guests, and specific to one place.',
+    '"Home Sweet Home" in a formal script, with the latitude and longitude of the house underneath. Put the coordinates in the address field; they will show on your free digital proof. The photo shows it on maple. It is simple, a little mysterious to guests, and specific to one place.',
     BOARD[0])
 add(10, 'new-home-new-adventures-key-cutting-board', 'New Home, New Adventures Key Cutting Board',
     ['housewarming', 'realtor-closing-gift'], ['homeowners', 'couples', 'realtors'], 'names',
@@ -272,12 +272,12 @@ add(143, 'employee-appreciation-logo-board', 'Employee Appreciation Logo Board',
     BOARD[1])
 add(13, 'corner-logo-cutting-board', 'Corner Logo Cutting Board',
     ['corporate-gifts', 'realtor-closing-gift'], ['businesses', 'realtors'], 'logo',
-    'Your logo and company name, small and neat in the corner of a walnut board.',
-    'Your logo mark and company name engraved small in the corner, so the board is a kitchen tool first and a business card second. People keep and use these, which is the whole point of a client gift. The photo shows a customer logo on walnut.',
+    'Your logo and company name, small and neat in the corner of the board, shown on walnut.',
+    'Your logo mark and company name engraved small in the corner, so the board is a kitchen tool first and a business card second. It is meant to be used, which is the point of a client gift. The photo shows a customer logo on walnut.',
     BOARD[2])
 add(53, 'corner-logo-client-gift-board', 'Corner Logo Client Gift Board',
     ['corporate-gifts'], ['businesses'], 'logo',
-    'A walnut board with your logo small in one corner, as a client thank-you.',
+    'A board with your logo small in one corner, as a client thank-you, shown on walnut.',
     'The corner-logo layout as a client thank-you: a solid board with your logo and name small along one edge, and the rest left open for cooking. It is a good gift for clients who would not display a plaque but will chop onions on a board for years.',
     BOARD[0])
 add(50, 'logo-cutting-board-corporate-gifts', 'Logo Cutting Board for Corporate Gifts',
@@ -295,7 +295,7 @@ add(111, 'years-of-service-appreciation-board', 'Years of Service Appreciation B
 add(8, 'grillfather-cutting-board', 'The Grillfather Cutting Board',
     ['fathers-day', 'birthday'], ['him'], 'saying',
     '"The Grillfather" in heavy lettering with a steaming sausage, for the one who runs the grill.',
-    '"The Grillfather" in big, heavy lettering, with a steaming sausage over the top. It is our best-selling gift for dads and the one person at every cookout who will not let anyone else touch the grill. The photo shows it on walnut. Add anything you want us to know in the notes.',
+    '"The Grillfather" in big, heavy lettering, with a steaming sausage over the top. It is for the one person at every cookout who will not let anyone else touch the grill. The photo shows it on walnut. Add anything you want us to know in the notes.',
     BOARD[0])
 add(47, 'veteran-flag-cutting-board', 'Veteran Flag Cutting Board',
     ['military-veteran', 'fathers-day'], ['him'], 'saying',
@@ -354,12 +354,12 @@ add(46, 'circle-stamp-monogram-serving-board', 'Circle Stamp Monogram Serving Bo
 add(9, 'circle-monogram-wood-coasters', 'Circle Monogram Wood Coasters',
     ['wedding', 'anniversary', 'housewarming'], ['couples', 'homeowners'], 'names',
     'Our circle monogram on solid wood coasters: names, initial, last name and date on each one.',
-    'The circle monogram on solid wood coasters: your first names around the top of the dotted ring, your initial with the last name across it, and your established date around the bottom, on every coaster in the set. These are our best-selling coasters, and they pair with the circle monogram board.',
+    'The circle monogram on solid wood coasters: your first names around the top of the dotted ring, your initial with the last name across it, and your established date around the bottom, on every coaster in the set. They pair with the circle monogram board.',
     COASTER[0])
 add(114, 'circle-monogram-anniversary-coasters', 'Circle Monogram Anniversary Coasters',
     ['anniversary', 'wedding'], ['couples'], 'names',
     'Circle monogram coasters with your names and wedding date, stacked as an anniversary gift.',
-    'The circle monogram coasters as an anniversary gift: your names, initial, last name and wedding date on each coaster. A set of 4 is the usual choice for a couple. Wood is the traditional 5th-anniversary material, and coasters are an easy way to give it.',
+    'The circle monogram coasters as an anniversary gift: your names, initial, last name and wedding date on each coaster. A set of 4 suits most couples' tables. Wood is the traditional 5th-anniversary material, and coasters are an easy way to give it.',
     COASTER[1])
 add(48, 'split-letter-monogram-coasters', 'Split Letter Monogram Coasters',
     ['wedding', 'housewarming'], ['couples', 'homeowners'], 'names',
@@ -405,7 +405,7 @@ add(31, 'circle-monogram-wine-glass', 'Circle Monogram Wine Glass',
     GLASS_PERSONAL)
 add(79, 'couples-circle-monogram-wine-glasses', 'Couples Circle Monogram Wine Glasses',
     ['anniversary', 'wedding', 'christmas'], ['couples'], 'name-glass',
-    'A pair of stemless glasses with the circle monogram, one for each of you.',
+    'The circle monogram on a stemless glass; order the set of 2 for one each.',
     'The circle monogram on a pair of stemless glasses, one for each of you: first names, initial, last name and date on both. Choose the set of 2 below. It is a good small anniversary gift, and a good add to a board.',
     GLASS_PERSONAL)
 add(38, 'last-name-wedding-wine-glass', 'Last Name Wedding Wine Glass',
@@ -430,7 +430,7 @@ def glass(i, slug, name, occ, rec, short, intro, v=0):
 glass(14, 'my-favorite-child-gave-me-this-glass', 'My Favorite Child Gave Me This Glass',
     ['mothers-day', 'fathers-day', 'birthday'], ['her', 'him'],
     '"My favorite child gave me this glass," in tall hand-lettered capitals.',
-    '"My favorite child gave me this glass," in tall, narrow hand-lettered capitals. It is the best-selling glass in our shop, because it settles an old argument between siblings in one line. Mom or Dad gets the glass; whoever bought it gets the title.', 0)
+    '"My favorite child gave me this glass," in tall, narrow hand-lettered capitals. It settles an old argument between siblings in one line. Mom or Dad gets the glass; whoever bought it gets the title.', 0)
 glass(125, 'favorite-child-mothers-day-wine-glass', "Favorite Child Mother's Day Wine Glass",
     ['mothers-day', 'birthday'], ['her'],
     'The "My favorite child gave me this glass" saying, as a Mother\'s Day gift.',
@@ -454,7 +454,7 @@ glass(108, 'youre-an-amazing-mother-wine-glass', "You're an Amazing Mother Wine 
 glass(41, 'dad-the-man-the-myth-the-legend-wine-glass', 'Dad, The Man, The Myth, The Legend Wine Glass',
     ['fathers-day', 'birthday'], ['him', 'grandparents'],
     '"Dad. The Man. The Myth. The Legend." in four stacked lines of block capitals.',
-    '"Dad. The Man. The Myth. The Legend." in four lines of clean block capitals. It is our best-selling glass for fathers, and it works for a grandfather too. Nothing to personalize.', 0)
+    '"Dad. The Man. The Myth. The Legend." in four lines of clean block capitals. It works for a dad or a grandfather. Nothing to personalize.', 0)
 glass(73, 'trust-me-im-an-engineer-wine-glass', "Trust Me, I'm an Engineer Wine Glass",
     ['graduation', 'birthday', 'fathers-day'], ['him'],
     '"Trust me, I\'m an Engineer" wrapped in rows of binary.',
@@ -543,7 +543,7 @@ add(90, 'always-christmas-at-grandmas-house-ornament', "It's Always Christmas at
 add(103, 'our-first-christmas-together-ornament', 'Our First Christmas Together Ornament',
     ['christmas', 'anniversary', 'wedding'], ['couples'], 'ornament',
     'String lights across the top, "Our first Christmas together," your names and the year.',
-    'A strand of string lights across the top of a round ornament, then "Our first Christmas together," your first names in script and the year. It is for a first Christmas married, engaged or just together, and it is the ornament that gets hung first every year after.',
+    'A strand of string lights across the top of a round ornament, then "Our first Christmas together," your first names in script and the year. It is for a first Christmas married, engaged or just together.',
     ORNAMENT[1])
 add(112, 'deer-family-first-christmas-ornament', 'Deer Family First Christmas Ornament',
     ['christmas', 'family'], ['her', 'grandparents'], 'title',
@@ -568,14 +568,14 @@ add(131, 'this-is-us-family-names-ornament', 'This Is Us Family Names Ornament',
 add(135, 'this-is-us-family-year-ornament', 'This Is Us Family Year Ornament',
     ['christmas', 'family'], ['grandparents'], 'ornament',
     'The "this is us" ornament with the year and your family\'s names.',
-    'The "this is us" ornament: the year at the top, "this is us" in script, and your family\'s first names below. Grandparents often get one each year with the new year on it, so the tree ends up with a small history of the family on it.',
+    'The "this is us" ornament: the year at the top, "this is us" in script, and your family\'s first names below. Order one each year with the new year on it, so the tree ends up with a small history of the family on it.',
     ORNAMENT[0])
 
 # ---- guest books ----
 add(3, '3d-last-name-guest-book-sign', '3D Last Name Guest Book Sign',
     ['wedding'], ['couples'], 'guestbook',
     'A signature frame with your last name laser cut and raised in the center, and your wedding date.',
-    'A wedding guest book that goes on the wall afterward. Your last name is laser cut in script and mounted raised inside an open frame, with your wedding date underneath. Guests sign the frame around it. It is our best-selling guest book, and the one in the photo hangs above a mantel, fully signed.',
+    'A wedding guest book that goes on the wall afterward. Your last name is laser cut in script and mounted raised inside an open frame, with your wedding date underneath. Guests sign the frame around it. The one in the photo hangs above a mantel, fully signed.',
     GUESTBOOK)
 add(20, 'mr-and-mrs-3d-guest-book-sign', 'Mr and Mrs 3D Guest Book Sign',
     ['wedding'], ['couples'], 'guestbook',

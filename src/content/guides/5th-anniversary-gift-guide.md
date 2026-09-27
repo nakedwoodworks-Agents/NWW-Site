@@ -9,11 +9,11 @@ faqs:
   - q: "Is wood the 5th or the 6th anniversary gift?"
     a: "On the traditional list, wood is the 5th anniversary. On the common modern list, wood moves to the 6th and the 5th becomes silverware, so a wood gift works for either year."
   - q: "Should the board show our wedding date or the anniversary year?"
-    a: "Most couples engrave the wedding date, because it stays true every year after. If you want the board to mark this anniversary specifically, add a short line such as '5 years' under the date."
+    a: "The wedding date is the usual choice, because it stays true every year after. If you want the board to mark this anniversary specifically, add a short line such as '5 years' under the date."
   - q: "Can I give a 5th anniversary board to a couple who already has a cutting board?"
     a: "Yes. An engraved board is usually kept out for serving or display rather than daily chopping, so it rarely competes with the plain board already in the drawer."
   - q: "When should I order for a 5th anniversary?"
-    a: "Each order is made to order in 3-5 business days after you approve the free digital proof, plus time in transit. Ordering two to three weeks ahead leaves room for proof changes, and you can ask us about rush if the date is close."
+    a: "Each order is made to order in 3-5 business days, plus time in transit. Ordering two to three weeks ahead leaves room for proof changes, and you can ask us about rush if the date is close."
 ---
 
 Wood is the traditional gift for a 5th wedding anniversary, so the simplest good answer is something made of wood that the two of you will use and keep. We make engraved maple and walnut cutting boards, serving boards and coasters for exactly this, each made to order in Pryor, Oklahoma, with your names and wedding date on it.
@@ -49,7 +49,7 @@ Our boards come in four sizes:
 - 12x16 in, 1.5 in thick: a heavy, substantial board that stays put on the counter.
 - 16x24 in, walnut only, 1.5 in thick: a large serving and display piece.
 
-For a 5th anniversary, the 10x14 is a common middle ground. The 12x16 is the one to pick if you want the gift to feel like a real piece of furniture for the kitchen.
+For a 5th anniversary, the 10x14 is a good middle ground. The 12x16 is the one to pick if you want the gift to feel like a real piece of furniture for the kitchen.
 
 ## What to engrave
 
@@ -63,4 +63,4 @@ Board add-ons include a custom-fit display stand, conditioning oil, a handwritte
 
 ## Timing
 
-Every order is made to order in 3-5 business days after you approve the proof, and shipping time comes on top of that. Two to three weeks ahead of the anniversary is a comfortable window. If you are closer than that, ask us about rush before you order and we will tell you plainly what is possible.
+Every order is made to order in 3-5 business days, and shipping time comes on top of that. Two to three weeks ahead of the anniversary is a comfortable window. If you are closer than that, ask us about rush before you order and we will tell you plainly what is possible.

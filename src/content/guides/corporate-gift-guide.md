@@ -27,7 +27,7 @@ Most corporate gifts are branded giveaways: pens, tumblers, tote bags. They get 
 **Cutting boards** are the most substantial choice. They suit key clients, referral partners and year-end thank-yous. Boards start from $29.70.
 
 - The [Custom Logo Cutting Board](/p/custom-logo-cutting-board/) puts your logo large and centered, with room for a tagline.
-- The [Corner Logo Client Gift Board](/p/corner-logo-client-gift-board/) places the logo small in one corner of a walnut board. This is the one recipients are most likely to use at home, because it looks like a nice board first and a branded item second.
+- The [Corner Logo Client Gift Board](/p/corner-logo-client-gift-board/) places the logo small in one corner of a walnut board. It looks like a nice board first and a branded item second, because it looks like a nice board first and a branded item second.
 - The [Full Logo Cutting Board](/p/full-logo-cutting-board/) runs the logo edge to edge. It suits restaurants, breweries and brands that want a display piece.
 
 **Ornaments** are the lighter option for long lists. The [Custom Logo Ornament](/p/custom-logo-ornament/) is a round wood ornament with your logo, from $16.60, in a single or a set of 2, 5 or 10. It comes back out every December.
@@ -52,7 +52,7 @@ Maple is light, and a logo engraves dark and high-contrast on it, which suits de
 
 ## Lead times and planning
 
-Each order is made to order in 3-5 business days after you approve the proof, and shipping time comes on top of that. For corporate gifting, plan around the calendar:
+Each order is made to order in 3-5 business days, and shipping time comes on top of that. For corporate gifting, plan around the calendar:
 
 - **Holidays:** order well ahead of December. Leave time for internal sign-off on the proof, which often takes longer than the engraving.
 - **Name lists:** finalize spellings before you order. Every name you add later is a new round of proofs.

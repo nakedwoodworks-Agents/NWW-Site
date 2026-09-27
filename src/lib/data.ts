@@ -205,7 +205,7 @@ export function factsFor(p: Product): [string, string][] {
     f.push(['Sizes', '8x12 in and 10x14 in (0.75 in thick), 12x16 in (1.5 in thick), 16x24 in walnut (1.5 in thick)']);
     if (t === 'board-coaster-set') f.push(['Coasters', 'Maple or walnut, set of 2, 4, 8 or 16']);
   } else if (t === 'coaster-set') {
-    f.push(['Material', 'Solid maple or walnut']); f.push(['Sets', '2, 4, 8 or 16 coasters']);
+    f.push(['Material', 'Maple or walnut']); f.push(['Sets', '2, 4, 8 or 16 coasters']);
   } else if (t === 'wine-glass') {
     f.push(['Glass', '21 oz stemless wine glass']); f.push(['Quantity', 'Single, or a set of 2, 4 or 8']);
   } else if (t === 'ornament') {

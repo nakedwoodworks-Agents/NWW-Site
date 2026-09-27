@@ -28,7 +28,7 @@ A traditional guest book gets passed around a table, half the guests miss it, an
 
 ## How the signature frame works
 
-The frame is an open border with your last name laser cut in script and mounted raised in the center, with your wedding date underneath. Guests sign the flat frame around the name. Our [3D Last Name Guest Book Sign](/p/3d-last-name-guest-book-sign/) is the best-selling version. The [Mr and Mrs 3D Guest Book Sign](/p/mr-and-mrs-3d-guest-book-sign/) adds a small "Mr & Mrs" cut above your name.
+The frame is an open border with your last name laser cut in script and mounted raised in the center, with your wedding date underneath. Guests sign the flat frame around the name. Our [3D Last Name Guest Book Sign](/p/3d-last-name-guest-book-sign/) is our original version. The [Mr and Mrs 3D Guest Book Sign](/p/mr-and-mrs-3d-guest-book-sign/) adds a small "Mr & Mrs" cut above your name.
 
 Because the center is open, the frame hangs with the wall showing through, which makes it look lighter than a solid sign of the same size.
 
@@ -70,7 +70,7 @@ Some general tips for signing on wood:
 
 ## What couples do with it afterward
 
-Many couples hang the sign as soon as they get home. The [Last Name Signature Frame Guest Book](/p/last-name-signature-frame-guest-book/) is shown hanging over a bed after the wedding, and round signs often go above a mantel or in an entryway. Others lean the sign on a shelf. Either way it becomes a piece of the home with everyone's names on it.
+The sign can go up as soon as you get home. The [Last Name Signature Frame Guest Book](/p/last-name-signature-frame-guest-book/) is shown hanging over a bed after the wedding, and round signs often go above a mantel or in an entryway. Others lean the sign on a shelf. Either way it becomes a piece of the home with everyone's names on it.
 
 ## Ordering
 

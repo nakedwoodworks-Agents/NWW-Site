@@ -39,7 +39,7 @@ Browse all [wedding gifts](/occasion/wedding-gifts/) to compare more layouts.
 
 ## Getting the names right
 
-Names cause more proof changes than anything else. Before you order:
+Names are the easiest thing to get wrong. Before you order:
 
 - **Confirm spelling.** Check with the couple, a wedding website or the invitation. Nicknames and legal names often differ.
 - **Confirm the last name.** Not every couple changes names. Some hyphenate, some combine, some keep their own.
