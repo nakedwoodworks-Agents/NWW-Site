@@ -1,0 +1,22 @@
+{
+  "name": "nww-site",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "prebuild": "node scripts/prebuild-images.mjs",
+    "build": "astro build && node scripts/postbuild.mjs && node scripts/check-snipcart.mjs",
+    "dev": "astro dev",
+    "preview": "astro preview",
+    "check:snipcart": "node scripts/check-snipcart.mjs",
+    "check:content": "node scripts/check-content.mjs",
+    "qa": "node scripts/qa-screenshots.mjs"
+  },
+  "dependencies": {
+    "astro": "^7.3.5",
+    "sharp": "^0.35.5"
+  },
+  "devDependencies": {
+    "playwright": "^1.56.0"
+  }
+}

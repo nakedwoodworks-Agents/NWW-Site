@@ -1,0 +1,138 @@
+---
+import Base from '../layouts/Base.astro';
+import Quiz from '../components/Quiz.astro';
+import ProductGrid from '../components/ProductGrid.astro';
+import Picture from '../components/Picture.astro';
+import { products, bySlug, hubByPath, typeHubs, gridImgId, imgId, money, fromPrice } from '../lib/data';
+import { guides } from '../lib/content';
+import { OFFER, ETSY_SHOP_URL, REALTOR_SITE_URL } from '../config';
+
+const best = products.slice(0, 8);
+const tile = (path: string, label: string, sub: string, slug: string) => ({ path, label, sub, img: gridImgId(bySlug.get(slug)!), alt: `${bySlug.get(slug)!.name}, shown for ${label.toLowerCase()} gifts` });
+const occTiles = [
+  tile('/occasion/anniversary-gifts/', 'Anniversary', 'Every year', 'established-family-name-anniversary-board'),
+  tile('/occasion/5th-anniversary-wood-gifts/', '5th Anniversary', 'The wood year', 'bold-last-name-anniversary-cutting-board'),
+  tile('/occasion/wedding-gifts/', 'Wedding', 'For the couple', 'circle-monogram-family-name-cutting-board'),
+  tile('/occasion/housewarming-gifts/', 'Housewarming', 'New home', 'home-sweet-home-names-cutting-board'),
+  tile('/occasion/realtor-closing-gifts/', 'Realtor & Corporate', 'With your logo', 'corner-logo-cutting-board'),
+  tile('/occasion/christmas-gifts/', 'Christmas', 'Ornaments & more', 'our-first-christmas-together-ornament'),
+].filter((t) => hubByPath.has(t.path));
+const typeTiles = typeHubs.map((h) => ({ path: h.path, label: h.name.replace(/^Personalized |^Engraved /, ''), sub: `${h.products.length} designs`, img: gridImgId(h.products[0]), alt: `${h.products[0].name}, one of our ${h.name.toLowerCase()}` }));
+const set = bySlug.get('circle-monogram-board-and-coaster-gift-set');
+const coasters = bySlug.get('circle-monogram-wood-coasters');
+const glasses = bySlug.get('couples-circle-monogram-wine-glasses');
+const shownGuides = guides.filter((g) => ['5th-anniversary-gift-guide', 'maple-vs-walnut-cutting-board', 'realtor-closing-gift-guide', 'wedding-guest-book-alternatives'].includes(g.slug));
+const faqLd = null;
+---
+<Base seoTitle="Personalized Engraved Wood Gifts | Naked Wood Works" fullTitle description="Personalized cutting boards, serving boards, coasters, glasses and guest books, laser engraved and made to order in Pryor, Oklahoma. Free proof first." path="/" showQuizFloat={false}>
+  <section class="hero" aria-labelledby="home-h1">
+    <div class="wrap">
+      <p class="eyebrow">Naked Wood Works &middot; Pryor, Oklahoma</p>
+      <h1 id="home-h1">Personalized wood gifts, <span class="italic" style="color:var(--gold-text)">engraved for their occasion</span></h1>
+      <p class="sub">We laser engrave solid maple and walnut boards, coasters, wine glasses, ornaments and wedding guest books with your names and dates. Everything is made to order in 3-5 business days, and you see a free digital proof before we engrave.</p>
+      <hr class="rule-short" />
+      <Quiz idPrefix="hq" />
+    </div>
+  </section>
+
+  <div class="wrap">
+    <p class="proof-strip">
+      <a href={ETSY_SHOP_URL} rel="noopener"><span class="dot" aria-hidden="true"></span>46,000+ orders on Etsy</a>
+      <span><span class="dot" aria-hidden="true"></span>11,700+ ratings on our top Amazon listings</span>
+      <span><span class="dot" aria-hidden="true"></span>Made in Pryor, Oklahoma</span>
+      <span><span class="dot" aria-hidden="true"></span>Free digital proof before we engrave</span>
+    </p>
+  </div>
+  <hr class="rule" />
+
+  {OFFER && (
+    <section class="wrap section-tight center"><div class="panel"><strong>{OFFER.headline}</strong><p style="margin:6px 0 0">{OFFER.detail}</p></div></section>
+  )}
+
+  <section class="section" aria-labelledby="occ-h">
+    <div class="wrap">
+      <div class="center"><p class="eyebrow">Shop by occasion</p><h2 id="occ-h">What are you celebrating?</h2><hr class="rule-short" /></div>
+      <div class="tiles six">
+        {occTiles.map((t, i) => (
+          <a class="tile" href={t.path}><Picture id={t.img} alt={t.alt} sizes="(min-width:1100px) 200px, (min-width:760px) 31vw, 46vw" w={800} h={1000} /><span>{t.label}<small>{t.sub}</small></span></a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0" aria-labelledby="best-h">
+    <div class="wrap">
+      <div class="center"><p class="eyebrow">Best sellers</p><h2 id="best-h">The designs people order most</h2><hr class="rule-short" /></div>
+      <ProductGrid products={best} />
+      <p class="center" style="margin-top:26px"><a class="btn btn-ghost" href="/shop/">Shop all {products.length} designs</a></p>
+    </div>
+  </section>
+
+  <section class="band section" aria-labelledby="wood-h">
+    <div class="wrap split">
+      <div>
+        <p class="eyebrow" style="color:#e0c46a">The 5th anniversary</p>
+        <h2 id="wood-h">Year five is the wood anniversary. <span class="gold-grad">Wood is what we make.</span></h2>
+        <p>Wood is the traditional 5th-anniversary gift. Put your names and wedding date on a solid maple or walnut board, a set of coasters, or both, and it stays on the counter long after the dinner reservation is forgotten.</p>
+        <p style="display:flex;gap:12px;flex-wrap:wrap"><a class="btn" href="/occasion/5th-anniversary-wood-gifts/">Shop 5th anniversary gifts</a><a class="btn" href="/guides/5th-anniversary-gift-guide/">Read the guide</a></p>
+      </div>
+      {bySlug.get('circle-monogram-anniversary-cutting-board') && <Picture id={imgId(bySlug.get('circle-monogram-anniversary-cutting-board')!)} alt="Circle monogram anniversary cutting board in walnut with sample names and wedding date" sizes="(min-width:900px) 560px, 100vw" w={800} h={600} />}
+    </div>
+  </section>
+
+  {set && (
+    <section class="section" aria-labelledby="set-h">
+      <div class="wrap">
+        <div class="center"><p class="eyebrow">Gift sets</p><h2 id="set-h">Give it as a set</h2><hr class="rule-short" />
+          <p class="narrow" style="margin:0 auto 22px">A board with coasters engraved to match, or glasses in sets of 2, 4 or 8. One design, one proof, one order.</p></div>
+        <ProductGrid products={[set, coasters, glasses].filter(Boolean) as any} />
+      </div>
+    </section>
+  )}
+
+  <section class="section" style="padding-top:0" aria-labelledby="type-h">
+    <div class="wrap">
+      <div class="center"><p class="eyebrow">Shop by product</p><h2 id="type-h">Boards, coasters, glasses and more</h2><hr class="rule-short" /></div>
+      <div class="tiles six">
+        {typeTiles.map((t) => <a class="tile" href={t.path}><Picture id={t.img} alt={t.alt} sizes="(min-width:1100px) 200px, (min-width:760px) 31vw, 46vw" w={800} h={1000} /><span>{t.label}<small>{t.sub}</small></span></a>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0" aria-labelledby="biz-h">
+    <div class="wrap split">
+      <div class="panel">
+        <p class="eyebrow">For realtors</p>
+        <h2 id="biz-h" style="font-size:1.5rem">Closing gifts buyers keep</h2>
+        <p>The buyers' names on a solid board, your logo small in the corner. Agents who close every month can use our dedicated realtor site.</p>
+        <p style="display:flex;gap:10px;flex-wrap:wrap;margin:0"><a class="btn btn-ghost" href="/occasion/realtor-closing-gifts/">Closing gifts</a><a class="btn btn-ghost" href={REALTOR_SITE_URL} rel="noopener">foreverclientgifts.com</a></p>
+      </div>
+      <div class="panel">
+        <p class="eyebrow">For business</p>
+        <h2 style="font-size:1.5rem">Your logo, engraved</h2>
+        <p>Logo cutting boards, ornaments and years-of-service boards for clients and teams. Upload your logo and see a free proof first.</p>
+        <p style="display:flex;gap:10px;flex-wrap:wrap;margin:0"><a class="btn btn-ghost" href="/occasion/corporate-gifts/">Corporate gifts</a><a class="btn btn-ghost" href="/business/">Business inquiry</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0" aria-labelledby="g-h">
+    <div class="wrap">
+      <div class="center"><p class="eyebrow">Guides</p><h2 id="g-h">Plain answers from our shop</h2><hr class="rule-short" /></div>
+      <ul class="grid">
+        {shownGuides.map((g) => { const p = bySlug.get(g.fm.products[0]); return (
+          <li><a class="card" href={`/guides/${g.slug}/`}>{p && <div class="ph"><Picture id={gridImgId(p)} alt={`${p.name}, featured in the guide`} sizes="(min-width:1100px) 290px, 46vw" /></div>}<span class="nm">{g.fm.title}</span></a></li>); })}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="wrap narrow center">
+      <p class="eyebrow">Our shop</p>
+      <h2>A real woodshop in Pryor, Oklahoma</h2>
+      <hr class="rule-short" />
+      <p>Jackson and a small team design, engrave and ship every order from our shop in Pryor. We make the gift that marks something: an anniversary, a wedding, a first house, a closing, a person you miss. It is the gift that is still on their counter in twenty years.</p>
+      <p><a class="link-arrow" href="/about/">About our shop</a></p>
+    </div>
+  </section>
+</Base>

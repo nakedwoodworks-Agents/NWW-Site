@@ -1,0 +1,110 @@
+---
+import Logo from './Logo.astro';
+import { MENUS } from '../lib/nav';
+---
+<div class="utility">
+  <div class="wrap">
+    <p class="u-left" style="margin:0">Made to order in Pryor, Oklahoma &middot; Free digital proof before we engrave</p>
+    <nav class="u-right" aria-label="Utility">
+      <a href="/realtors/">Realtors</a>
+      <a href="/business/">Corporate gifts</a>
+      <a href="/faq/">Help</a>
+    </nav>
+  </div>
+</div>
+<header class="site-header">
+  <div class="wrap hdr">
+    <button class="icon-btn menu-toggle" type="button" aria-controls="drawer" aria-expanded="false" data-open-drawer>
+      <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round"/></svg>
+      <span class="sr-only">Menu</span>
+    </button>
+    <Logo />
+    <div class="hdr-actions">
+      <button class="icon-btn" type="button" data-quiz-open aria-label="Open the gift finder quiz">
+        <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12v9H4v-9M2 7h20v5H2zM12 21V7M12 7H7.5a2.5 2.5 0 1 1 0-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 1 0 0-5C13 2 12 7 12 7z" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linejoin="round"/></svg>
+        <span class="hide-sm">Gift finder</span>
+      </button>
+      <a class="icon-btn snipcart-checkout" href="#cart" aria-label="Open cart">
+        <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 7h14l-1.2 12.1a2 2 0 0 1-2 1.9H8.2a2 2 0 0 1-2-1.9zM9 7V5a3 3 0 0 1 6 0v2" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linejoin="round"/></svg>
+        <span class="cart-count snipcart-items-count" aria-hidden="true">0</span>
+      </a>
+    </div>
+  </div>
+  <nav class="mainnav" aria-label="Main">
+    <div class="wrap">
+      <ul>
+        {MENUS.map((m) => (
+          <li>
+            <a class="top" href={m.href}>{m.label}</a>
+            <div class="mega">
+              <div class="wrap">
+                {m.cols.map((c) => (
+                  <div>
+                    <h3>{c.title}</h3>
+                    <ul>{c.links.map((l) => <li><a href={l.href} rel={l.ext ? 'noopener' : undefined}>{l.label}</a></li>)}</ul>
+                  </div>
+                ))}
+                {m.feature ? (
+                  <div class="feature">
+                    <p class="eyebrow">{m.feature.title}</p>
+                    <p>{m.feature.text}</p>
+                    <a class="link-arrow" href={m.feature.href}>{m.feature.cta}</a>
+                  </div>
+                ) : <div />}
+              </div>
+            </div>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </nav>
+</header>
+<div class="drawer" id="drawer" aria-hidden="true">
+  <div class="drawer-panel" role="dialog" aria-modal="true" aria-label="Menu">
+    <div class="drawer-head">
+      <Logo />
+      <button class="icon-btn" type="button" data-close-drawer aria-label="Close menu">
+        <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    {MENUS.map((m) => (
+      <details>
+        <summary>{m.label}</summary>
+        {m.cols.map((c) => (
+          <>
+            <h3>{c.title}</h3>
+            <ul>{c.links.map((l) => <li><a href={l.href}>{l.label}</a></li>)}</ul>
+          </>
+        ))}
+      </details>
+    ))}
+    <div class="plain">
+      <a href="/shop/">Shop all products</a>
+      <a href="/guides/">Buying guides</a>
+      <a href="/about/">About our shop</a>
+      <a href="/contact/">Contact</a>
+    </div>
+  </div>
+</div>
+<style>
+  .hide-sm { display: none; }
+  @media (min-width: 600px) { .hide-sm { display: inline; } }
+  .mainnav li { position: static; }
+</style>
+<script>
+  const drawer = document.getElementById('drawer');
+  const openBtn = document.querySelector('[data-open-drawer]');
+  function setDrawer(open: boolean) {
+    if (!drawer) return;
+    drawer.classList.toggle('open', open);
+    drawer.setAttribute('aria-hidden', String(!open));
+    openBtn?.setAttribute('aria-expanded', String(open));
+    document.body.style.overflow = open ? 'hidden' : '';
+    if (open) (drawer.querySelector('summary') as HTMLElement | null)?.focus();
+    else (openBtn as HTMLElement | null)?.focus();
+  }
+  openBtn?.addEventListener('click', () => setDrawer(true));
+  drawer?.querySelector('[data-close-drawer]')?.addEventListener('click', () => setDrawer(false));
+  drawer?.addEventListener('click', (e) => { if (e.target === drawer) setDrawer(false); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && drawer?.classList.contains('open')) setDrawer(false); });
+</script>

@@ -1,0 +1,40 @@
+---
+import Quiz from './Quiz.astro';
+import { QUIZ_AUTO_OPEN_SECONDS } from '../config';
+interface Props { showFloat?: boolean }
+const { showFloat = true } = Astro.props;
+---
+{showFloat && <button type="button" class="q-float" data-quiz-open><span class="long">Find the right gift in 20 seconds</span><span class="short">Gift finder</span></button>}
+<div class="q-modal" id="quiz-modal" data-auto={showFloat ? String(QUIZ_AUTO_OPEN_SECONDS) : '0'} aria-hidden="true">
+  <div class="box" role="dialog" aria-modal="true" aria-label="Gift finder">
+    <button type="button" class="q-close" data-quiz-close aria-label="Close gift finder">&times;</button>
+    <p class="eyebrow center">Gift finder</p>
+    <Quiz idPrefix="mq" />
+  </div>
+</div>
+<script>
+  import { initAllQuizzes } from '../scripts/quiz';
+  initAllQuizzes();
+  const modal = document.getElementById('quiz-modal')!;
+  const KEY = 'nwwQuizSeen';
+  let lastFocus: HTMLElement | null = null;
+  const remember = () => { try { localStorage.setItem(KEY, '1'); } catch { /* storage blocked: fine */ } };
+  const seen = () => { try { return !!localStorage.getItem(KEY); } catch { return true; } };
+  function open() {
+    lastFocus = document.activeElement as HTMLElement;
+    modal.classList.add('open'); modal.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+    (modal.querySelector('.q-step:not([hidden]) [tabindex="-1"]') as HTMLElement | null)?.focus();
+    remember();
+  }
+  function close() {
+    modal.classList.remove('open'); modal.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = ''; remember(); lastFocus?.focus();
+  }
+  document.querySelectorAll('[data-quiz-open]').forEach((b) => b.addEventListener('click', open));
+  modal.querySelector('[data-quiz-close]')!.addEventListener('click', close);
+  modal.addEventListener('click', (e) => { if (e.target === modal) close(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && modal.classList.contains('open')) close(); });
+  const auto = Number(modal.dataset.auto || '0');
+  if (auto > 0 && !seen()) setTimeout(() => { if (!document.querySelector('.drawer.open') && !document.querySelector('.snipcart-modal__container') && !seen()) open(); }, auto * 1000);
+</script>
