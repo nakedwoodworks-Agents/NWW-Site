@@ -1,0 +1,31 @@
+{
+  "_rule": "Every number shown on the site must come from this file. Do not invent, round up, or embellish. If a claim is not here, do not make it.",
+  "facts": [
+    {"id": "etsy_sales", "display": "46,000+ orders on Etsy", "value": 46152, "source": "Etsy Shop Manager, sum of all-time sales across the 157 active listings, pulled 2026-09-27 (reference/etsy_listings_2026-09-27.tsv). Conservative: excludes inactive listings."},
+    {"id": "etsy_shop_name", "display": "NakedWoodenWorks on Etsy", "url": "https://www.etsy.com/shop/nakedwoodenworks", "source": "Shop Manager sales channel name; shop id 11314469. NOTE: etsy.com/shop/NakedWoodWorks is NOT this shop."},
+    {"id": "amazon_ratings", "display": "11,700+ ratings on our top Amazon listings", "value": 11741, "source": "Amazon product pages read 2026-09-27: B07CHPZMV5 4.6 stars (7,266), B0931XYBTV 4.5 stars (1,740), B07B4MYKL8 4.5 stars (1,408), B07XDN9VT9 4.2 stars (1,327). Brand shown as NakedWoodWorks."},
+    {"id": "fcg_claim", "display": "4.8 stars across 6,900+ reviews / 10 years", "source": "Jackson's own copy on foreverclientgifts.com (reference/fcg_page_source.html). Jackson's claim - reuse as written, do not change the numbers."},
+    {"id": "top_design_etsy", "display": "Best-selling design: 5,500+ sold", "value": 5544, "source": "Etsy listing 597958265 all-time sales, 2026-09-27"},
+    {"id": "etsy_listing_ratings", "source": "Etsy listing pages 2026-09-27: 769991218 4.6 (656 reviews), 619024514 4.9 (535), 558935788 4.7 (486), 597958265 4.7 (465), 787851970 4.7 (420), 902869141 4.9 (296), 851270359 4.7 (220). Show as 'X stars from N Etsy reviews' with a link - NOT as schema.org AggregateRating (see specs/seo-and-ai-visibility.md)."},
+    {"id": "location", "display": "Made in Pryor, Oklahoma", "source": "Jackson (profile). 'Made in Oklahoma' also used on NWW's own how-it's-made graphic."},
+    {"id": "processing", "display": "Made to order - ships in 3-5 business days", "source": "NWW's own Etsy listing copy (listing 902869141): 'Handmade to order in 3-5 business days'. A rush option exists."},
+    {"id": "proof", "display": "Free digital proof before we engrave", "source": "foreverclientgifts.com copy (Jackson's)."},
+    {"id": "materials", "display": "Solid maple or walnut. One solid slab - no juice groove, not bamboo.", "source": "Jackson, 2026-09-17: real board spec. Thickness 0.75 in (8x12, 10x14) and 1.5 in (12x16, 16x24) from live Etsy options."},
+    {"id": "glass", "display": "21 oz stemless wine glass, laser engraved", "source": "Etsy listing titles 1345561623, 663073702"}
+  ],
+  "never_claim": [
+    "Gift boxes, 'ships gift-boxed', 'arrives ready to give', 'no wrapping needed' - NWW does not sell gift boxes. Paper gift wrap IS offered as an add-on.",
+    "'Ships in 1-3 days' or any delivery-speed promise beyond 'made to order in 3-5 business days'.",
+    "Free designs / free mockups (free PROOF is fine - it is on FCG).",
+    "Bamboo, juice grooves, glued-up or edge-grain boards unless Jackson confirms. Boards are one solid slab.",
+    "'made with love', 'one-of-a-kind', 'treasured keepsake', 'elevate' and the rest of the banned phrases in reference/NWW-brand-voice.md.",
+    "Any review count, star rating or sales number not in this file.",
+    "Anything branded 'EngraveCraftGifts' - that is a template/competitor brand that leaked into some old NWW images."
+  ],
+  "verify_before_use": [
+    "Food-safe finish (used in past NWW social copy, never confirmed by Jackson)",
+    "Specific wood species beyond maple/walnut (guest books use birch/plywood - confirm)",
+    "Bulk / volume pricing for realtors and corporate (exists in principle; no price table captured)",
+    "Shipping: FCG says free shipping; Etsy profile is free shipping. Confirm site policy."
+  ]
+}

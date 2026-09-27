@@ -1,0 +1,58 @@
+{
+  "_how_to_use": "Every hub page (occasion, recipient, product type) is generated from this file + products.json. A hub page is only generated if it has >= 3 published products OR a written guide. 'keywords' = the searches that page is built to answer. Volumes are only listed where a source exists; everything else is a candidate keyword (no verified volume).",
+  "_volume_source": "NWW Marketing Plan v2 (Jul 2026), keyword research recorded in Jackson's project notes: 'corporate gifts' 60,500/mo (difficulty 41); '5th anniversary gift' 9,900/mo (difficulty 38), peaks at 40,500 in May vs 5,400 in Jan; 'recipe cutting board' 590/mo with only 4,134 Etsy listings. Etsy audit (Aug 2026) untapped targets: groomsmen gift, closing gift for buyers, client appreciation gift, employee appreciation bulk, retirement gift for coworker, bbq gift for dad, first home gift for couple, christmas hostess gift, bridal shower gift for bride.",
+
+  "product_types": [
+    {"slug": "cutting-boards", "type": "cutting-board", "name": "Personalized Cutting Boards", "keywords": ["personalized cutting board", "custom engraved cutting board", "walnut cutting board personalized", "engraved cutting board with names"]},
+    {"slug": "charcuterie-boards", "type": "charcuterie-board", "name": "Personalized Charcuterie & Serving Boards", "keywords": ["personalized charcuterie board", "engraved cheese board", "custom serving board"]},
+    {"slug": "coasters", "type": "coaster-set", "name": "Personalized Wood Coasters", "keywords": ["personalized wood coasters", "engraved coaster set", "wedding coasters personalized"]},
+    {"slug": "wine-glasses", "type": "wine-glass", "name": "Engraved Stemless Wine Glasses", "keywords": ["personalized stemless wine glass", "engraved wine glass", "funny wine glass gift"]},
+    {"slug": "ornaments", "type": "ornament", "name": "Personalized Wood Ornaments", "keywords": ["personalized wood ornament", "family christmas ornament personalized", "memorial ornament", "logo ornament corporate"]},
+    {"slug": "guest-books", "type": "guest-book-sign", "name": "Wedding Guest Book Alternatives", "keywords": ["wedding guest book alternative", "wedding signature board", "3d guest book sign"]},
+    {"slug": "gift-sets", "type": "board-coaster-set", "name": "Board & Coaster Gift Sets", "keywords": ["cutting board and coaster set", "personalized gift set for couple"]},
+    {"slug": "cake-toppers", "type": "cake-topper", "name": "Wood Cake Toppers", "keywords": ["mr and mrs wood cake topper"]}
+  ],
+
+  "occasions": [
+    {"slug": "wedding-gifts", "tag": "wedding", "name": "Wedding Gifts", "keywords": ["personalized wedding gift", "wedding gift for couple", "unique wedding gift"], "season_note": "Year-round; peak spring-summer"},
+    {"slug": "anniversary-gifts", "tag": "anniversary", "name": "Anniversary Gifts", "keywords": ["personalized anniversary gift", "anniversary gift for couple"], "priority": "TOP - anniversary is the quiz's recurring-revenue engine"},
+    {"slug": "5th-anniversary-wood-gifts", "tag": "anniversary", "name": "5th Anniversary (Wood) Gifts", "keywords": ["5th anniversary gift", "wood anniversary gift", "5 year anniversary gift for him", "5 year anniversary gift for her"], "volume": "9,900/mo, May peak 40,500 (source above)", "why": "Wood is the traditional 5th-anniversary material and NWW is a wood shop. Needs a real guide page."},
+    {"slug": "engagement-gifts", "tag": "engagement", "name": "Engagement Gifts", "keywords": ["engagement gift for couple", "personalized engagement gift"]},
+    {"slug": "bridal-shower-gifts", "tag": "bridal-shower", "name": "Bridal Shower Gifts", "keywords": ["bridal shower gift", "bridal shower gift for bride"]},
+    {"slug": "housewarming-gifts", "tag": "housewarming", "name": "Housewarming & New Home Gifts", "keywords": ["personalized housewarming gift", "first home gift for couple", "new home gift"]},
+    {"slug": "realtor-closing-gifts", "tag": "realtor-closing-gift", "name": "Realtor Closing Gifts", "keywords": ["realtor closing gift", "closing gift for buyers", "client appreciation gift real estate"], "note": "Link prominently to foreverclientgifts.com (NWW's dedicated realtor site)."},
+    {"slug": "corporate-gifts", "tag": "corporate-gifts", "name": "Corporate & Client Gifts", "keywords": ["corporate gifts", "custom logo cutting board", "client appreciation gifts", "logo engraved gifts"], "volume": "corporate gifts 60,500/mo (source above)"},
+    {"slug": "employee-appreciation-gifts", "tag": "employee-appreciation", "name": "Employee Appreciation Gifts", "keywords": ["employee appreciation gifts bulk", "years of service gift", "retirement gift for coworker"]},
+    {"slug": "christmas-gifts", "tag": "christmas", "name": "Christmas Gifts & Ornaments", "keywords": ["personalized christmas gifts", "christmas hostess gift", "personalized ornament"], "season_note": "Q4 = most of the year's volume for personalization sellers"},
+    {"slug": "mothers-day-gifts", "tag": "mothers-day", "name": "Mother's Day Gifts", "keywords": ["mothers day gift personalized", "gift for mom wine glass", "recipe cutting board for mom"]},
+    {"slug": "fathers-day-gifts", "tag": "fathers-day", "name": "Father's Day & Gifts for Dad", "keywords": ["bbq gift for dad", "grill master cutting board", "gift for dad personalized"]},
+    {"slug": "family-keepsakes", "tag": "family", "name": "Family Name Boards & Keepsakes", "keywords": ["family name cutting board", "recipe cutting board", "handwritten recipe cutting board", "grandma recipe board"], "volume": "recipe cutting board 590/mo, low competition (source above)"},
+    {"slug": "memorial-gifts", "tag": "memorial-sympathy", "name": "Memorial & Sympathy Gifts", "keywords": ["memorial ornament", "sympathy gift personalized"], "tone": "Quiet. No sales language, no urgency, no emoji."},
+    {"slug": "teacher-gifts", "tag": "teacher-appreciation", "name": "Teacher Gifts", "keywords": ["personalized teacher ornament", "teacher appreciation gift"]},
+    {"slug": "bachelorette-bridesmaid-gifts", "tag": "bachelorette", "name": "Bridesmaid & Bachelorette Gifts", "keywords": ["bridesmaid wine glass", "bachelorette party gift"]},
+    {"slug": "military-veteran-gifts", "tag": "military-veteran", "name": "Military & Veteran Gifts", "keywords": ["veteran cutting board", "military retirement gift"]}
+  ],
+
+  "recipients": [
+    {"slug": "for-couples", "tag": "couples", "name": "Gifts for Couples"},
+    {"slug": "for-her", "tag": "her", "name": "Gifts for Her"},
+    {"slug": "for-him", "tag": "him", "name": "Gifts for Him"},
+    {"slug": "for-realtors", "tag": "realtors", "name": "For Realtors"},
+    {"slug": "for-businesses", "tag": "businesses", "name": "For Businesses"},
+    {"slug": "for-new-homeowners", "tag": "homeowners", "name": "For New Homeowners"},
+    {"slug": "for-grandparents", "tag": "grandparents", "name": "For Grandparents"},
+    {"slug": "for-teachers", "tag": "teachers", "name": "For Teachers"},
+    {"slug": "for-pet-lovers", "tag": "pet-lovers", "name": "For Pet Lovers"}
+  ],
+
+  "guides": [
+    {"slug": "5th-anniversary-gift-guide", "title": "The 5th Anniversary Is the Wood Anniversary: What to Give", "targets": "5th anniversary gift, wood anniversary gift"},
+    {"slug": "anniversary-gifts-by-year", "title": "Anniversary Gifts by Year (Traditional & Modern)", "targets": "anniversary gifts by year - traditional list is public-domain fact; link each wood/year to products"},
+    {"slug": "maple-vs-walnut-cutting-board", "title": "Maple vs. Walnut: Which Cutting Board Should You Engrave?", "targets": "maple vs walnut cutting board"},
+    {"slug": "how-to-care-for-an-engraved-cutting-board", "title": "How to Care for an Engraved Cutting Board", "targets": "how to oil a cutting board, engraved cutting board care"},
+    {"slug": "realtor-closing-gift-guide", "title": "Closing Gifts Buyers Actually Keep", "targets": "closing gift for buyers, realtor closing gift ideas"},
+    {"slug": "corporate-gift-guide", "title": "Logo-Engraved Client Gifts: A Buyer's Guide", "targets": "corporate gifts, client gifts with logo"},
+    {"slug": "what-to-engrave-on-a-cutting-board", "title": "What to Engrave on a Wedding or Anniversary Cutting Board", "targets": "what to engrave on a cutting board, cutting board engraving ideas"},
+    {"slug": "wedding-guest-book-alternatives", "title": "Wedding Guest Book Alternatives Guests Will Actually Sign", "targets": "wedding guest book alternative"}
+  ]
+}

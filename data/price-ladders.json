@@ -1,0 +1,119 @@
+{
+  "_source": "Live Etsy buyer-facing prices pulled 2026-09-27 from NWW's own listings (the prices a buyer actually pays today, after Etsy's always-on sale). Listing IDs noted per ladder. JACKSON SETS FINAL SITE PRICES - these are the default, not a decision. Note: foreverclientgifts.com uses a different board ladder ($29.99 base, 10x14 +$25, 12x16 +$75, 16x24 +$250, walnut +$15) - see reference/fcg_page_source.html.",
+  "_snipcart_note": "Options are written in Snipcart syntax: 'Label[+delta]'. Base price = cheapest combo. One combined select is used where a price depends on two attributes (e.g. size x wood) because Snipcart option prices cannot depend on another option.",
+
+  "board": {
+    "_source_listing": "597958265 (and 769991218, same ladder)",
+    "base_price": 29.70,
+    "options": [
+      {"name": "Wood & Size", "values": [
+        "Maple 8x12 in (0.75 in thick)",
+        "Walnut 8x12 in (0.75 in thick)[+11.55]",
+        "Maple 10x14 in (0.75 in thick)[+29.70]",
+        "Walnut 10x14 in (0.75 in thick)[+41.25]",
+        "Maple 12x16 in (1.5 in thick)[+89.10]",
+        "Walnut 12x16 in (1.5 in thick)[+112.75]",
+        "Walnut 16x24 in (1.5 in thick)[+226.60]"
+      ]},
+      {"name": "Add-ons", "values": [
+        "Board only",
+        "Custom-fit display stand[+7.15]",
+        "Conditioning oil[+10.45]",
+        "Handwritten card[+4.95]",
+        "Gift wrap (paper)[+4.95]",
+        "Stand + oil + card + wrap[+18.70]"
+      ]}
+    ]
+  },
+
+  "coaster": {
+    "_source_listing": "902869141",
+    "base_price": 16.50,
+    "options": [
+      {"name": "Set & Wood", "values": [
+        "Maple, set of 2",
+        "Walnut, set of 2[+5.50]",
+        "Maple, set of 4[+16.50]",
+        "Walnut, set of 4[+26.95]",
+        "Maple, set of 8[+37.95]",
+        "Walnut, set of 8[+59.95]",
+        "Set of 16[+92.40]"
+      ]},
+      {"name": "Add a matching cutting board", "values": [
+        "No thanks",
+        "Small board, maple[+30.25]",
+        "Small board, walnut[+35.75]",
+        "Medium board, maple[+52.25]",
+        "Medium board, walnut[+63.25]"
+      ]}
+    ],
+    "_note": "Etsy also lists Large board add-ons but their displayed price range was capped/ambiguous (108.90 floor) - left out until Jackson confirms."
+  },
+
+  "glass": {
+    "_source_listing": "787851970",
+    "base_price": 15.81,
+    "options": [
+      {"name": "Quantity", "values": [
+        "1 glass (21 oz stemless)",
+        "Set of 2[+7.59]",
+        "Set of 4[+31.63]",
+        "Set of 8[+50.60]"
+      ]}
+    ],
+    "_note": "Set of 4 ($47.44) costs more per glass than set of 8 - that is the live Etsy price; flagged for Jackson."
+  },
+
+  "ornament": {
+    "_source_listing": "884204628 (logo ornament). Memorial ornament 657955757 is cheaper: 12.45 / 21.35 / 30.24 / 52.49",
+    "base_price": 16.60,
+    "options": [
+      {"name": "Quantity", "values": [
+        "Single ornament",
+        "Set of 2[+10.09]",
+        "Set of 5[+21.35]",
+        "Set of 10[+43.29]"
+      ]}
+    ]
+  },
+
+  "guestbook": {
+    "_source_listing": "619024514",
+    "_inferred": "Etsy shows each width as a price range across finishes; low end mapped to Natural and high end to Stained/Painted (Etsy's Finish select shows Natural is the cheapest). Verify with Jackson.",
+    "base_price": 22.00,
+    "options": [
+      {"name": "Size & Finish", "values": [
+        "20 in (30-45 guests), natural",
+        "20 in (30-45 guests), stained / painted black / painted white[+11.00]",
+        "24 in (45-55 guests), natural[+11.00]",
+        "24 in (45-55 guests), stained / painted black / painted white[+22.55]",
+        "27.5 in (55-70 guests), natural[+22.55]",
+        "27.5 in (55-70 guests), stained / painted black / painted white[+33.55]",
+        "30 in (65-85 guests), natural[+44.55]",
+        "30 in (65-85 guests), stained / painted black / painted white[+50.60]",
+        "36 in (90-110 guests), natural[+67.10]",
+        "36 in (90-110 guests), stained / painted black / painted white[+83.60]",
+        "42 in (125-175 guests), natural[+89.10]",
+        "42 in (125-175 guests), stained / painted black / painted white[+106.15]",
+        "48 in (200-250 guests), natural[+111.65]",
+        "48 in (200-250 guests), stained / painted black / painted white[+128.15]"
+      ]},
+      {"name": "Finish color (if not natural)", "values": ["Natural", "Stained", "Painted black", "Painted white"]}
+    ]
+  },
+
+  "cake-topper": {
+    "_source_listing": "772990232",
+    "base_price": 42.55,
+    "_note": "Only the listing range 42.55-58.65 (list price) was captured, not the option table. Cloud agent: use single price 42.55 and flag in BUILD-NOTES.md for Jackson.",
+    "options": []
+  },
+
+  "standalone_addons": {
+    "_note": "Etsy sells these as separate listings. On the site they are cart options/upsells, not product pages.",
+    "display_stand": {"Regular": 17.71, "Large": 20.24, "_source_listing": "624006035"},
+    "conditioning_oil": {"price": null, "_note": "Shop Manager showed 27.03 (list price, before Etsy sale). Buyer price not captured - Jackson to set."},
+    "rush_processing": {"price": null, "_note": "Etsy listing 606472449 exists; buyer price not captured - Jackson to set."},
+    "extra_engraving": {"price": null, "_note": "Etsy listing 575473835; Jackson to set."}
+  }
+}
