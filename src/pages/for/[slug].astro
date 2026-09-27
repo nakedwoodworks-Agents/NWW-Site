@@ -1,0 +1,7 @@
+---
+import HubPage from '../../components/HubPage.astro';
+import { recipientHubs, type Hub } from '../../lib/data';
+export function getStaticPaths() { return recipientHubs.map((h) => ({ params: { slug: h.path.split('/')[2] }, props: { hub: h } })); }
+const { hub } = Astro.props as { hub: Hub };
+---
+<HubPage hub={hub} crumbs={[{ name: 'Home', href: '/' }, { name: 'Shop', href: '/shop/' }, { name: hub.name }]} />

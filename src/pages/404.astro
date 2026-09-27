@@ -1,0 +1,12 @@
+---
+import Base from '../layouts/Base.astro';
+import ProductGrid from '../components/ProductGrid.astro';
+import { products } from '../lib/data';
+---
+<Base seoTitle="Page not found" description="That page is not here. Browse our personalized engraved gifts or take the gift finder." path="/404/" noindex>
+  <section class="wrap section center">
+    <h1>That page is not here</h1>
+    <p>It may have moved. Here are the designs people order most, or <a href="/shop/">shop everything</a>.</p>
+  </section>
+  <section class="wrap"><ProductGrid products={products.slice(0, 4)} /></section>
+</Base>

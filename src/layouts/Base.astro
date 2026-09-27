@@ -1,0 +1,110 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import QuizModal from '../components/QuizModal.astro';
+import { SITE_URL, SHOP_NAME, SNIPCART_PUBLIC_KEY, SNIPCART_VERSION, META_PIXEL_ID, SAME_AS, isPlaceholder } from '../config';
+
+interface Props {
+  seoTitle: string;           // primary keyword; " | Naked Wood Works" is appended (except when fullTitle)
+  fullTitle?: boolean;
+  description: string;
+  path: string;               // canonical path, with trailing slash
+  ogImage?: string;           // absolute or site path
+  ogType?: string;
+  jsonld?: any[];
+  showQuizFloat?: boolean;
+  noindex?: boolean;
+}
+const { seoTitle, fullTitle = false, description, path, ogImage = '/brand/og-default.jpg', ogType = 'website', jsonld = [], showQuizFloat = true, noindex = false } = Astro.props;
+const title = fullTitle ? seoTitle : `${seoTitle} | ${SHOP_NAME}`;
+const canonical = SITE_URL + path;
+const og = ogImage.startsWith('http') ? ogImage : SITE_URL + ogImage;
+
+const org = {
+  '@context': 'https://schema.org', '@type': 'Organization', '@id': SITE_URL + '/#org',
+  name: SHOP_NAME, url: SITE_URL + '/', logo: SITE_URL + '/brand/logo.png',
+  description: 'Handmade laser-engraving woodshop in Pryor, Oklahoma making personalized cutting boards, serving boards, coasters, wine glasses, ornaments and wedding guest book signs, made to order.',
+  address: { '@type': 'PostalAddress', addressLocality: 'Pryor', addressRegion: 'OK', addressCountry: 'US' },
+  sameAs: SAME_AS,
+};
+const site = { '@context': 'https://schema.org', '@type': 'WebSite', '@id': SITE_URL + '/#website', name: SHOP_NAME, url: SITE_URL + '/', publisher: { '@id': SITE_URL + '/#org' } };
+const graph = [org, site, ...jsonld];
+const snipcartOn = !isPlaceholder(SNIPCART_PUBLIC_KEY);
+const pixelOn = !!META_PIXEL_ID && !isPlaceholder(META_PIXEL_ID);
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonical} />
+  {noindex && <meta name="robots" content="noindex" />}
+  <meta property="og:site_name" content={SHOP_NAME} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:type" content={ogType} />
+  <meta property="og:url" content={canonical} />
+  <meta property="og:image" content={og} />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="theme-color" content="#141414" />
+  <link rel="icon" href="/brand/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/brand/apple-touch-icon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Poppins:wght@400;500;600&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Poppins:wght@400;500;600&display=swap" /></noscript>
+  <slot name="head" />
+  <script type="application/ld+json" set:html={JSON.stringify(graph.length === 1 ? graph[0] : graph).replace(/</g, '\\u003c')} />
+  {pixelOn && (
+    <script is:inline define:vars={{ PIXEL: META_PIXEL_ID }}>
+      !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];
+      function go(){t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}
+      if(b.readyState==='complete'){setTimeout(go,1500)}else{f.addEventListener('load',function(){setTimeout(go,1500)})}}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', PIXEL); fbq('track', 'PageView');
+    </script>
+  )}
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <Header />
+  <main id="main">
+    <slot />
+  </main>
+  <Footer />
+  <QuizModal showFloat={showQuizFloat} />
+  {snipcartOn && <div hidden id="snipcart" data-api-key={SNIPCART_PUBLIC_KEY} data-config-modal-style="side"></div>}
+  {snipcartOn && (
+    <script is:inline define:vars={{ V: SNIPCART_VERSION }}>
+      (function(){
+        var loaded=false, EV=['pointerdown','keydown','touchstart','scroll','mousemove','focusin'];
+        function load(){ if(loaded) return; loaded=true;
+          var l=document.createElement('link'); l.rel='stylesheet'; l.href='https://cdn.snipcart.com/themes/v'+V+'/default/snipcart.css'; document.head.appendChild(l);
+          var s=document.createElement('script'); s.src='https://cdn.snipcart.com/themes/v'+V+'/default/snipcart.js'; s.async=true; document.head.appendChild(s);
+          EV.forEach(function(e){ removeEventListener(e, load); });
+        }
+        EV.forEach(function(e){ addEventListener(e, load, { passive: true }); });
+        window.NWWLoadSnipcart = load;
+        // Clicks that arrive before Snipcart has loaded are replayed once it is ready.
+        document.addEventListener('click', function(ev){
+          var t = ev.target && ev.target.closest && ev.target.closest('.snipcart-add-item, .snipcart-checkout');
+          if(!t || window.Snipcart) return;
+          ev.preventDefault(); ev.stopPropagation(); load();
+          document.addEventListener('snipcart.ready', function(){
+            if (t.classList.contains('snipcart-checkout')) { try { Snipcart.api.theme.cart.open(); } catch(e){} }
+            else { t.click(); }
+          }, { once: true });
+        }, true);
+        document.addEventListener('snipcart.ready', function(){
+          try {
+            Snipcart.events.on('item.added', function(item){ if(window.fbq) fbq('track','AddToCart',{content_name:(item&&item.name)||'',value:(item&&item.totalPrice)||0,currency:'USD'}); });
+            Snipcart.events.on('order.completed', function(order){ var v=(order&&(order.finalGrandTotal||order.grandTotal||order.total))||0; if(window.fbq) fbq('track','Purchase',{value:v,currency:'USD'}); });
+          } catch(e){}
+        });
+      })();
+    </script>
+  )}
+</body>
+</html>

@@ -1,0 +1,67 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from './Breadcrumbs.astro';
+import ProductGrid from './ProductGrid.astro';
+import FaqList from './FaqList.astro';
+import { type Hub, typeHubs, occasionHubs, recipientHubs, comboHubs, gridImgId, products } from '../lib/data';
+import { breadcrumbLd, faqLd, collectionLd } from '../lib/schema';
+import { guidesForHub } from '../lib/content';
+interface Props { hub: Hub; crumbs: { name: string; href?: string }[] }
+const { hub, crumbs } = Astro.props;
+const c = hub.copy;
+const inHub = new Set(hub.products.map((p) => p.slug));
+const overlap = (h: Hub) => h.products.filter((p) => inHub.has(p.slug)).length;
+
+// three-way browse (PMall model): other hubs that share products with this one
+const byType = hub.kind === 'type' ? typeHubs.filter((h) => h.id !== hub.id) : typeHubs.filter((h) => overlap(h) > 0);
+const byOcc = occasionHubs.filter((h) => h.id !== hub.id && overlap(h) > 0).sort((a, b) => overlap(b) - overlap(a)).slice(0, 10);
+const byRec = recipientHubs.filter((h) => h.id !== hub.id && overlap(h) > 0).sort((a, b) => overlap(b) - overlap(a));
+// combos under this occasion (or siblings of this combo)
+const occPath = hub.kind === 'occasion' ? hub.path : hub.kind === 'combo' ? hub.parent : null;
+const combos = occPath ? comboHubs.filter((h) => h.parent === occPath) : hub.kind === 'type' ? comboHubs.filter((h) => h.typeSlug && hub.path === `/c/${h.typeSlug}/`) : [];
+const guides = guidesForHub(hub.path, hub.products.map((p) => p.slug));
+const ld = [collectionLd(c.h1, c.meta, hub.path, hub.products), breadcrumbLd(crumbs, hub.path), faqLd(c.faqs)].filter(Boolean);
+const og = `/img/p/${gridImgId(hub.products[0])}-1200.jpg`;
+const label = (h: Hub) => (h.kind === 'combo' ? h.copy.h1 : h.name);
+---
+<Base seoTitle={c.seo_title} description={c.meta} path={hub.path} jsonld={ld} ogImage={og}>
+  <Breadcrumbs items={crumbs} />
+  <header class="wrap hub-head">
+    <p class="eyebrow">{hub.kind === 'type' ? 'Shop by product' : hub.kind === 'recipient' ? 'Shop by recipient' : 'Shop by occasion'}</p>
+    <h1>{c.h1}</h1>
+    <hr class="rule-short" />
+    <div class="intro">{c.intro.map((para) => <p set:html={para} />)}</div>
+  </header>
+
+  {combos.length > 0 && (
+    <nav class="wrap" aria-label="Narrow by product" style="margin:6px auto 18px">
+      <ul class="chips" style="justify-content:center">
+        {hub.kind === 'combo' && <li><a href={hub.parent}>All {crumbs[crumbs.length - 2]?.name}</a></li>}
+        {combos.map((h) => <li><a href={h.path} aria-current={h.id === hub.id ? 'page' : undefined}>{hub.kind === 'type' ? h.copy.h1 : typeHubs.find((t) => t.path === `/c/${h.typeSlug}/`)?.name}</a></li>)}
+      </ul>
+    </nav>
+  )}
+
+  <section class="wrap section-tight" aria-label="Products">
+    <p class="muted" style="font-size:.85rem;margin-bottom:12px">{hub.products.length} designs, best sellers first</p>
+    <ProductGrid products={hub.products} eagerCount={2} />
+  </section>
+
+  {guides.length > 0 && (
+    <section class="wrap section-tight">
+      <h2>Helpful guides</h2>
+      <ul class="chips">{guides.map((g) => <li><a href={`/guides/${g.slug}/`}>{g.fm.title}</a></li>)}</ul>
+    </section>
+  )}
+
+  <FaqList faqs={c.faqs} />
+
+  <section class="wrap section-tight">
+    <h2 class="center">Keep browsing</h2>
+    <div class="browse3">
+      {byOcc.length > 0 && <div><h3>By occasion</h3><ul class="chips">{byOcc.map((h) => <li><a href={h.path}>{h.name}</a></li>)}</ul></div>}
+      {byRec.length > 0 && <div><h3>By recipient</h3><ul class="chips">{byRec.map((h) => <li><a href={h.path}>{h.name}</a></li>)}</ul></div>}
+      {byType.length > 0 && <div><h3>By product</h3><ul class="chips">{byType.map((h) => <li><a href={h.path}>{h.name}</a></li>)}</ul></div>}
+    </div>
+  </section>
+</Base>

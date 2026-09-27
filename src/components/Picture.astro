@@ -1,0 +1,11 @@
+---
+// Responsive product image: WebP srcset from the prebuild step, JPEG fallback. Width/height set to avoid layout shift.
+import { IMG_WIDTHS } from '../lib/data';
+interface Props { id: string; alt: string; sizes: string; eager?: boolean; w?: number; h?: number; class?: string }
+const { id, alt, sizes, eager = false, w = 800, h = 600, class: cls } = Astro.props;
+const srcset = IMG_WIDTHS.map((x) => `/img/p/${id}-${x}.webp ${x}w`).join(', ');
+---
+<picture>
+  <source type="image/webp" srcset={srcset} sizes={sizes} />
+  <img src={`/img/p/${id}-400.jpg`} alt={alt} width={w} height={h} loading={eager ? 'eager' : 'lazy'} decoding="async" fetchpriority={eager ? 'high' : undefined} class={cls} />
+</picture>

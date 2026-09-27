@@ -1,0 +1,111 @@
+---
+// Gift-finder quiz markup. Behavior lives in src/scripts/quiz.ts (initialised for every [data-quiz] root).
+import { GHL_QUIZ_FORM_ID, GHL_QUIZ_WEBHOOK_URL, QUIZ_MODE, QUIZ_GATE_RESULTS, isPlaceholder, REALTOR_SITE_URL, OFFER } from '../config';
+interface Props { idPrefix: string; headingLevel?: 'h1' | 'h2'; }
+const { idPrefix, headingLevel = 'h2' } = Astro.props;
+const H = headingLevel;
+const formId = isPlaceholder(GHL_QUIZ_FORM_ID) ? '' : GHL_QUIZ_FORM_ID;
+const hook = isPlaceholder(GHL_QUIZ_WEBHOOK_URL) ? '' : GHL_QUIZ_WEBHOOK_URL;
+const leadOn = (QUIZ_MODE === 'ghl_form' && !!formId) || (QUIZ_MODE === 'webhook' && !!hook);
+const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+const paths: [string, string][] = [
+  ['anniversary', 'My husband, wife or partner'],
+  ['wedding', 'A couple getting married'],
+  ['housewarming', 'Someone with a new home'],
+  ['realtor', "My real-estate clients (I'm a realtor)"],
+  ['corporate', 'Clients or employees (business)'],
+  ['family', 'Mom, Dad or family'],
+  ['christmas', 'My Christmas list'],
+];
+const id = (s: string) => `${idPrefix}-${s}`;
+---
+<div class="quiz" data-quiz data-mode={QUIZ_MODE} data-form-id={formId} data-hook={hook} data-lead={leadOn ? '1' : ''} data-gate={QUIZ_GATE_RESULTS ? '1' : ''} data-fcg={REALTOR_SITE_URL}>
+  <div class="q-progress" aria-hidden="true"><i class="on"></i><i></i><i></i><i></i></div>
+
+  <section class="q-step" data-step="1" aria-labelledby={id('s1')}>
+    <H class="q" id={id('s1')} tabindex="-1">Who's the gift for?</H>
+    <div class="q-opts seven">
+      {paths.map(([k, label], i) => <button type="button" class="q-opt" data-path={k}><span class="n" aria-hidden="true">{i + 1}</span>{label}</button>)}
+    </div>
+  </section>
+
+  <section class="q-step" data-step="2" data-branch="anniversary" hidden aria-labelledby={id('s2a')}>
+    <h2 class="q" id={id('s2a')} tabindex="-1">When's your anniversary?</h2>
+    <div class="q-row">
+      <div class="fld"><label for={id('am')}>Month</label>
+        <select id={id('am')} data-k="month"><option value="">Month</option>{months.map((m, i) => <option value={String(i + 1)}>{m}</option>)}</select></div>
+      <div class="fld"><label for={id('ad')}>Day</label>
+        <select id={id('ad')} data-k="day"><option value="">Day</option>{Array.from({ length: 31 }, (_, i) => <option value={String(i + 1)}>{i + 1}</option>)}</select></div>
+      <div class="fld"><label for={id('ay')}>Year married <span class="muted">(optional)</span></label>
+        <input id={id('ay')} data-k="year" type="text" inputmode="numeric" pattern="[0-9]{4}" maxlength="4" placeholder="e.g. 2021" /></div>
+    </div>
+    <p class="q-note" data-note aria-live="polite"></p>
+    <div class="q-actions"><button type="button" class="btn" data-next>Continue</button><button type="button" class="q-back" data-back>Back</button></div>
+  </section>
+
+  <section class="q-step" data-step="2" data-branch="wedding" hidden aria-labelledby={id('s2w')}>
+    <h2 class="q" id={id('s2w')} tabindex="-1">When's the wedding?</h2>
+    <div class="q-row two">
+      <div class="fld"><label for={id('wd')}>Wedding date</label><input id={id('wd')} data-k="event_date" type="date" /></div>
+      <div class="fld"><label for={id('wa')}>Your own anniversary <span class="muted">(optional)</span></label><input id={id('wa')} data-k="own_anniversary" type="date" /></div>
+    </div>
+    <p class="q-note">Want us to remind you before your own anniversary too? Add your date and we will.</p>
+    <div class="q-actions"><button type="button" class="btn" data-next>Continue</button><button type="button" class="q-back" data-back>Back</button></div>
+  </section>
+
+  <section class="q-step" data-step="2" data-branch="realtor" hidden aria-labelledby={id('s2r')}>
+    <h2 class="q" id={id('s2r')} tabindex="-1">Tell us about your closings</h2>
+    <div class="q-row two">
+      <div class="fld"><label for={id('rb')}>Brokerage name</label><input id={id('rb')} data-k="brokerage" type="text" maxlength="80" autocomplete="organization" /></div>
+      <div class="fld"><label for={id('rc')}>Closings per month</label>
+        <select id={id('rc')} data-k="closings_per_month"><option value="">Choose</option><option>1-2</option><option>3-5</option><option>6-10</option><option>10+</option></select></div>
+    </div>
+    <div class="q-actions"><button type="button" class="btn" data-next>Continue</button><button type="button" class="q-back" data-back>Back</button></div>
+  </section>
+
+  <section class="q-step" data-step="2" data-branch="corporate" hidden aria-labelledby={id('s2c')}>
+    <h2 class="q" id={id('s2c')} tabindex="-1">How many gifts?</h2>
+    <div class="q-row two">
+      <div class="fld"><label for={id('cq')}>Quantity</label>
+        <select id={id('cq')} data-k="gift_quantity"><option value="">Choose</option><option>1-10</option><option>11-50</option><option>51-200</option><option>200+</option></select></div>
+      <div class="fld"><label for={id('cn')}>Need them by <span class="muted">(optional)</span></label><input id={id('cn')} data-k="need_by" type="date" /></div>
+    </div>
+    <div class="q-actions"><button type="button" class="btn" data-next>Continue</button><button type="button" class="q-back" data-back>Back</button></div>
+  </section>
+
+  <section class="q-step" data-step="2" data-branch="budget" hidden aria-labelledby={id('s2b')}>
+    <h2 class="q" id={id('s2b')} tabindex="-1">What's your budget?</h2>
+    <div class="q-opts">
+      <button type="button" class="q-opt" data-budget="25-50">$25 to $50</button>
+      <button type="button" class="q-opt" data-budget="50-100">$50 to $100</button>
+      <button type="button" class="q-opt" data-budget="100+">$100 or more</button>
+    </div>
+    <div class="q-actions"><button type="button" class="q-skip" data-budget="">Skip this</button><button type="button" class="q-back" data-back>Back</button></div>
+  </section>
+
+  <section class="q-step" data-step="3" hidden aria-labelledby={id('s3')}>
+    <h2 class="q" id={id('s3')} tabindex="-1">Where should we send your picks?</h2>
+    <div class="q-lead" data-lead-box>
+      <form data-own-form hidden novalidate>
+        <div class="fld"><label for={id('fn')}>First name</label><input id={id('fn')} name="first_name" type="text" autocomplete="given-name" required maxlength="60" /><p class="err">Please add your first name.</p></div>
+        <div class="fld"><label for={id('em')}>Email</label><input id={id('em')} name="email" type="email" autocomplete="email" required maxlength="120" /><p class="err">Please add a valid email.</p></div>
+        <div class="fld"><label for={id('ph')}>Mobile <span class="muted">(optional)</span></label><input id={id('ph')} name="phone" type="tel" autocomplete="tel" maxlength="30" /></div>
+        <div class="fld"><label class="consent" for={id('sms')}><input id={id('sms')} name="sms_consent" type="checkbox" /> <span>Text me reminders and offers from Naked Wood Works. Msg &amp; data rates may apply. Reply STOP to opt out.</span></label></div>
+        <p class="addnote">By continuing you agree to our <a href="/privacy/">Privacy Policy</a> and <a href="/terms/">Terms</a>.</p>
+        <button type="submit" class="btn btn-block">Show my picks</button>
+      </form>
+      <div data-ghl-box hidden>
+        <p class="addnote center" style="margin-top:0">Texts only if you tick the consent box. See our <a href="/privacy/">Privacy Policy</a> and <a href="/terms/">Terms</a>.</p>
+      </div>
+    </div>
+    <div class="q-actions">{!QUIZ_GATE_RESULTS && <button type="button" class="q-skip" data-skip>Skip, just show me</button>}<button type="button" class="q-back" data-back>Back</button></div>
+  </section>
+
+  <section class="q-step q-results" data-step="4" hidden aria-labelledby={id('s4')}>
+    <h2 class="q" id={id('s4')} tabindex="-1">Here are our picks</h2>
+    <p class="q-note" data-results-note></p>
+    {OFFER && <div class="panel" style="margin:0 auto 14px;max-width:560px"><strong>{OFFER.headline}</strong><br />{OFFER.detail}</div>}
+    <div data-results aria-live="polite"></div>
+    <div class="q-actions"><a class="btn btn-ghost" data-hub href="/shop/">See all</a><button type="button" class="q-back" data-restart>Start over</button></div>
+  </section>
+</div>

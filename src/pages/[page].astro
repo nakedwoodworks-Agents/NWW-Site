@@ -1,0 +1,63 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import FaqList from '../components/FaqList.astro';
+import ProductGrid from '../components/ProductGrid.astro';
+import ContactBlock from '../components/ContactBlock.astro';
+import { pages } from '../lib/content';
+import { hubByPath } from '../lib/data';
+import { breadcrumbLd, faqLd } from '../lib/schema';
+import { GHL_BUSINESS_FORM_ID, REALTOR_SITE_URL, isPlaceholder, SITE_URL } from '../config';
+
+export function getStaticPaths() { const SLUGS = ['about', 'realtors', 'business', 'faq', 'shipping', 'care', 'privacy', 'terms', 'contact']; return SLUGS.filter((s) => pages[s]).map((s) => ({ params: { page: s }, props: { pg: pages[s] } })); }
+const { pg } = Astro.props as { pg: (typeof pages)[string] };
+const { fm, Content, slug } = pg;
+const path = `/${slug}/`;
+const crumbs = [{ name: 'Home', href: '/' }, { name: fm.title }];
+const faqs = fm.faqs || [];
+const realtorHub = hubByPath.get('/occasion/realtor-closing-gifts/');
+const corpHub = hubByPath.get('/occasion/corporate-gifts/');
+const bizForm = isPlaceholder(GHL_BUSINESS_FORM_ID) ? null : GHL_BUSINESS_FORM_ID;
+const extraLd: any[] = [];
+if (slug === 'about') extraLd.push({ '@context': 'https://schema.org', '@type': 'AboutPage', url: SITE_URL + path, about: { '@id': SITE_URL + '/#org' } });
+if (slug === 'contact') extraLd.push({ '@context': 'https://schema.org', '@type': 'ContactPage', url: SITE_URL + path, about: { '@id': SITE_URL + '/#org' } });
+---
+<Base seoTitle={fm.seo_title} description={fm.description} path={path} jsonld={[breadcrumbLd(crumbs, path), faqLd(faqs), ...extraLd].filter(Boolean)}>
+  <Breadcrumbs items={crumbs} />
+  <article class="wrap section-tight">
+    <header class="narrow" style="margin:0 auto">
+      <h1>{fm.h1}</h1>
+      <hr class="rule" style="margin:14px 0 22px" />
+    </header>
+    <div class="prose" style="margin:0 auto"><Content /></div>
+    {slug === 'contact' && <div class="narrow" style="margin:24px auto 0"><ContactBlock /></div>}
+    {slug === 'realtors' && (
+      <div class="narrow" style="margin:24px auto 0">
+        <a class="btn" href={REALTOR_SITE_URL} rel="noopener">Visit foreverclientgifts.com</a>
+      </div>
+    )}
+    {slug === 'business' && (
+      <div class="narrow" style="margin:28px auto 0" id="inquiry">
+        <h2>Business inquiry</h2>
+        {bizForm ? (
+          <>
+            <iframe src={`https://api.leadconnectorhq.com/widget/form/${bizForm}`} class="ghl-frame" id={`inline-${bizForm}`} data-layout="{'id':'INLINE'}" data-form-name="NWW Business Inquiry" data-height="620" data-layout-iframe-id={`inline-${bizForm}`} data-form-id={bizForm} title="Business inquiry form" loading="lazy"></iframe>
+            <script is:inline src="https://link.msgsndr.com/js/form_embed.js" defer></script>
+          </>
+        ) : (
+          <>
+            <p>Tell us your quantity, your date and a little about your logo, and we will reply with options and a proof.</p>
+            <ContactBlock />
+          </>
+        )}
+      </div>
+    )}
+  </article>
+  {slug === 'realtors' && realtorHub && (
+    <section class="wrap section-tight"><h2>Closing gift designs</h2><ProductGrid products={realtorHub.products.slice(0, 8)} /></section>
+  )}
+  {slug === 'business' && corpHub && (
+    <section class="wrap section-tight"><h2>Logo designs</h2><ProductGrid products={corpHub.products.slice(0, 8)} /></section>
+  )}
+  <FaqList faqs={faqs} />
+</Base>
