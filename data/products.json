@@ -25,10 +25,17 @@
    "etsy_revenue_all_time": 303053,
    "duplicate_etsy_listings": [
     "4507761448"
-   ]
+   ],
+   "etsy_rating": {
+    "stars": 4.7,
+    "reviews": 465,
+    "listing": "597958265",
+    "pulled": "2026-09-27"
+   }
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "wedding-gifts-for-the-couple-cutting-board",
@@ -51,10 +58,17 @@
     "500.24"
    ],
    "etsy_sales_all_time": 4739,
-   "etsy_revenue_all_time": 294836
+   "etsy_revenue_all_time": 294836,
+   "etsy_rating": {
+    "stars": 4.6,
+    "reviews": 656,
+    "listing": "769991218",
+    "pulled": "2026-09-27"
+   }
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-cutting-board-cutting-board",
@@ -73,10 +87,17 @@
     "258.75"
    ],
    "etsy_sales_all_time": 3937,
-   "etsy_revenue_all_time": 247668
+   "etsy_revenue_all_time": 247668,
+   "etsy_rating": {
+    "stars": 4.7,
+    "reviews": 486,
+    "listing": "558935788",
+    "pulled": "2026-09-27"
+   }
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-wedding-signature-board-guest-book-sign",
@@ -99,10 +120,17 @@
     "273.00"
    ],
    "etsy_sales_all_time": 2650,
-   "etsy_revenue_all_time": 184899
+   "etsy_revenue_all_time": 184899,
+   "etsy_rating": {
+    "stars": 4.9,
+    "reviews": 535,
+    "listing": "619024514",
+    "pulled": "2026-09-27"
+   }
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-logo-board-cutting-board",
@@ -128,7 +156,8 @@
    "etsy_revenue_all_time": 169023
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-cutting-board-with-custom-names-cutting-board",
@@ -150,7 +179,8 @@
    "etsy_revenue_all_time": 132018
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-charcuterie-board-charcuterie-board",
@@ -174,10 +204,17 @@
     "151.79"
    ],
    "etsy_sales_all_time": 1747,
-   "etsy_revenue_all_time": 119623
+   "etsy_revenue_all_time": 119623,
+   "etsy_rating": {
+    "stars": 4.7,
+    "reviews": 220,
+    "listing": "851270359",
+    "pulled": "2026-09-27"
+   }
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-charcuterie-cutting-board-charcuterie-board",
@@ -205,7 +242,8 @@
    "etsy_revenue_all_time": 79170
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "engraved-cutting-board-cutting-board",
@@ -231,7 +269,8 @@
    "etsy_revenue_all_time": 65040
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-wood-coasters-set-coaster-set",
@@ -252,10 +291,17 @@
     "377.00"
    ],
    "etsy_sales_all_time": 1608,
-   "etsy_revenue_all_time": 59808
+   "etsy_revenue_all_time": 59808,
+   "etsy_rating": {
+    "stars": 4.9,
+    "reviews": 296,
+    "listing": "902869141",
+    "pulled": "2026-09-27"
+   }
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-walnut-maple-cutting-board-cutting-board",
@@ -281,7 +327,8 @@
    "etsy_revenue_all_time": 55513
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-logo-cutting-board-cutting-board",
@@ -307,7 +354,8 @@
    "etsy_revenue_all_time": 53411
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "wedding-guest-book-alternative-guest-book-sign",
@@ -337,7 +385,8 @@
    ]
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-logo-cutting-board-cutting-board-2",
@@ -363,7 +412,8 @@
    "etsy_revenue_all_time": 45079
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "gag-wine-glass",
@@ -382,10 +432,17 @@
     "120.75"
    ],
    "etsy_sales_all_time": 2808,
-   "etsy_revenue_all_time": 44568
+   "etsy_revenue_all_time": 44568,
+   "etsy_rating": {
+    "stars": 4.7,
+    "reviews": 420,
+    "listing": "787851970",
+    "pulled": "2026-09-27"
+   }
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-cutting-board-cutting-board-2",
@@ -411,7 +468,8 @@
    "etsy_revenue_all_time": 29856
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-serving-board-charcuterie-board",
@@ -440,7 +498,8 @@
    "etsy_revenue_all_time": 24922
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-wedding-wine-glass-wine-glass",
@@ -466,7 +525,8 @@
    "etsy_revenue_all_time": 24729
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-cutting-board-cutting-board-3",
@@ -492,7 +552,8 @@
    "etsy_revenue_all_time": 23591
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-cutting-board-cutting-board-4",
@@ -518,7 +579,8 @@
    "etsy_revenue_all_time": 23259
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-guest-book-alternative-guest-book-sign",
@@ -544,7 +606,8 @@
    "etsy_revenue_all_time": 16963
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "funny-coaster-set-coaster-set",
@@ -570,7 +633,8 @@
    "etsy_revenue_all_time": 13931
   },
   "publish": false,
-  "hold_reason": "profanity/adult humor \u2014 Jackson decides"
+  "hold_reason": "profanity/adult humor \u2014 Jackson decides",
+  "grid_image": null
  },
  {
   "slug_draft": "wedding-guest-book-sign-guest-book-sign",
@@ -596,7 +660,8 @@
    "etsy_revenue_all_time": 12605
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-cutting-board-cutting-board",
@@ -622,7 +687,8 @@
    "etsy_revenue_all_time": 11263
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "handmade-game-of-thrones-fan-gift-other",
@@ -644,7 +710,8 @@
    "etsy_revenue_all_time": 10770
   },
   "publish": false,
-  "hold_reason": "licensed character/brand (IP risk on own site)"
+  "hold_reason": "licensed character/brand (IP risk on own site)",
+  "grid_image": null
  },
  {
   "slug_draft": "witcher-cutting-board-charcuterie-board",
@@ -666,7 +733,8 @@
    "etsy_revenue_all_time": 9690
   },
   "publish": false,
-  "hold_reason": "licensed character/brand (IP risk on own site)"
+  "hold_reason": "licensed character/brand (IP risk on own site)",
+  "grid_image": null
  },
  {
   "slug_draft": "custom-cutting-board-in-walnut-cutting-board",
@@ -695,7 +763,8 @@
    ]
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "hodor-door-stop-other",
@@ -717,7 +786,8 @@
    "etsy_revenue_all_time": 9539
   },
   "publish": false,
-  "hold_reason": "licensed character/brand (IP risk on own site)"
+  "hold_reason": "licensed character/brand (IP risk on own site)",
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-cutting-board-cutting-board-2",
@@ -746,7 +816,8 @@
    "etsy_revenue_all_time": 9341
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-cutting-board-cutting-board-3",
@@ -770,7 +841,8 @@
    "etsy_revenue_all_time": 8995
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "realtor-closing-gift-cutting-board",
@@ -801,7 +873,8 @@
    ]
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-gift-wedding-wine-glass-wine-glass",
@@ -827,7 +900,8 @@
    "etsy_revenue_all_time": 8013
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-walnut-cutting-board-cutting-board",
@@ -854,7 +928,8 @@
    "etsy_revenue_all_time": 7720
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-cutting-board-charcuterie-board",
@@ -876,7 +951,8 @@
    "etsy_revenue_all_time": 7574
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "wedding-gift-cheese-board-charcuterie-board",
@@ -902,7 +978,8 @@
    "etsy_revenue_all_time": 7066
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-cheese-board-charcuterie-board",
@@ -928,7 +1005,8 @@
    "etsy_revenue_all_time": 7033
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-cutting-board-cutting-board-5",
@@ -954,7 +1032,8 @@
    "etsy_revenue_all_time": 6961
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-logo-ornament-ornament",
@@ -978,10 +1057,17 @@
     "108.89"
    ],
    "etsy_sales_all_time": 185,
-   "etsy_revenue_all_time": 6677
+   "etsy_revenue_all_time": 6677,
+   "etsy_rating": {
+    "stars": 5.0,
+    "reviews": 28,
+    "listing": "884204628",
+    "pulled": "2026-09-27"
+   }
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-engraved-stemless-wine-glass-for-bride-and-groom-wine-gla",
@@ -1008,7 +1094,8 @@
    "etsy_revenue_all_time": 6662
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "funny-gag-gift-wine-glass-wine-glass",
@@ -1032,7 +1119,8 @@
    "etsy_revenue_all_time": 6541
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "game-of-thrones-cutting-board-charcuterie-board",
@@ -1054,7 +1142,8 @@
    "etsy_revenue_all_time": 5618
   },
   "publish": false,
-  "hold_reason": "licensed character/brand (IP risk on own site)"
+  "hold_reason": "licensed character/brand (IP risk on own site)",
+  "grid_image": null
  },
  {
   "slug_draft": "dad-man-myth-legend-wine-glass-wine-glass",
@@ -1081,7 +1170,8 @@
    "etsy_revenue_all_time": 4789
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "funny-teacher-gift-wine-glass",
@@ -1107,7 +1197,8 @@
    "etsy_revenue_all_time": 4648
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-cutting-board-cutting-board-6",
@@ -1129,7 +1220,8 @@
    "etsy_revenue_all_time": 4624
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-cutting-board-cutting-board-7",
@@ -1153,7 +1245,8 @@
    "etsy_revenue_all_time": 4601
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "funny-mom-gifts-wine-glass",
@@ -1179,7 +1272,8 @@
    "etsy_revenue_all_time": 3868
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-serving-board-charcuterie-board-2",
@@ -1209,7 +1303,8 @@
    "etsy_revenue_all_time": 3579
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-cutting-board-cutting-board-4",
@@ -1233,7 +1328,8 @@
    "etsy_revenue_all_time": 3544
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "wedding-coaster-set-coaster-set",
@@ -1259,7 +1355,8 @@
    "etsy_revenue_all_time": 3277
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-cutting-board-charcuterie-board",
@@ -1283,7 +1380,8 @@
    "etsy_revenue_all_time": 3109
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-logo-board-cutting-board-2",
@@ -1312,7 +1410,8 @@
    ]
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "wedding-cake-topper-cake-topper",
@@ -1338,7 +1437,8 @@
    "etsy_revenue_all_time": 2941
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "yoda-one-for-me-wine-glass-wine-glass",
@@ -1362,7 +1462,8 @@
    "etsy_revenue_all_time": 2919
   },
   "publish": false,
-  "hold_reason": "licensed character/brand (IP risk on own site)"
+  "hold_reason": "licensed character/brand (IP risk on own site)",
+  "grid_image": null
  },
  {
   "slug_draft": "custom-cutting-board-cutting-board-8",
@@ -1388,7 +1489,8 @@
    "etsy_revenue_all_time": 2810
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "witcher-inspired-wine-glass-toss-a-coin-laser-engraved-stemless-wine-g",
@@ -1410,7 +1512,8 @@
    "etsy_revenue_all_time": 2760
   },
   "publish": false,
-  "hold_reason": "licensed character/brand (IP risk on own site)"
+  "hold_reason": "licensed character/brand (IP risk on own site)",
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-stemless-wine-glass-wine-glass",
@@ -1434,7 +1537,8 @@
    "etsy_revenue_all_time": 2389
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-memorial-christmas-ornament-ornament",
@@ -1456,10 +1560,17 @@
     "95.43"
    ],
    "etsy_sales_all_time": 130,
-   "etsy_revenue_all_time": 2380
+   "etsy_revenue_all_time": 2380,
+   "etsy_rating": {
+    "stars": 4.2,
+    "reviews": 16,
+    "listing": "657955757",
+    "pulled": "2026-09-27"
+   }
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "girl-boss-etched-stemless-wine-glass-wine-glass",
@@ -1483,7 +1594,8 @@
    "etsy_revenue_all_time": 2243
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-cutting-board-cutting-board-9",
@@ -1507,7 +1619,8 @@
    "etsy_revenue_all_time": 2204
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "funny-beauty-and-beast-stemless-wine-glass-wine-glass",
@@ -1529,7 +1642,8 @@
    "etsy_revenue_all_time": 2150
   },
   "publish": false,
-  "hold_reason": "licensed character/brand (IP risk on own site)"
+  "hold_reason": "licensed character/brand (IP risk on own site)",
+  "grid_image": null
  },
  {
   "slug_draft": "custom-cutting-board-cutting-board-10",
@@ -1556,7 +1670,8 @@
    "etsy_revenue_all_time": 2084
   },
   "publish": false,
-  "hold_reason": "needs a new main photo: photo shows a wooden gift box with crinkle paper (NWW does not sell gift boxes)"
+  "hold_reason": "needs a new main photo: photo shows a wooden gift box with crinkle paper (NWW does not sell gift boxes)",
+  "grid_image": null
  },
  {
   "slug_draft": "game-of-thrones-coasters-coaster-set",
@@ -1578,7 +1693,8 @@
    "etsy_revenue_all_time": 2012
   },
   "publish": false,
-  "hold_reason": "licensed character/brand (IP risk on own site)"
+  "hold_reason": "licensed character/brand (IP risk on own site)",
+  "grid_image": null
  },
  {
   "slug_draft": "thanks-for-all-the-orgasms-funny-wine-glass-wine-glass",
@@ -1602,7 +1718,8 @@
    "etsy_revenue_all_time": 1963
   },
   "publish": false,
-  "hold_reason": "profanity/adult humor \u2014 Jackson decides"
+  "hold_reason": "profanity/adult humor \u2014 Jackson decides",
+  "grid_image": null
  },
  {
   "slug_draft": "custom-serving-board-charcuterie-board",
@@ -1626,7 +1743,8 @@
    "etsy_revenue_all_time": 1728
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-cutting-board-charcuterie-board-2",
@@ -1650,7 +1768,8 @@
    "etsy_revenue_all_time": 1714
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-cutting-board-cutting-board-5",
@@ -1674,7 +1793,8 @@
    "etsy_revenue_all_time": 1614
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "game-of-thrones-cutting-board-charcuterie-board-2",
@@ -1696,7 +1816,8 @@
    "etsy_revenue_all_time": 1536
   },
   "publish": false,
-  "hold_reason": "licensed character/brand (IP risk on own site)"
+  "hold_reason": "licensed character/brand (IP risk on own site)",
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-wedding-wine-glasses-wine-glass",
@@ -1722,7 +1843,8 @@
    "etsy_revenue_all_time": 1500
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-wedding-coaster-set-coaster-set",
@@ -1749,7 +1871,8 @@
    "etsy_revenue_all_time": 1469
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-cutting-board-with-last-name-est-date-charcuterie-board",
@@ -1773,7 +1896,8 @@
    "etsy_revenue_all_time": 1450
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-welcome-home-cutting-board-housewarming-gift-cutting-boar",
@@ -1799,7 +1923,8 @@
    "etsy_revenue_all_time": 1440
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-wedding-wine-glasses-set-of-10-wine-glass",
@@ -1825,7 +1950,8 @@
    "etsy_revenue_all_time": 1348
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "engraved-wedding-coaster-set-coaster-set",
@@ -1851,7 +1977,8 @@
    "etsy_revenue_all_time": 1338
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "trust-me-i-m-an-engineer-wine-glass-wine-glass",
@@ -1877,7 +2004,8 @@
    "etsy_revenue_all_time": 1227
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "funny-friend-wine-glass-wine-glass",
@@ -1902,7 +2030,8 @@
    "etsy_revenue_all_time": 1207
   },
   "publish": false,
-  "hold_reason": "profanity/adult humor \u2014 Jackson decides"
+  "hold_reason": "profanity/adult humor \u2014 Jackson decides",
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-coasters-wooden-keepsake-set-for-wedding-and-anniversary-",
@@ -1929,7 +2058,8 @@
    "etsy_revenue_all_time": 1191
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "i-m-good-with-math-engineer-wine-glass-wine-glass",
@@ -1956,7 +2086,8 @@
    "etsy_revenue_all_time": 1122
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "funny-mom-gifts-wine-glass-2",
@@ -1982,7 +2113,8 @@
    "etsy_revenue_all_time": 1032
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-coordinates-cutting-board-cutting-board",
@@ -2008,7 +2140,8 @@
    "etsy_revenue_all_time": 807
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-couples-wine-glass-wine-glass",
@@ -2032,7 +2165,8 @@
    "etsy_revenue_all_time": 787
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "handwritten-recipe-cutting-board-cutting-board",
@@ -2059,7 +2193,8 @@
    "etsy_revenue_all_time": 767
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "i-make-money-moves-wine-glass-etched-stemless-glass-girl-boss-gift-win",
@@ -2083,7 +2218,8 @@
    "etsy_revenue_all_time": 764
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "favorite-child-stemless-wine-glass-wine-glass",
@@ -2105,7 +2241,8 @@
    "etsy_revenue_all_time": 753
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-cutting-board-gift-set-with-engraved-coasters-board-coaster-set",
@@ -2132,7 +2269,8 @@
    "etsy_revenue_all_time": 693
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-bridesmaid-wine-glass-wine-glass",
@@ -2159,7 +2297,8 @@
    "etsy_revenue_all_time": 590
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-anniversary-cutting-board-cutting-board",
@@ -2187,7 +2326,8 @@
    "etsy_revenue_all_time": 589
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-wedding-coaster-gift-set-coaster-set",
@@ -2214,7 +2354,8 @@
    "etsy_revenue_all_time": 582
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-cutting-board-cutting-board-11",
@@ -2236,7 +2377,8 @@
    "etsy_revenue_all_time": 579
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "you-re-my-favorite-cardio-wine-glass-wine-glass",
@@ -2258,7 +2400,8 @@
    "etsy_revenue_all_time": 561
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "engraved-stemless-wine-glass-wine-glass",
@@ -2280,7 +2423,8 @@
    "etsy_revenue_all_time": 546
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-grandma-christmas-ornament-ornament",
@@ -2308,7 +2452,8 @@
    "etsy_revenue_all_time": 534
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-guest-book-sign-with-last-name-and-established-date-guest-book-",
@@ -2332,7 +2477,8 @@
    "etsy_revenue_all_time": 532
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "etched-nurse-life-wine-glass-wine-glass",
@@ -2356,7 +2502,8 @@
    "etsy_revenue_all_time": 514
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "housewarming-gift-for-couple-cutting-board",
@@ -2383,7 +2530,8 @@
    "etsy_revenue_all_time": 492
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "cheers-funny-wine-glass-wine-glass",
@@ -2409,7 +2557,8 @@
    "etsy_revenue_all_time": 487
   },
   "publish": false,
-  "hold_reason": "profanity/adult humor \u2014 Jackson decides"
+  "hold_reason": "profanity/adult humor \u2014 Jackson decides",
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-realtor-closing-gift-cutting-board",
@@ -2436,7 +2585,8 @@
    "etsy_revenue_all_time": 481
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-charcuterie-board-charcuterie-board-2",
@@ -2463,7 +2613,8 @@
    "etsy_revenue_all_time": 456
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-cutting-board-cutting-board-12",
@@ -2487,7 +2638,8 @@
    "etsy_revenue_all_time": 445
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "funny-mom-gifts-wine-glass-3",
@@ -2513,7 +2665,8 @@
    "etsy_revenue_all_time": 430
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "started-from-the-bottle-funny-wine-glass-wine-glass",
@@ -2535,7 +2688,8 @@
    "etsy_revenue_all_time": 392
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "funny-mom-gifts-wine-glass-4",
@@ -2561,7 +2715,8 @@
    "etsy_revenue_all_time": 384
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "funny-wine-glass-wine-glass",
@@ -2583,7 +2738,8 @@
    "etsy_revenue_all_time": 369
   },
   "publish": false,
-  "hold_reason": "licensed character/brand (IP risk on own site)"
+  "hold_reason": "licensed character/brand (IP risk on own site)",
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-wedding-cutting-board-cutting-board",
@@ -2609,7 +2765,8 @@
    "etsy_revenue_all_time": 343
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-couples-first-christmas-ornament-ornament",
@@ -2635,7 +2792,8 @@
    "etsy_revenue_all_time": 334
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "girl-boss-stemless-wine-glass-wine-glass",
@@ -2659,7 +2817,8 @@
    "etsy_revenue_all_time": 276
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "festive-af-wine-glass-wine-glass",
@@ -2685,7 +2844,8 @@
    "etsy_revenue_all_time": 268
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-engraved-wedding-coasters-coaster-set",
@@ -2712,7 +2872,8 @@
    "etsy_revenue_all_time": 264
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-dog-paw-christmas-ornament-ornament",
@@ -2738,7 +2899,8 @@
    "etsy_revenue_all_time": 245
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "gifts-for-mom-wine-glass",
@@ -2764,7 +2926,8 @@
    "etsy_revenue_all_time": 218
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-guest-book-alternative-guest-book-sign-2",
@@ -2791,7 +2954,8 @@
    "etsy_revenue_all_time": 200
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-coasters-set-coaster-set",
@@ -2813,7 +2977,8 @@
    "etsy_revenue_all_time": 160
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "employee-appreciation-gift-cutting-board",
@@ -2840,7 +3005,8 @@
    "etsy_revenue_all_time": 160
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-maple-christmas-ornament-ornament",
@@ -2865,7 +3031,8 @@
    "etsy_revenue_all_time": 158
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "funny-mom-gifts-wine-glass-5",
@@ -2891,7 +3058,8 @@
    "etsy_revenue_all_time": 154
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-coaster-set-coaster-set",
@@ -2915,7 +3083,8 @@
    "etsy_revenue_all_time": 145
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "realtor-gift-cutting-board",
@@ -2943,7 +3112,8 @@
    "etsy_revenue_all_time": 142
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-newlywed-cutting-board-cutting-board",
@@ -2971,7 +3141,8 @@
    "etsy_revenue_all_time": 138
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-cutting-board-set-board-coaster-set",
@@ -2995,7 +3166,8 @@
    "etsy_revenue_all_time": 135
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "funny-wine-glass-wine-glass-2",
@@ -3017,7 +3189,8 @@
    "etsy_revenue_all_time": 129
   },
   "publish": false,
-  "hold_reason": "profanity/adult humor \u2014 Jackson decides"
+  "hold_reason": "profanity/adult humor \u2014 Jackson decides",
+  "grid_image": null
  },
  {
   "slug_draft": "give-me-wine-tell-me-im-pretty-glass-wine-glass",
@@ -3045,7 +3218,8 @@
    "etsy_revenue_all_time": 107
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-cutting-board-cutting-board-13",
@@ -3072,7 +3246,8 @@
    "etsy_revenue_all_time": 95
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-teacher-christmas-ornament-ornament",
@@ -3099,7 +3274,8 @@
    "etsy_revenue_all_time": 90
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-wedding-cutting-board-cutting-board",
@@ -3126,7 +3302,8 @@
    "etsy_revenue_all_time": 90
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "festive-af-wine-glass-wine-glass-2",
@@ -3152,7 +3329,8 @@
    "etsy_revenue_all_time": 89
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "wood-guest-book-alternative-guest-book-sign",
@@ -3179,7 +3357,8 @@
    "etsy_revenue_all_time": 70
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "mothers-day-wine-glass-wine-glass",
@@ -3205,7 +3384,8 @@
    "etsy_revenue_all_time": 70
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-serving-board-charcuterie-board-3",
@@ -3227,7 +3407,8 @@
    "etsy_revenue_all_time": 67
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "funny-mom-gifts-wine-glass-6",
@@ -3253,7 +3434,8 @@
    "etsy_revenue_all_time": 62
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "housewarming-gift-charcuterie-board",
@@ -3279,7 +3461,8 @@
    "etsy_revenue_all_time": 46
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "im-on-cloud-wine-glass-wine-glass",
@@ -3306,7 +3489,8 @@
    "etsy_revenue_all_time": 35
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "game-of-thrones-cutting-board-charcuterie-board-3",
@@ -3328,7 +3512,8 @@
    "etsy_revenue_all_time": 30
   },
   "publish": false,
-  "hold_reason": "licensed character/brand (IP risk on own site)"
+  "hold_reason": "licensed character/brand (IP risk on own site)",
+  "grid_image": null
  },
  {
   "slug_draft": "family-ornament-ornament",
@@ -3353,7 +3538,8 @@
    "etsy_revenue_all_time": 26
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "birth-flower-gift-cutting-board",
@@ -3375,7 +3561,8 @@
    "etsy_revenue_all_time": 25
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "grinch-christmas-ornament-ornament",
@@ -3399,7 +3586,8 @@
    "etsy_revenue_all_time": 0
   },
   "publish": false,
-  "hold_reason": "licensed character/brand (IP risk on own site)"
+  "hold_reason": "licensed character/brand (IP risk on own site)",
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-teacher-christmas-ornament-ornament-2",
@@ -3426,7 +3614,8 @@
    "etsy_revenue_all_time": 0
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "family-ornament-ornament-2",
@@ -3451,7 +3640,8 @@
    "etsy_revenue_all_time": 0
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-cutting-board-cutting-board-14",
@@ -3475,7 +3665,8 @@
    "etsy_revenue_all_time": 0
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "coasters-for-anniversary-gift-coaster-set",
@@ -3501,7 +3692,8 @@
    "etsy_revenue_all_time": 0
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "custom-cutting-board-cutting-board-15",
@@ -3527,7 +3719,8 @@
    "etsy_revenue_all_time": 0
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "anniversary-gift-for-couple-cutting-board",
@@ -3553,7 +3746,8 @@
    "etsy_revenue_all_time": 0
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "guest-book-or-wedding-sign-for-guests-guest-book-sign",
@@ -3579,7 +3773,8 @@
    "etsy_revenue_all_time": 0
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "guest-book-alternative-guest-book-sign",
@@ -3605,7 +3800,8 @@
    "etsy_revenue_all_time": 0
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "logo-in-corner-cutting-board",
@@ -3633,7 +3829,8 @@
    "etsy_revenue_all_time": 0
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "employee-appreciation-gifts-cutting-board",
@@ -3660,7 +3857,8 @@
    "etsy_revenue_all_time": 0
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  },
  {
   "slug_draft": "personalized-cutting-board-cutting-board-6",
@@ -3686,6 +3884,7 @@
    "etsy_revenue_all_time": 0
   },
   "publish": true,
-  "hold_reason": null
+  "hold_reason": null,
+  "grid_image": null
  }
 ]
