@@ -8,16 +8,16 @@ import { guides } from '../lib/content';
 import { OFFER, ETSY_SHOP_URL, REALTOR_SITE_URL } from '../config';
 
 const best = products.slice(0, 8);
-const tile = (path: string, label: string, sub: string, slug: string) => ({ path, label, sub, img: gridImgId(bySlug.get(slug)!) });
+const tile = (path: string, label: string, sub: string, slug: string) => ({ path, label, sub, img: gridImgId(bySlug.get(slug)!), alt: `${bySlug.get(slug)!.name}, shown for ${label.toLowerCase()} gifts` });
 const occTiles = [
-  tile('/occasion/anniversary-gifts/', 'Anniversary', 'Every year', 'circle-monogram-anniversary-cutting-board'),
+  tile('/occasion/anniversary-gifts/', 'Anniversary', 'Every year', 'established-family-name-anniversary-board'),
   tile('/occasion/5th-anniversary-wood-gifts/', '5th Anniversary', 'The wood year', 'bold-last-name-anniversary-cutting-board'),
   tile('/occasion/wedding-gifts/', 'Wedding', 'For the couple', 'circle-monogram-family-name-cutting-board'),
   tile('/occasion/housewarming-gifts/', 'Housewarming', 'New home', 'home-sweet-home-names-cutting-board'),
   tile('/occasion/realtor-closing-gifts/', 'Realtor & Corporate', 'With your logo', 'corner-logo-cutting-board'),
   tile('/occasion/christmas-gifts/', 'Christmas', 'Ornaments & more', 'our-first-christmas-together-ornament'),
 ].filter((t) => hubByPath.has(t.path));
-const typeTiles = typeHubs.map((h) => ({ path: h.path, label: h.name.replace(/^Personalized |^Engraved /, ''), sub: `${h.products.length} designs`, img: gridImgId(h.products[0]) }));
+const typeTiles = typeHubs.map((h) => ({ path: h.path, label: h.name.replace(/^Personalized |^Engraved /, ''), sub: `${h.products.length} designs`, img: gridImgId(h.products[0]), alt: `${h.products[0].name}, one of our ${h.name.toLowerCase()}` }));
 const set = bySlug.get('circle-monogram-board-and-coaster-gift-set');
 const coasters = bySlug.get('circle-monogram-wood-coasters');
 const glasses = bySlug.get('couples-circle-monogram-wine-glasses');
@@ -28,7 +28,7 @@ const faqLd = null;
   <section class="hero" aria-labelledby="home-h1">
     <div class="wrap">
       <p class="eyebrow">Naked Wood Works &middot; Pryor, Oklahoma</p>
-      <h1 id="home-h1">Personalized wood gifts, <span class="italic gold-grad">engraved for their occasion</span></h1>
+      <h1 id="home-h1">Personalized wood gifts, <span class="italic" style="color:var(--gold-text)">engraved for their occasion</span></h1>
       <p class="sub">We laser engrave solid maple and walnut boards, coasters, wine glasses, ornaments and wedding guest books with your names and dates. Everything is made to order in 3-5 business days, and you see a free digital proof before we engrave.</p>
       <hr class="rule-short" />
       <Quiz idPrefix="hq" />
@@ -54,7 +54,7 @@ const faqLd = null;
       <div class="center"><p class="eyebrow">Shop by occasion</p><h2 id="occ-h">What are you celebrating?</h2><hr class="rule-short" /></div>
       <div class="tiles six">
         {occTiles.map((t, i) => (
-          <a class="tile" href={t.path}><Picture id={t.img} alt="" sizes="(min-width:1100px) 200px, (min-width:760px) 31vw, 46vw" w={800} h={1000} /><span>{t.label}<small>{t.sub}</small></span></a>
+          <a class="tile" href={t.path}><Picture id={t.img} alt={t.alt} sizes="(min-width:1100px) 200px, (min-width:760px) 31vw, 46vw" w={800} h={1000} /><span>{t.label}<small>{t.sub}</small></span></a>
         ))}
       </div>
     </div>
@@ -72,7 +72,7 @@ const faqLd = null;
     <div class="wrap split">
       <div>
         <p class="eyebrow" style="color:#e0c46a">The 5th anniversary</p>
-        <h2 id="wood-h">Year five is the wood anniversary. Wood is what we make.</h2>
+        <h2 id="wood-h">Year five is the wood anniversary. <span class="gold-grad">Wood is what we make.</span></h2>
         <p>Wood is the traditional 5th-anniversary gift. Put your names and wedding date on a solid maple or walnut board, a set of coasters, or both, and it stays on the counter long after the dinner reservation is forgotten.</p>
         <p style="display:flex;gap:12px;flex-wrap:wrap"><a class="btn" href="/occasion/5th-anniversary-wood-gifts/">Shop 5th anniversary gifts</a><a class="btn" href="/guides/5th-anniversary-gift-guide/">Read the guide</a></p>
       </div>
@@ -94,7 +94,7 @@ const faqLd = null;
     <div class="wrap">
       <div class="center"><p class="eyebrow">Shop by product</p><h2 id="type-h">Boards, coasters, glasses and more</h2><hr class="rule-short" /></div>
       <div class="tiles six">
-        {typeTiles.map((t) => <a class="tile" href={t.path}><Picture id={t.img} alt="" sizes="(min-width:1100px) 200px, (min-width:760px) 31vw, 46vw" w={800} h={1000} /><span>{t.label}<small>{t.sub}</small></span></a>)}
+        {typeTiles.map((t) => <a class="tile" href={t.path}><Picture id={t.img} alt={t.alt} sizes="(min-width:1100px) 200px, (min-width:760px) 31vw, 46vw" w={800} h={1000} /><span>{t.label}<small>{t.sub}</small></span></a>)}
       </div>
     </div>
   </section>
@@ -121,7 +121,7 @@ const faqLd = null;
       <div class="center"><p class="eyebrow">Guides</p><h2 id="g-h">Plain answers from our shop</h2><hr class="rule-short" /></div>
       <ul class="grid">
         {shownGuides.map((g) => { const p = bySlug.get(g.fm.products[0]); return (
-          <li><a class="card" href={`/guides/${g.slug}/`}>{p && <div class="ph"><Picture id={gridImgId(p)} alt="" sizes="(min-width:1100px) 290px, 46vw" /></div>}<span class="nm">{g.fm.title}</span></a></li>); })}
+          <li><a class="card" href={`/guides/${g.slug}/`}>{p && <div class="ph"><Picture id={gridImgId(p)} alt={`${p.name}, featured in the guide`} sizes="(min-width:1100px) 290px, 46vw" /></div>}<span class="nm">{g.fm.title}</span></a></li>); })}
       </ul>
     </div>
   </section>

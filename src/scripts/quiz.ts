@@ -175,9 +175,17 @@ export function initQuiz(root: HTMLElement) {
       if (f.length >= 3) list = f;
     }
     // already sorted by Etsy sales (real proof of what sells); keep variety: at most 3 per product type
+    // variety: at most 3 per product type and one per design family (first two words of the name)
     const perType: Record<string, number> = {};
+    const fams = new Set<string>();
     const picks: QP[] = [];
-    for (const p of list) { if ((perType[p.t] = (perType[p.t] || 0) + 1) <= 3) picks.push(p); if (picks.length === 6) break; }
+    for (const p of list) {
+      const fam = p.n.split(' ').slice(0, 2).join(' ').toLowerCase();
+      if (fams.has(fam) || (perType[p.t] || 0) >= 3) continue;
+      fams.add(fam); perType[p.t] = (perType[p.t] || 0) + 1; picks.push(p);
+      if (picks.length === 6) break;
+    }
+    if (picks.length < 3) for (const p of list) { if (!picks.includes(p)) picks.push(p); if (picks.length === 6) break; }
     const noteEl = resStep.querySelector<HTMLElement>('[data-results-note]')!;
     noteEl.textContent = st.budget ? `Best sellers for ${cfg.label}, in your budget.` : `Our best sellers for ${cfg.label}.`;
     let html = '';

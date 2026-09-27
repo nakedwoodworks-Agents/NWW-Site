@@ -1,6 +1,6 @@
 ---
 title: "Wedding Guest Book Alternatives Guests Will Actually Sign"
-seo_title: "Wedding Guest Book Alternatives"
+seo_title: "Guest Book Alternatives: A Buying Guide"
 description: "A signature frame or round sign guests write on directly, then hang at home. How they work, what size to order by guest count, and pen tips."
 h1: "Wedding Guest Book Alternatives Guests Will Actually Sign"
 products: [3d-last-name-guest-book-sign, round-guest-book-sign, mr-and-mrs-3d-guest-book-sign, round-wedding-signature-sign, last-name-signature-frame-guest-book]

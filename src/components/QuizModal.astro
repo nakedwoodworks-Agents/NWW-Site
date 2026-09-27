@@ -4,7 +4,7 @@ import { QUIZ_AUTO_OPEN_SECONDS } from '../config';
 interface Props { showFloat?: boolean }
 const { showFloat = true } = Astro.props;
 ---
-{showFloat && <button type="button" class="q-float" data-quiz-open>Find the right gift in 20 seconds</button>}
+{showFloat && <button type="button" class="q-float" data-quiz-open><span class="long">Find the right gift in 20 seconds</span><span class="short">Gift finder</span></button>}
 <div class="q-modal" id="quiz-modal" data-auto={showFloat ? String(QUIZ_AUTO_OPEN_SECONDS) : '0'} aria-hidden="true">
   <div class="box" role="dialog" aria-modal="true" aria-label="Gift finder">
     <button type="button" class="q-close" data-quiz-close aria-label="Close gift finder">&times;</button>

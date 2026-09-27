@@ -55,7 +55,7 @@ For a 5th anniversary, the 10x14 is a common middle ground. The 12x16 is the one
 
 Keep it short. First names, the shared last name or initial, and the wedding date are enough for most boards. If you want to add a line, a short phrase or "5 years" under the date works better than a long quote, which gets small and hard to read on a board. Our guide on [what to engrave on a cutting board](/guides/what-to-engrave-on-a-cutting-board/) covers name order, hyphenated names and date formats.
 
-Before we engrave anything, we send a free digital proof so you can check spelling and layout. Look closely at the date. It is the most common thing people want to change.
+Before we engrave anything, we send a free digital proof so you can check spelling and layout. Look closely at the date and the spelling of every name before you approve it.
 
 ## Rounding it out
 

@@ -5,7 +5,7 @@
   "version": "1.0.0",
   "scripts": {
     "prebuild": "node scripts/prebuild-images.mjs",
-    "build": "astro build && node scripts/postbuild.mjs",
+    "build": "astro build && node scripts/postbuild.mjs && node scripts/check-snipcart.mjs",
     "dev": "astro dev",
     "preview": "astro preview",
     "check:snipcart": "node scripts/check-snipcart.mjs",

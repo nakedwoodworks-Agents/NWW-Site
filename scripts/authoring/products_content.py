@@ -283,7 +283,7 @@ add(53, 'corner-logo-client-gift-board', 'Corner Logo Client Gift Board',
 add(50, 'logo-cutting-board-corporate-gifts', 'Logo Cutting Board for Corporate Gifts',
     ['corporate-gifts', 'employee-appreciation'], ['businesses'], 'logo',
     'Your logo, centered at a moderate size, on a solid wood board.',
-    'Your logo centered on the board at a moderate size, with room around it. The photo shows a placeholder where your logo goes. It is a straightforward choice for holiday client gifts, event gifts and thank-yous, and every board in an order gets the same free proof before we engrave.',
+    'Your logo centered on the board at a moderate size, with room around it. The photo shows sample text where your logo goes. It is a straightforward choice for holiday client gifts, event gifts and thank-yous, and every board in an order gets the same free proof before we engrave.',
     BOARD[1])
 add(111, 'years-of-service-appreciation-board', 'Years of Service Appreciation Board',
     ['employee-appreciation', 'corporate-gifts'], ['businesses'], 'employee',

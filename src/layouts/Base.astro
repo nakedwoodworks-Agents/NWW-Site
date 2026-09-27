@@ -40,8 +40,7 @@ const pixelOn = !!META_PIXEL_ID && !isPlaceholder(META_PIXEL_ID);
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{title}</title>
   <meta name="description" content={description} />
-  <link rel="canonical" href={canonical} />
-  {noindex && <meta name="robots" content="noindex" />}
+  {noindex ? <meta name="robots" content="noindex" /> : <link rel="canonical" href={canonical} />}
   <meta property="og:site_name" content={SHOP_NAME} />
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
@@ -99,6 +98,7 @@ const pixelOn = !!META_PIXEL_ID && !isPlaceholder(META_PIXEL_ID);
         }, true);
         document.addEventListener('snipcart.ready', function(){
           try {
+            Snipcart.events.on('theme.routechanged', function(r){ document.body.classList.toggle('cart-open', !!(r && r.to && r.to !== '/')); });
             Snipcart.events.on('item.added', function(item){ if(window.fbq) fbq('track','AddToCart',{content_name:(item&&item.name)||'',value:(item&&item.totalPrice)||0,currency:'USD'}); });
             Snipcart.events.on('order.completed', function(order){ var v=(order&&(order.finalGrandTotal||order.grandTotal||order.total))||0; if(window.fbq) fbq('track','Purchase',{value:v,currency:'USD'}); });
           } catch(e){}
