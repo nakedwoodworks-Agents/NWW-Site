@@ -7,3 +7,7 @@ public/brand/*.png
 public/brand/og-default.jpg
 qa/tmp/
 .writers-*
+
+# GHL export output (regenerate with scripts/ghl_export.py)
+ghl/pages/
+ghl/header-code.html
