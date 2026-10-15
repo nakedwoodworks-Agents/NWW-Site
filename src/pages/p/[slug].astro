@@ -1,0 +1,206 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import Picture from '../../components/Picture.astro';
+import ProductGrid from '../../components/ProductGrid.astro';
+import {
+  products, type Product, ladderFor, parseOption, money, fieldsFor, factsFor, imgId, soldLine, ratingLine,
+  typeHubs, occasionByTag, recipientByTag, hubByPath, SINGULAR, absUrl, isBoardType,
+} from '../../lib/data';
+import { buttonAttrs, customFields } from '../../lib/snipcart';
+import { breadcrumbLd, productImage } from '../../lib/schema';
+import { UPLOADCARE_PUBLIC_KEY, isPlaceholder, SITE_URL } from '../../config';
+import sizeOf from '../../lib/imgsize';
+
+export function getStaticPaths() {
+  return products.map((p) => ({ params: { slug: p.slug }, props: { p } }));
+}
+const { p } = Astro.props as { p: Product };
+const L = ladderFor(p);
+const cf = customFields(p);
+const attrs = buttonAttrs(p);
+const fields = fieldsFor(p);
+const uploadOn = !isPlaceholder(UPLOADCARE_PUBLIC_KEY);
+const typeHub = typeHubs.find((h) => h.products.some((x) => x.type === p.type));
+const occ = p.occasions.map(occasionByTag).filter(Boolean) as { slug: string; name: string }[];
+const rec = p.recipients.map(recipientByTag).filter(Boolean) as { path: string; name: string }[];
+const crumbs = [
+  { name: 'Home', href: '/' },
+  typeHub ? { name: typeHub.name, href: typeHub.path } : { name: 'Shop', href: '/shop/' },
+  { name: p.name },
+];
+const path = `/p/${p.slug}/`;
+const sold = soldLine(p);
+const rating = ratingLine(p);
+const dims = sizeOf(p.image);
+const alt = `${p.name}: ${SINGULAR[p.type]?.toLowerCase()} laser engraved by Naked Wood Works (sample names shown)`;
+
+// related: same type sharing an occasion first, then same type, then shared occasion
+const score = (x: Product) => (x.type === p.type ? 2 : 0) + (x.occasions.some((o) => p.occasions.includes(o)) ? 1 : 0);
+const related = products.filter((x) => x.slug !== p.slug).map((x) => [score(x), x] as const)
+  .filter(([s]) => s > 0).sort((a, b) => b[0] - a[0]).slice(0, 4).map(([, x]) => x);
+
+const seoTitle = p.name.length <= 41 ? p.name : p.name.slice(0, 41).replace(/\s+\S*$/, '');
+const firstPara = p.description.split('\n\n')[0];
+const meta = (() => { let m = `${p.short} Made to order in Pryor, Oklahoma, from ${money(L.base_price)}.`; if (m.length > 155) m = p.short.length <= 155 ? p.short : p.short.slice(0, 152) + '...'; return m; })();
+
+const material = isBoardType(p.type) || p.type === 'coaster-set' ? 'Maple or walnut' : p.type === 'wine-glass' ? 'Glass' : 'Wood';
+const productLd = {
+  '@context': 'https://schema.org', '@type': 'Product', '@id': absUrl(path) + '#product',
+  name: p.name, description: p.description.replace(/\n+/g, ' '), sku: p.slug, image: [productImage(p)],
+  brand: { '@type': 'Brand', name: 'Naked Wood Works' }, material, category: SINGULAR[p.type],
+  offers: { '@type': 'Offer', url: absUrl(path), priceCurrency: 'USD', price: L.base_price.toFixed(2),
+    availability: 'https://schema.org/InStock', itemCondition: 'https://schema.org/NewCondition',
+    seller: { '@id': SITE_URL + '/#org' } },
+};
+---
+<Base seoTitle={seoTitle} description={meta} path={path} ogImage={productImage(p)} ogType="product" jsonld={[productLd, breadcrumbLd(crumbs, path)]}>
+  <Breadcrumbs items={crumbs} />
+  <div class="wrap pdp">
+    <div class="gallery">
+      <Picture id={imgId(p)} alt={alt} sizes="(min-width:960px) 640px, 100vw" eager w={dims.w} h={dims.h} />
+    </div>
+    <div>
+      <p class="eyebrow">{SINGULAR[p.type]}</p>
+      <h1>{p.name}</h1>
+      <p class="muted" style="margin-bottom:6px">{p.short}</p>
+      <div class="price-row">
+        <span class="price-now" data-price-now aria-live="polite">{money(L.base_price)}</span>
+        {L.options.length > 0 && <span class="muted" style="font-size:.85rem">price updates with your choices</span>}
+      </div>
+      {(sold || rating) && (
+        <p class="proofs">
+          {sold && <span>{sold}</span>}
+          {rating && <a href={rating.url} rel="noopener">{rating.text} (on Etsy)</a>}
+        </p>
+      )}
+
+      <form class="personalizer" data-personalizer data-base={L.base_price} onsubmit="return false" novalidate>
+        {L.options.map((o, i) => {
+          const c = cf.find((x) => x.key === `opt${i}`)!;
+          return (
+            <div class="fld">
+              <label for={`opt${i}`}>{o.name}</label>
+              <select id={`opt${i}`} data-custom={c.n}>
+                {o.values.map((v) => { const { label, delta } = parseOption(v); return <option value={label} data-delta={delta}>{label}{delta ? ` (+${money(delta)})` : ''}</option>; })}
+              </select>
+            </div>
+          );
+        })}
+        {fields.map((f) => {
+          const c = cf.find((x) => x.key === f.key);
+          if (f.type === 'file') {
+            return uploadOn && c ? (
+              <div class="fld">
+                <label for={`f-${f.key}`}>{f.label}</label>
+                <input type="hidden" role="uploadcare-uploader" id={`f-${f.key}`} data-upload={c.n} data-clearable data-images-only="false" />
+                {f.help && <p class="help">{f.help}</p>}
+              </div>
+            ) : (
+              <p class="upload-note fld">{f.key === 'recipe_photo' ? 'Have the original recipe card? Order now and reply to your proof email with a photo of it.' : 'Logo file: order now and send your logo when we email your free digital proof. Vector (AI, EPS, SVG, PDF) is best; a high-resolution PNG or JPG works.'}</p>
+            );
+          }
+          return (
+            <div class="fld">
+              <label for={`f-${f.key}`}>{f.label}{f.required && <span class="req" aria-hidden="true"> *</span>}</label>
+              {f.type === 'textarea'
+                ? <textarea id={`f-${f.key}`} data-custom={c?.n} maxlength={f.maxlength} placeholder={f.placeholder} required={f.required} aria-required={f.required ? 'true' : undefined} rows="3"></textarea>
+                : <input id={`f-${f.key}`} type="text" data-custom={c?.n} maxlength={f.maxlength} placeholder={f.placeholder} required={f.required} aria-required={f.required ? 'true' : undefined} />}
+              {f.help && <p class="help">{f.help}</p>}
+              {f.required && <p class="err" id={`e-${f.key}`}>Please fill this in so we can make your proof.</p>}
+            </div>
+          );
+        })}
+        <button type="button" class="btn btn-gold btn-block snipcart-add-item" id="add-btn" {...attrs}>
+          Add to cart &middot; <span data-price-btn>{money(L.base_price)}</span>
+        </button>
+        <ul class="trust">
+          <li>Free digital proof before we engrave</li>
+          <li>Made to order in Pryor, Oklahoma in 3-5 business days</li>
+          <li>Secure checkout</li>
+        </ul>
+      </form>
+
+      <h2 style="font-size:1.3rem;margin-top:24px">About this design</h2>
+      {p.description.split('\n\n').map((para) => <p>{para}</p>)}
+
+      <h2 style="font-size:1.3rem;margin-top:24px">The details</h2>
+      <dl class="facts">
+        {factsFor(p).map(([k, v]) => <div><dt>{k}</dt><dd>{v}</dd></div>)}
+      </dl>
+
+      {(occ.length > 0 || rec.length > 0 || typeHub) && (
+        <>
+          <h2 style="font-size:1.1rem;margin-top:24px">Shop more like this</h2>
+          <ul class="chips">
+            {typeHub && <li><a href={typeHub.path}>{typeHub.name}</a></li>}
+            {occ.map((o) => <li><a href={`/occasion/${o.slug}/`}>{o.name}</a></li>)}
+            {rec.map((r) => <li><a href={`/for/${r.path}/`}>{r.name}</a></li>)}
+          </ul>
+        </>
+      )}
+    </div>
+  </div>
+
+  {related.length > 0 && (
+    <section class="section-tight">
+      <div class="wrap">
+        <h2>You might also like</h2>
+        <ProductGrid products={related} />
+      </div>
+    </section>
+  )}
+
+  <Fragment slot="head">
+    {uploadOn && <script is:inline define:vars={{ KEY: UPLOADCARE_PUBLIC_KEY }}>window.UPLOADCARE_PUBLIC_KEY = KEY; window.UPLOADCARE_LOCALE = 'en';</script>}
+  </Fragment>
+  {uploadOn && fields.some((f) => f.type === 'file') && <script is:inline src="https://ucarecdn.com/libs/widget/3.x/uploadcare.full.min.js" defer></script>}
+</Base>
+
+<script>
+  // Personalizer: mirrors the FCG update() pattern. Selections and text are written onto the
+  // server-rendered Snipcart button (data-item-customN-value) before add-to-cart.
+  const form = document.querySelector<HTMLFormElement>('[data-personalizer]');
+  const btn = document.getElementById('add-btn');
+  if (form && btn) {
+    const base = parseFloat(form.dataset.base || '0');
+    const money = (n: number) => '$' + n.toFixed(2);
+    const update = () => {
+      let total = base;
+      form.querySelectorAll<HTMLSelectElement>('select[data-custom]').forEach((s) => {
+        const o = s.selectedOptions[0];
+        total += parseFloat(o?.dataset.delta || '0');
+        btn.setAttribute(`data-item-custom${s.dataset.custom}-value`, s.value);
+      });
+      form.querySelectorAll<HTMLInputElement | HTMLTextAreaElement>('input[data-custom], textarea[data-custom]').forEach((i) => {
+        if (i.dataset.custom) btn.setAttribute(`data-item-custom${i.dataset.custom}-value`, i.value.trim());
+      });
+      document.querySelectorAll('[data-price-now],[data-price-btn]').forEach((e) => (e.textContent = money(total)));
+    };
+    form.addEventListener('input', update);
+    form.addEventListener('change', update);
+    update();
+    // Required fields: check before Snipcart sees the click (target phase, before its document listener).
+    btn.addEventListener('click', (e) => {
+      update();
+      let first: HTMLElement | null = null;
+      form.querySelectorAll<HTMLInputElement | HTMLTextAreaElement>('[required]').forEach((i) => {
+        const bad = !i.value.trim();
+        i.closest('.fld')?.classList.toggle('invalid', bad);
+        i.setAttribute('aria-invalid', String(bad));
+        if (bad && !first) first = i;
+      });
+      if (first) { e.preventDefault(); e.stopImmediatePropagation(); e.stopPropagation(); (first as HTMLElement).focus(); }
+    });
+    // Uploadcare (only when a public key is configured)
+    const hookUploads = () => {
+      const uc = (window as any).uploadcare;
+      if (!uc) return false;
+      form.querySelectorAll<HTMLInputElement>('[data-upload]').forEach((el) => {
+        try { uc.Widget(el).onUploadComplete((info: any) => btn.setAttribute(`data-item-custom${el.dataset.upload}-value`, info.cdnUrl || '')); } catch { /* */ }
+      });
+      return true;
+    };
+    if (form.querySelector('[data-upload]') && !hookUploads()) window.addEventListener('load', hookUploads);
+  }
+</script>

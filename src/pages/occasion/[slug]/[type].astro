@@ -1,0 +1,11 @@
+---
+import HubPage from '../../../components/HubPage.astro';
+import { comboHubs, occasionHubs, typeHubs, type Hub } from '../../../lib/data';
+export function getStaticPaths() {
+  return comboHubs.map((h) => { const [, , slug, type] = h.path.split('/'); return { params: { slug, type }, props: { hub: h } }; });
+}
+const { hub } = Astro.props as { hub: Hub };
+const parent = occasionHubs.find((h) => h.path === hub.parent)!;
+const t = typeHubs.find((x) => x.path === `/c/${hub.typeSlug}/`)!;
+---
+<HubPage hub={hub} crumbs={[{ name: 'Home', href: '/' }, { name: parent.name, href: parent.path }, { name: t.name }]} />

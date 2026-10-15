@@ -1,0 +1,31 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { guides } from '../../lib/content';
+import { bySlug, gridImgId } from '../../lib/data';
+import Picture from '../../components/Picture.astro';
+import { breadcrumbLd } from '../../lib/schema';
+const crumbs = [{ name: 'Home', href: '/' }, { name: 'Guides' }];
+---
+<Base seoTitle="Personalized Gift Buying Guides" description="Plain answers from our woodshop: the wood anniversary, maple vs. walnut, board care, closing gifts, logo gifts and wedding guest books." path="/guides/" jsonld={[breadcrumbLd(crumbs, '/guides/')]}>
+  <Breadcrumbs items={crumbs} />
+  <header class="wrap hub-head">
+    <p class="eyebrow">From our shop</p>
+    <h1>Buying guides</h1>
+    <hr class="rule-short" />
+    <div class="intro">
+      <p>These are the questions we answer most often at our shop in Pryor, Oklahoma: what to give for the wood anniversary, whether to pick maple or walnut, how to care for an engraved board, and what makes a closing gift or a client gift worth keeping. Each guide links to the designs we would actually point you to.</p>
+      <p>Everything we make is made to order in 3-5 business days, and every order gets a free digital proof before we engrave, so you can see the wording and layout before anything is cut.</p>
+    </div>
+  </header>
+  <section class="wrap section-tight">
+    <ul class="grid">
+      {guides.map((g) => { const p = bySlug.get(g.fm.products[0]); return (
+        <li><a class="card" href={`/guides/${g.slug}/`}>
+          {p && <div class="ph"><Picture id={gridImgId(p)} alt={`${g.fm.title} guide`} sizes="(min-width:1100px) 290px, 46vw" /></div>}
+          <span class="nm">{g.fm.title}</span>
+          <span class="pr">{g.fm.description}</span>
+        </a></li>); })}
+    </ul>
+  </section>
+</Base>

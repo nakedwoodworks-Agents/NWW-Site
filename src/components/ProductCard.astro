@@ -1,0 +1,13 @@
+---
+import Picture from './Picture.astro';
+import { type Product, fromPrice, money, gridImgId, soldLine, SINGULAR } from '../lib/data';
+interface Props { p: Product; eager?: boolean }
+const { p, eager = false } = Astro.props;
+const proof = soldLine(p);
+---
+<a class="card" href={`/p/${p.slug}/`}>
+  <div class="ph"><Picture id={gridImgId(p)} alt={`${p.name}, ${SINGULAR[p.type]?.toLowerCase() ?? ''} engraved by Naked Wood Works`} sizes="(min-width:1100px) 290px, (min-width:700px) 31vw, 46vw" eager={eager} /></div>
+  <span class="nm">{p.name}</span>
+  <span class="pr">from {money(fromPrice(p))}</span>
+  {proof && <span class="proof">{proof}</span>}
+</a>

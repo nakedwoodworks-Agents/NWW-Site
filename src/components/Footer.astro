@@ -1,0 +1,57 @@
+---
+import Logo from './Logo.astro';
+import { typeHubs } from '../lib/data';
+import { ETSY_SHOP_URL, REALTOR_SITE_URL } from '../config';
+const year = new Date().getFullYear();
+const occ = [
+  ['/occasion/anniversary-gifts/', 'Anniversary'], ['/occasion/5th-anniversary-wood-gifts/', '5th anniversary (wood)'],
+  ['/occasion/wedding-gifts/', 'Wedding'], ['/occasion/housewarming-gifts/', 'Housewarming'],
+  ['/occasion/realtor-closing-gifts/', 'Realtor closing gifts'], ['/occasion/corporate-gifts/', 'Corporate gifts'],
+  ['/occasion/christmas-gifts/', 'Christmas'],
+];
+---
+<footer class="site-footer">
+  <div class="wrap foot-grid">
+    <div class="foot-brand">
+      <Logo />
+      <p style="margin-top:14px;max-width:320px">Personalized, laser-engraved gifts in solid maple and walnut, made to order in Pryor, Oklahoma.</p>
+      <p style="margin:0"><a href={ETSY_SHOP_URL} rel="noopener">46,000+ orders on Etsy</a></p>
+    </div>
+    <div>
+      <h2>Shop</h2>
+      <ul>
+        {typeHubs.map((h) => <li><a href={h.path}>{h.name.replace(/^Personalized |^Engraved /, '')}</a></li>)}
+        <li><a href="/shop/">All products</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Occasions</h2>
+      <ul>{occ.map(([h, l]) => <li><a href={h}>{l}</a></li>)}</ul>
+    </div>
+    <div>
+      <h2>Help</h2>
+      <ul>
+        <li><a href="/faq/">FAQ</a></li>
+        <li><a href="/shipping/">Shipping</a></li>
+        <li><a href="/care/">Care</a></li>
+        <li><a href="/contact/">Contact</a></li>
+        <li><a href="/guides/">Buying guides</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Our shop</h2>
+      <ul>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/realtors/">Realtors</a></li>
+        <li><a href="/business/">Business gifts</a></li>
+        <li><a href={REALTOR_SITE_URL} rel="noopener">foreverclientgifts.com</a></li>
+        <li><a href="/privacy/">Privacy</a></li>
+        <li><a href="/terms/">Terms</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="wrap foot-bottom">
+    <span>&copy; {year} Naked Wood Works. Made in Pryor, Oklahoma.</span>
+    <span>Made to order in 3-5 business days &middot; Free digital proof before we engrave</span>
+  </div>
+</footer>

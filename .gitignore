@@ -2,3 +2,8 @@ node_modules/
 dist/
 .astro/
 .DS_Store
+public/img/
+public/brand/*.png
+public/brand/og-default.jpg
+qa/tmp/
+.writers-*

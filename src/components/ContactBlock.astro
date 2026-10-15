@@ -1,0 +1,12 @@
+---
+import { CONTACT_EMAIL, ETSY_SHOP_URL, isPlaceholder } from '../config';
+const email = isPlaceholder(CONTACT_EMAIL) ? null : CONTACT_EMAIL;
+---
+<div class="panel" style="max-width:560px">
+  <p class="eyebrow">Reach our shop</p>
+  {email ? (
+    <p style="margin:0">Email us at <a href={`mailto:${email}`}>{email}</a>. A person in our shop reads every message.</p>
+  ) : (
+    <p style="margin:0">Message us through our Etsy shop, <a href={ETSY_SHOP_URL} rel="noopener">NakedWoodenWorks</a> (use "Message seller" on the shop page). A person in our shop reads every message.</p>
+  )}
+</div>

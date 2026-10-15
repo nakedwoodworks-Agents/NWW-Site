@@ -1,0 +1,103 @@
+---
+import Base from '../layouts/Base.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import ProductCard from '../components/ProductCard.astro';
+import { products, typeHubs, occasionHubs, recipientHubs, fromPrice, TYPES, OCCASIONS, RECIPIENTS } from '../lib/data';
+import { breadcrumbLd, collectionLd } from '../lib/schema';
+const crumbs = [{ name: 'Home', href: '/' }, { name: 'Shop all' }];
+const typeOpts = typeHubs.map((h) => ({ v: TYPES.find((t) => h.path === `/c/${t.slug}/`)!.type, l: h.name.replace(/^Personalized |^Engraved /, '') }));
+const extraTypes = [...new Set(products.map((p) => p.type))].filter((t) => !typeOpts.some((o) => o.v === t));
+const typeLabel: Record<string, string> = { 'board-coaster-set': 'Board & coaster sets', 'cake-topper': 'Cake toppers' };
+extraTypes.forEach((t) => typeOpts.push({ v: t, l: typeLabel[t] || t }));
+const occOpts = occasionHubs.filter((h) => !h.path.includes('5th')).map((h) => ({ v: OCCASIONS.find((o) => h.path === `/occasion/${o.slug}/`)!.tag, l: h.name }));
+const recOpts = recipientHubs.map((h) => ({ v: RECIPIENTS.find((r) => h.path === `/for/${r.path}/`)!.tag, l: h.name.replace(/^Gifts for |^For /, '') }));
+const desc = 'Every Naked Wood Works design in one place: engraved cutting boards, serving boards, coasters, wine glasses, ornaments and guest books. Filter by occasion.';
+---
+<Base seoTitle="Shop All Personalized Gifts" description={desc} path="/shop/" jsonld={[collectionLd('Shop all personalized gifts', desc, '/shop/', products), breadcrumbLd(crumbs, '/shop/')]}>
+  <Breadcrumbs items={crumbs} />
+  <header class="wrap hub-head">
+    <p class="eyebrow">Shop all</p>
+    <h1>All personalized gifts</h1>
+    <hr class="rule-short" />
+    <div class="intro">
+      <p>This is every design we make, {products.length} of them, laser engraved and made to order in Pryor, Oklahoma in 3-5 business days. Filter by product, occasion, recipient or price, or take the <button type="button" class="q-skip" style="padding:0;min-height:0;font-size:inherit" data-quiz-open>20-second gift finder</button>.</p>
+      <p>Boards are one solid slab of maple or walnut, from 8x12 inches up to a 16x24 inch walnut board. Glasses are 21 oz stemless, coasters come in sets of 2 to 16, and every order gets a free digital proof before we engrave.</p>
+    </div>
+  </header>
+  <div class="wrap shop-layout">
+    <div>
+      <button type="button" class="btn btn-ghost filters-toggle" aria-controls="filters" aria-expanded="false" data-filters-toggle>Filter</button>
+      <form class="filters" id="filters" hidden aria-label="Filter products">
+        <fieldset><legend>Product</legend>{typeOpts.map((o) => <label><input type="checkbox" name="type" value={o.v} /> {o.l}</label>)}</fieldset>
+        <fieldset><legend>Occasion</legend>{occOpts.map((o) => <label><input type="checkbox" name="occasion" value={o.v} /> {o.l}</label>)}</fieldset>
+        <fieldset><legend>Recipient</legend>{recOpts.map((o) => <label><input type="checkbox" name="recipient" value={o.v} /> {o.l}</label>)}</fieldset>
+        <fieldset><legend>Starting price</legend>
+          <label><input type="radio" name="price" value="" checked /> Any</label>
+          <label><input type="radio" name="price" value="0-20" /> Under $20</label>
+          <label><input type="radio" name="price" value="20-35" /> $20 to $35</label>
+          <label><input type="radio" name="price" value="35-999" /> $35 and up</label>
+        </fieldset>
+        <button type="reset" class="q-skip" style="padding:0">Clear filters</button>
+      </form>
+    </div>
+    <div>
+      <div class="shop-bar">
+        <p class="muted" style="margin:0" aria-live="polite"><span data-count>{products.length}</span> designs</p>
+        <label>Sort <select data-sort aria-label="Sort products">
+          <option value="best">Best sellers</option><option value="price-asc">Price: low to high</option><option value="price-desc">Price: high to low</option><option value="name">Name</option>
+        </select></label>
+      </div>
+      <ul class="grid" data-shop-grid>
+        {products.map((p, i) => (
+          <li data-type={p.type} data-occ={p.occasions.join(' ')} data-rec={p.recipients.join(' ')} data-price={fromPrice(p)} data-rank={i} data-name={p.name}>
+            <ProductCard p={p} eager={i < 2} />
+          </li>
+        ))}
+      </ul>
+      <p data-empty hidden>No designs match those filters. <button type="button" class="q-skip" data-clear>Clear filters</button></p>
+    </div>
+  </div>
+</Base>
+<script>
+  const form = document.getElementById('filters') as HTMLFormElement;
+  const grid = document.querySelector('[data-shop-grid]') as HTMLElement;
+  const items = [...grid.querySelectorAll<HTMLElement>('li')];
+  const count = document.querySelector('[data-count]')!;
+  const empty = document.querySelector<HTMLElement>('[data-empty]')!;
+  const sortSel = document.querySelector<HTMLSelectElement>('[data-sort]')!;
+  const toggle = document.querySelector<HTMLButtonElement>('[data-filters-toggle]')!;
+  toggle.addEventListener('click', () => { form.hidden = !form.hidden; toggle.setAttribute('aria-expanded', String(!form.hidden)); });
+  if (window.matchMedia('(min-width: 1024px)').matches) form.hidden = false;
+  const vals = (n: string) => [...form.querySelectorAll<HTMLInputElement>(`input[name="${n}"]:checked`)].map((i) => i.value).filter(Boolean);
+  function apply(push = true) {
+    const t = vals('type'), o = vals('occasion'), r = vals('recipient'), pr = vals('price')[0];
+    let shown = 0;
+    for (const li of items) {
+      const occ = (li.dataset.occ || '').split(' '), rec = (li.dataset.rec || '').split(' ');
+      const price = parseFloat(li.dataset.price || '0');
+      let ok = (!t.length || t.includes(li.dataset.type!)) && (!o.length || o.some((x) => occ.includes(x))) && (!r.length || r.some((x) => rec.includes(x)));
+      if (ok && pr) { const [a, b] = pr.split('-').map(Number); ok = price >= a && price < b; }
+      li.hidden = !ok; if (ok) shown++;
+    }
+    count.textContent = String(shown);
+    empty.hidden = shown > 0;
+    const s = sortSel.value;
+    const sorted = [...items].sort((a, b) => s === 'price-asc' ? +a.dataset.price! - +b.dataset.price! : s === 'price-desc' ? +b.dataset.price! - +a.dataset.price! : s === 'name' ? a.dataset.name!.localeCompare(b.dataset.name!) : +a.dataset.rank! - +b.dataset.rank!);
+    sorted.forEach((li) => grid.appendChild(li));
+    if (push) {
+      const q = new URLSearchParams();
+      t.forEach((v) => q.append('type', v)); o.forEach((v) => q.append('occasion', v)); r.forEach((v) => q.append('recipient', v));
+      if (pr) q.set('price', pr); if (s !== 'best') q.set('sort', s);
+      history.replaceState(null, '', q.toString() ? `?${q}` : location.pathname);
+    }
+  }
+  // restore from URL
+  const q = new URLSearchParams(location.search);
+  q.forEach((v, k) => { const el = form.querySelector<HTMLInputElement>(`input[name="${k}"][value="${CSS.escape(v)}"]`); if (el) el.checked = true; });
+  if (q.get('sort')) sortSel.value = q.get('sort')!;
+  form.addEventListener('change', () => apply());
+  form.addEventListener('reset', () => setTimeout(() => apply(), 0));
+  sortSel.addEventListener('change', () => apply());
+  document.querySelector('[data-clear]')?.addEventListener('click', () => { form.reset(); });
+  if ([...q.keys()].length) apply(false);
+</script>

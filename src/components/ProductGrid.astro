@@ -1,0 +1,9 @@
+---
+import ProductCard from './ProductCard.astro';
+import type { Product } from '../lib/data';
+interface Props { products: Product[]; eagerCount?: number; id?: string }
+const { products, eagerCount = 0, id } = Astro.props;
+---
+<ul class="grid" id={id}>
+  {products.map((p, i) => <li data-slug={p.slug}><ProductCard p={p} eager={i < eagerCount} /></li>)}
+</ul>

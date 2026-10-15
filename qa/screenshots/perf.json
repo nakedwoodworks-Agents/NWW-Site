@@ -1,0 +1,16 @@
+{
+  "home": {
+    "fcp_ms": 496,
+    "lcp_ms": 496,
+    "cls": 0.059,
+    "load_ms": 1099,
+    "kb": 204
+  },
+  "product": {
+    "fcp_ms": 488,
+    "lcp_ms": 488,
+    "cls": 0,
+    "load_ms": 880,
+    "kb": 102
+  }
+}

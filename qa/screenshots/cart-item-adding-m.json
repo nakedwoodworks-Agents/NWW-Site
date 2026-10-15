@@ -1,0 +1,109 @@
+{
+  "id": "home-sweet-home-names-cutting-board",
+  "name": "Home Sweet Home Names Cutting Board",
+  "price": 29.7,
+  "image": "https://nww-site.pages.dev/img/p/597958265-400.jpg",
+  "description": "Our best-selling design: a house roofline, fork and knife, and \"Home Sweet Home\" over your names and year.",
+  "quantity": 1,
+  "url": "https://nww-site.pages.dev/p/home-sweet-home-names-cutting-board/",
+  "dimensions": {},
+  "customFields": [
+    {
+      "type": "dropdown",
+      "name": "Wood & Size",
+      "value": "Walnut 10x14 in (0.75 in thick)",
+      "options": [
+        {
+          "name": "Maple 8x12 in (0.75 in thick)"
+        },
+        {
+          "name": "Walnut 8x12 in (0.75 in thick)",
+          "priceModifier": 11.55
+        },
+        {
+          "name": "Maple 10x14 in (0.75 in thick)",
+          "priceModifier": 29.7
+        },
+        {
+          "name": "Walnut 10x14 in (0.75 in thick)",
+          "priceModifier": 41.25
+        },
+        {
+          "name": "Maple 12x16 in (1.5 in thick)",
+          "priceModifier": 89.1
+        },
+        {
+          "name": "Walnut 12x16 in (1.5 in thick)",
+          "priceModifier": 112.75
+        },
+        {
+          "name": "Walnut 16x24 in (1.5 in thick)",
+          "priceModifier": 226.6
+        }
+      ],
+      "required": false
+    },
+    {
+      "type": "dropdown",
+      "name": "Add-ons",
+      "value": "Board only",
+      "options": [
+        {
+          "name": "Board only"
+        },
+        {
+          "name": "Custom-fit display stand",
+          "priceModifier": 7.15
+        },
+        {
+          "name": "Conditioning oil",
+          "priceModifier": 10.45
+        },
+        {
+          "name": "Handwritten card",
+          "priceModifier": 4.95
+        },
+        {
+          "name": "Gift wrap (paper)",
+          "priceModifier": 4.95
+        },
+        {
+          "name": "Stand + oil + card + wrap",
+          "priceModifier": 18.7
+        }
+      ],
+      "required": false
+    },
+    {
+      "type": "textarea",
+      "name": "Names to engrave",
+      "value": "Your first names & your last name",
+      "options": [],
+      "required": true
+    },
+    {
+      "type": "textbox",
+      "name": "Established date or year",
+      "value": "Est. 06.14.2021",
+      "options": [],
+      "required": false
+    },
+    {
+      "type": "textbox",
+      "name": "Business line",
+      "value": null,
+      "options": [],
+      "required": false
+    },
+    {
+      "type": "textarea",
+      "name": "Notes for our shop",
+      "value": null,
+      "options": [],
+      "required": false
+    }
+  ],
+  "taxable": true,
+  "shippable": true,
+  "availablePlans": []
+}

@@ -1,0 +1,50 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import ProductGrid from '../../components/ProductGrid.astro';
+import FaqList from '../../components/FaqList.astro';
+import { guides } from '../../lib/content';
+import { bySlug, hubByPath, gridImgId } from '../../lib/data';
+import { breadcrumbLd, faqLd } from '../../lib/schema';
+import { SITE_URL } from '../../config';
+export function getStaticPaths() { return guides.map((g) => ({ params: { slug: g.slug }, props: { g } })); }
+const { g } = Astro.props as { g: (typeof guides)[number] };
+const { fm, Content } = g;
+const path = `/guides/${g.slug}/`;
+const ps = fm.products.map((s) => bySlug.get(s)).filter(Boolean) as any[];
+const hub = hubByPath.get(fm.related_hub);
+const crumbs = [{ name: 'Home', href: '/' }, { name: 'Guides', href: '/guides/' }, { name: fm.title }];
+const PUBLISHED = '2026-09-27';
+const img = ps[0] ? `${SITE_URL}/img/p/${gridImgId(ps[0])}-1200.jpg` : `${SITE_URL}/brand/og-default.jpg`;
+const article = {
+  '@context': 'https://schema.org', '@type': 'Article', headline: fm.title, description: fm.description,
+  image: [img], datePublished: PUBLISHED, dateModified: PUBLISHED, mainEntityOfPage: SITE_URL + path,
+  author: { '@type': 'Organization', name: 'Naked Wood Works', url: SITE_URL + '/' }, publisher: { '@id': SITE_URL + '/#org' },
+};
+const faqs = fm.faqs || [];
+const others = guides.filter((x) => x.slug !== g.slug).slice(0, 4);
+---
+<Base seoTitle={fm.seo_title} description={fm.description} path={path} ogImage={img} ogType="article" jsonld={[article, breadcrumbLd(crumbs, path), faqLd(faqs)].filter(Boolean)}>
+  <Breadcrumbs items={crumbs} />
+  <article class="wrap section-tight">
+    <header class="narrow" style="margin:0 auto">
+      <p class="eyebrow">Buying guide</p>
+      <h1>{fm.h1}</h1>
+      <p class="muted" style="font-size:.85rem">By the Naked Wood Works shop, Pryor, Oklahoma &middot; September 2026</p>
+      <hr class="rule" style="margin:18px 0 24px" />
+    </header>
+    <div class="prose" style="margin:0 auto"><Content /></div>
+  </article>
+  {ps.length > 0 && (
+    <section class="wrap section-tight">
+      <h2>Designs from this guide</h2>
+      <ProductGrid products={ps} />
+      {hub && <p style="margin-top:18px"><a class="link-arrow" href={hub.path}>See all {hub.name.toLowerCase()}</a></p>}
+    </section>
+  )}
+  <FaqList faqs={faqs} title="Quick answers" />
+  <section class="wrap section-tight">
+    <h2>More guides</h2>
+    <ul class="chips">{others.map((o) => <li><a href={`/guides/${o.slug}/`}>{o.fm.title}</a></li>)}</ul>
+  </section>
+</Base>
