@@ -1,7 +1,7 @@
 ---
 title: "Terms of Sale"
 seo_title: "Terms of Sale"
-description: "Terms of sale for Naked Wood Works: personalized items made to order, proof approval, natural wood variation, pricing, payment and text message terms."
+description: "Terms of sale for Naked Wood Works: made-to-order items, engraving exactly as entered, logo proofs, wood variation, pricing, payment and text terms."
 h1: "Terms of sale"
 ---
 
@@ -15,9 +15,9 @@ These terms explain how buying from Naked Wood Works works on this website. By p
 
 Everything we sell is personalized and made to order for you. Nothing is pulled off a shelf. Once your order is placed, our designer lays out the names, dates, text or logo you gave us, and we make the piece from there. Orders are made to order in 3-5 business days, then they ship. Shipping time depends on the option you choose at checkout.
 
-## Your proof
+## Your wording and proofs
 
-Before we engrave, we send you a free digital proof. Please check it carefully: every name, every letter, every date and the layout. You approve the proof, and the spelling and wording on the approved proof is what we engrave. If you want a change, tell us before you approve it. If you need a change after approving, message us right away. If we have not engraved yet, we will do what we can. Once a piece has been engraved, it cannot be changed.
+We engrave names, dates and wording exactly as you enter them at checkout, so please check every name, every letter and every date before you order. Personalized orders do not get a proof. Logo and custom-artwork orders get a free digital proof: you approve it, and the approved proof is what we engrave. If you need a change after ordering or approving, message us right away. If we have not engraved yet, we will do what we can. Once a piece has been engraved, it cannot be changed.
 
 ## Real wood varies
 
@@ -33,7 +33,7 @@ Prices are listed in US dollars. The final price, including any add-ons, shippin
 
 ## Returns and problems
 
-Personalized items are made for you, with your names or logo on them, so we cannot resell them and do not accept returns for a change of mind. If something is wrong on our end, such as an engraving that does not match your approved proof, or damage in shipping, message us with your order number and a photo and we will fix it.
+Personalized items are made for you, with your names or logo on them, so we cannot resell them and do not accept returns for a change of mind. If something is wrong on our end, such as an engraving that does not match what you entered or your approved proof, or damage in shipping, message us with your order number and a photo and we will fix it.
 
 ## Text messages
 

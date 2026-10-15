@@ -20,4 +20,4 @@ A few details help us answer on the first reply:
 
 Real estate agents can start with our [realtors page](/realtors/) or our dedicated realtor site, [Forever Client Gifts](https://foreverclientgifts.com). For logo gifts for clients or employees, the [business page](/business/) has an inquiry form where you can tell us your quantity and date.
 
-Many common questions, about proofs, sizes, care and timing, are answered on our [FAQ](/faq/) and [shipping](/shipping/) pages.
+Many common questions, about personalization, proofs on logo orders, sizes, care and timing, are answered on our [FAQ](/faq/) and [shipping](/shipping/) pages.

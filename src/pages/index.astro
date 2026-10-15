@@ -24,12 +24,12 @@ const glasses = bySlug.get('couples-circle-monogram-wine-glasses');
 const shownGuides = guides.filter((g) => ['5th-anniversary-gift-guide', 'maple-vs-walnut-cutting-board', 'realtor-closing-gift-guide', 'wedding-guest-book-alternatives'].includes(g.slug));
 const faqLd = null;
 ---
-<Base seoTitle="Personalized Engraved Wood Gifts | Naked Wood Works" fullTitle description="Personalized cutting boards, serving boards, coasters, glasses and guest books, laser engraved and made to order in Pryor, Oklahoma. Free proof first." path="/" showQuizFloat={false}>
+<Base seoTitle="Personalized Engraved Wood Gifts | Naked Wood Works" fullTitle description="Personalized cutting boards, serving boards, coasters, glasses and guest books, laser engraved and made to order in Pryor, Oklahoma." path="/" showQuizFloat={false}>
   <section class="hero" aria-labelledby="home-h1">
     <div class="wrap">
       <p class="eyebrow">Naked Wood Works &middot; Pryor, Oklahoma</p>
       <h1 id="home-h1">Personalized wood gifts, <span class="italic" style="color:var(--gold-text)">engraved for their occasion</span></h1>
-      <p class="sub">We laser engrave solid maple and walnut boards, coasters, wine glasses, ornaments and wedding guest books with your names and dates. Everything is made to order in 3-5 business days, and you see a free digital proof before we engrave.</p>
+      <p class="sub">We laser engrave solid maple and walnut boards, coasters, wine glasses, ornaments and wedding guest books with your names and dates. Everything is made to order in 3-5 business days, and we engrave your wording exactly as you type it.</p>
       <hr class="rule-short" />
       <Quiz idPrefix="hq" />
     </div>
@@ -40,7 +40,7 @@ const faqLd = null;
       <a href={ETSY_SHOP_URL} rel="noopener"><span class="dot" aria-hidden="true"></span>46,000+ orders on Etsy</a>
       <span><span class="dot" aria-hidden="true"></span>11,700+ ratings on our top Amazon listings</span>
       <span><span class="dot" aria-hidden="true"></span>Made in Pryor, Oklahoma</span>
-      <span><span class="dot" aria-hidden="true"></span>Free digital proof before we engrave</span>
+      <span><span class="dot" aria-hidden="true"></span>Free digital proof on logo orders</span>
     </p>
   </div>
   <hr class="rule" />
@@ -84,7 +84,7 @@ const faqLd = null;
     <section class="section" aria-labelledby="set-h">
       <div class="wrap">
         <div class="center"><p class="eyebrow">Gift sets</p><h2 id="set-h">Give it as a set</h2><hr class="rule-short" />
-          <p class="narrow" style="margin:0 auto 22px">A board with coasters engraved to match, or glasses in sets of 2, 4 or 8. One design, one proof, one order.</p></div>
+          <p class="narrow" style="margin:0 auto 22px">A board with coasters engraved to match, or glasses in sets of 2, 4 or 8. One design, one order.</p></div>
         <ProductGrid products={[set, coasters, glasses].filter(Boolean) as any} />
       </div>
     </section>

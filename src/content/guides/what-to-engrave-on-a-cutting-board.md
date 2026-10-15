@@ -7,7 +7,7 @@ products: [circle-monogram-family-name-cutting-board, split-letter-monogram-cutt
 related_hub: "/occasion/wedding-gifts/"
 faqs:
   - q: "Whose name goes first on a couple's board?"
-    a: "There is no fixed rule. Many couples list names alphabetically or in the order that sounds natural when spoken, and some follow the older convention of the bride's name first. Pick one and tell us, and the proof will show it exactly."
+    a: "There is no fixed rule. Many couples list names alphabetically or in the order that sounds natural when spoken, and some follow the older convention of the bride's name first. Pick one and type the names in that order; we engrave them exactly as you enter them."
   - q: "What if the couple is not changing last names?"
     a: "Leave the last name off and use both first names with the date, or engrave both last names, or use a design built around first names such as a script names and year layout."
   - q: "Should I use the full date or just the year?"
@@ -70,8 +70,8 @@ Long quotes and poems get small fast. If the words matter more than the names, a
 
 Our boards come in 8x12 in and 10x14 in at 0.75 in thick, 12x16 in at 1.5 in thick, and 16x24 in walnut at 1.5 in thick. On an 8x12, stick to the core three. On 10x14 and up there is room for an extra line. Fine script engraves with more contrast on maple than walnut; our [maple vs. walnut guide](/guides/maple-vs-walnut-cutting-board/) explains why.
 
-## Check the proof
+## Check your spelling before checkout
 
-Before we engrave, we send a free digital proof showing your exact names, date and layout. Read every letter. Say the names out loud. Check the date against a calendar. Once the laser runs, the wood cannot be un-engraved, so the proof is the moment to change anything. Each board is then made to order in 3-5 business days.
+We engrave your names and date exactly as you type them, so the order form is your proof. Read every letter. Say the names out loud. Check the date against a calendar. Once the laser runs, the wood cannot be un-engraved, so checkout is the moment to get it right. Each board is then made to order in 3-5 business days. Logo orders are different: for those we email a free digital proof before we engrave.
 
 If the board is for a 5th anniversary, our [5th anniversary gift guide](/guides/5th-anniversary-gift-guide/) has more on timing and choosing a size.
