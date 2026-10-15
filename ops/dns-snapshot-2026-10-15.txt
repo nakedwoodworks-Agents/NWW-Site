@@ -1,0 +1,11 @@
+# nakedwood.work DNS snapshot before Cloudflare move (2026-10-15T12:24:18Z)
+# Source: Squarespace DNS settings page + live lookups via dns.google
+nakedwood.work                   A      162.159.140.166
+nakedwood.work                   MX     10 mxa.mailgun.org. | 10 mxb.mailgun.org.
+nakedwood.work                   TXT    v=spf1 include:mailgun.org ~all
+_dmarc.nakedwood.work            TXT    v=DMARC1;p=none;
+krs._domainkey.nakedwood.work    TXT    k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBa20XH+PwzDVFMPqoEh/UyfOSchf4EmhIXUI9k+TSkEtqZ13KKZVtBEPqRo85FCEAAwB3Ms2gBb0FMyPNzF7Y2abxzU14fgHl5k/iawg8VU/VzbT6W9OXd8ahQw4PPMANgtNJjOd/hARWguaks9FW0nOZZO6qW+B5MD0fUr2L5QIDAQAB
+email.nakedwood.work             CNAME  mailgun.org.
+www.nakedwood.work               CNAME  sites.ludicrous.cloud.
+nakedwood.work                   CAA    (none)
+nakedwood.work                   DS     (none)
