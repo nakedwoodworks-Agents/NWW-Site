@@ -5,7 +5,7 @@ import Picture from '../../components/Picture.astro';
 import ProductGrid from '../../components/ProductGrid.astro';
 import {
   products, type Product, ladderFor, parseOption, money, fieldsFor, factsFor, imgId, soldLine, ratingLine,
-  typeHubs, occasionByTag, recipientByTag, hubByPath, SINGULAR, absUrl, isBoardType,
+  typeHubs, occasionByTag, recipientByTag, hubByPath, SINGULAR, absUrl, isBoardType, proofKind,
 } from '../../lib/data';
 import { buttonAttrs, customFields } from '../../lib/snipcart';
 import { breadcrumbLd, productImage } from '../../lib/schema';
@@ -17,6 +17,7 @@ export function getStaticPaths() {
 }
 const { p } = Astro.props as { p: Product };
 const L = ladderFor(p);
+const pk = proofKind(p);
 const cf = customFields(p);
 const attrs = buttonAttrs(p);
 const fields = fieldsFor(p);
@@ -97,7 +98,7 @@ const productLd = {
                 {f.help && <p class="help">{f.help}</p>}
               </div>
             ) : (
-              <p class="upload-note fld">{f.key === 'recipe_photo' ? 'Have the original recipe card? Order now and reply to your proof email with a photo of it.' : 'Logo file: order now and send your logo when we email your free digital proof. Vector (AI, EPS, SVG, PDF) is best; a high-resolution PNG or JPG works.'}</p>
+              <p class="upload-note fld">{f.key === 'recipe_photo' ? 'Have the original recipe card? Order now and reply to your proof email with a photo of it.' : 'Logo file: order now and email us your logo; we send a free digital proof before we engrave. Vector (AI, EPS, SVG, PDF) is best; a high-resolution PNG or JPG works.'}</p>
             );
           }
           return (
@@ -107,7 +108,7 @@ const productLd = {
                 ? <textarea id={`f-${f.key}`} data-custom={c?.n} maxlength={f.maxlength} placeholder={f.placeholder} required={f.required} aria-required={f.required ? 'true' : undefined} rows="3"></textarea>
                 : <input id={`f-${f.key}`} type="text" data-custom={c?.n} maxlength={f.maxlength} placeholder={f.placeholder} required={f.required} aria-required={f.required ? 'true' : undefined} />}
               {f.help && <p class="help">{f.help}</p>}
-              {f.required && <p class="err" id={`e-${f.key}`}>Please fill this in so we can make your proof.</p>}
+              {f.required && <p class="err" id={`e-${f.key}`}>Please fill this in. We engrave it exactly as you type it.</p>}
             </div>
           );
         })}
@@ -115,7 +116,9 @@ const productLd = {
           Add to cart &middot; <span data-price-btn>{money(L.base_price)}</span>
         </button>
         <ul class="trust">
-          <li>Free digital proof before we engrave</li>
+          {pk === 'always' && <li>Free digital proof before we engrave</li>}
+          {pk === 'if-logo' && <li>Free digital proof when you add a logo</li>}
+          {pk === 'none' && <li>Engraved exactly as you type it</li>}
           <li>Made to order in Pryor, Oklahoma in 3-5 business days</li>
           <li>Secure checkout</li>
         </ul>

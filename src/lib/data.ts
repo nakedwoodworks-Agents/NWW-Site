@@ -188,6 +188,18 @@ export function fieldsFor(p: Product): Field[] {
   }
 }
 
+/**
+ * Shop policy (Jackson, 2026-10-15): a digital proof is only made for truly custom work
+ * (logos, custom artwork, recipe cards). Personalized items (names, dates, wording on our
+ * designs) are engraved exactly as typed, with no proof step.
+ */
+export function proofKind(p: Product): 'always' | 'if-logo' | 'none' | 'fixed' {
+  if (p.personalize === 'logo' || p.personalize === 'recipe') return 'always';
+  if (p.personalize === 'names-logo' || p.personalize === 'employee') return 'if-logo';
+  if (p.personalize === 'saying' || p.personalize === 'cake') return 'fixed';
+  return 'none';
+}
+
 /** Human list of what gets engraved, for the fact box. */
 export function personalizationSummary(p: Product) {
   const f = fieldsFor(p).filter((x) => x.key !== 'notes');
@@ -216,7 +228,11 @@ export function factsFor(p: Product): [string, string][] {
   }
   f.push(['Engraving', t === 'cake-topper' ? 'Laser cut' : 'Laser engraved']);
   f.push(['Personalization', personalizationSummary(p)]);
-  f.push(['Proof', 'Free digital proof before we engrave']);
+  const pk = proofKind(p);
+  f.push(['Proof', pk === 'always' ? 'Free digital proof before we engrave'
+    : pk === 'if-logo' ? 'Free digital proof when you add a logo; names are engraved exactly as typed'
+    : pk === 'none' ? 'Not needed: we engrave exactly what you type, so check spelling before checkout'
+    : 'Fixed design, nothing to proof']);
   f.push(['Made in', 'Pryor, Oklahoma']);
   f.push(['Lead time', 'Made to order in 3-5 business days (rush available, ask us)']);
   if (['cutting-board', 'charcuterie-board', 'board-coaster-set'].includes(t)) f.push(['Care', 'Hand wash, dry right away, oil when it looks dry']);

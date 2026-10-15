@@ -13,7 +13,7 @@ faqs:
   - q: "Is there an anniversary where glass is the theme?"
     a: "On the common modern list, crystal or glass is the 3rd anniversary, and crystal is the traditional 15th. An engraved glass fits either year."
   - q: "Can I engrave the number of years on a board?"
-    a: "Yes. Add it as a short line, such as '10 years' or '25 years', under your names and wedding date, and you will see exactly how it sits on the free digital proof."
+    a: "Yes. Add it as a short line, such as '10 years' or '25 years', under your names and wedding date in the personalization box, and we engrave it exactly as you type it."
 ---
 
 Each wedding anniversary has a traditional gift material, starting with paper for the first year and running to diamond for the sixtieth, and there is a separate modern list with more everyday items. Wood is the traditional 5th and the modern 6th, and those are the years we make the most sense for: we engrave maple and walnut boards, coasters, glasses and ornaments, made to order in Pryor, Oklahoma.
@@ -83,4 +83,4 @@ Engraved gifts are good for that last approach, because the personal part is bui
 
 Keep the engraving to what will still be true in twenty years: names, the shared last name or an initial, and the wedding date. Add a year count only if you want the gift tied to this specific anniversary. Our guide on [what to engrave on a cutting board](/guides/what-to-engrave-on-a-cutting-board/) walks through name order, date formats and how much text fits.
 
-Every order gets a free digital proof before we engrave, and is made to order in 3-5 business days. Browse the full range on our [anniversary gifts page](/occasion/anniversary-gifts/).
+Every order is engraved exactly as you type it and made to order in 3-5 business days. Browse the full range on our [anniversary gifts page](/occasion/anniversary-gifts/).

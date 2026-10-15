@@ -9,7 +9,7 @@ faqs:
   - q: "Should my logo go on a closing gift?"
     a: "Keep it small if you include it. A logo or 'Compliments of' line in one corner reminds buyers who helped them, while a large logo turns the gift into an ad they are less likely to keep out."
   - q: "How do I get the buyers' names right?"
-    a: "Copy the spelling from the purchase contract or confirm it with the buyers directly, and ask which names they want shown together. Then check the free digital proof we send before we engrave."
+    a: "Copy the spelling from the purchase contract or confirm it with the buyers directly, and ask which names they want shown together. Then type them carefully: we engrave names exactly as entered. If the board carries your logo, we also email a free digital proof before we engrave."
   - q: "Can I send the gift straight to the new address?"
     a: "Yes. You can ship to the buyers or to your office. Some agents ship to the office so they can hand the board over at the closing table or drop it off in person."
   - q: "My closing date moved up. Can you still make it?"
@@ -57,7 +57,7 @@ Every board is made to order in 3-5 business days, and shipping time comes on to
 - Order when the contract goes pending, not the week of closing. You have the names by then.
 - Keep a clean logo file handy so you are not hunting for it every time. A vector file is best; a high-resolution image works too.
 - If a closing moves up, ask us about rush.
-- Check the free digital proof carefully. Names and dates are where mistakes happen, and it is much easier to fix them before we engrave.
+- Double-check names and dates before checkout. That is where mistakes happen, and we engrave them exactly as you type them. On logo boards, check the free digital proof we email too.
 
 ## Past clients and the holidays
 

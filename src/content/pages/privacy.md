@@ -25,7 +25,7 @@ This policy explains what information Naked Wood Works collects on this website,
 
 ## Why we use it
 
-- To make and ship your order, and to send you your proof and order updates.
+- To make and ship your order, and to send you order updates and, on logo orders, your proof.
 - To send the reminders you asked for, such as a note before your anniversary, by email and, only if you agreed, by text message.
 - To answer your messages and inquiries, including realtor and business orders.
 - To measure and improve our advertising.

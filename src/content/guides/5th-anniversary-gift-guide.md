@@ -13,7 +13,7 @@ faqs:
   - q: "Can I give a 5th anniversary board to a couple who already has a cutting board?"
     a: "Yes. An engraved board is usually kept out for serving or display rather than daily chopping, so it rarely competes with the plain board already in the drawer."
   - q: "When should I order for a 5th anniversary?"
-    a: "Each order is made to order in 3-5 business days, plus time in transit. Ordering two to three weeks ahead leaves room for proof changes, and you can ask us about rush if the date is close."
+    a: "Each order is made to order in 3-5 business days, plus time in transit. Ordering two to three weeks ahead leaves some breathing room, and you can ask us about rush if the date is close."
 ---
 
 Wood is the traditional gift for a 5th wedding anniversary, so the simplest good answer is something made of wood that the two of you will use and keep. We make engraved maple and walnut cutting boards, serving boards and coasters for exactly this, each made to order in Pryor, Oklahoma, with your names and wedding date on it.
@@ -55,7 +55,7 @@ For a 5th anniversary, the 10x14 is a good middle ground. The 12x16 is the one t
 
 Keep it short. First names, the shared last name or initial, and the wedding date are enough for most boards. If you want to add a line, a short phrase or "5 years" under the date works better than a long quote, which gets small and hard to read on a board. Our guide on [what to engrave on a cutting board](/guides/what-to-engrave-on-a-cutting-board/) covers name order, hyphenated names and date formats.
 
-Before we engrave anything, we send a free digital proof so you can check spelling and layout. Look closely at the date and the spelling of every name before you approve it.
+We engrave your names and date exactly as you type them. Look closely at the date and the spelling of every name before you check out.
 
 ## Rounding it out
 

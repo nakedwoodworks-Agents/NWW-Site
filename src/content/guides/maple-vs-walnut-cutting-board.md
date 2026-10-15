@@ -70,4 +70,4 @@ The same logic applies to our charcuterie and serving boards. The [Circle Monogr
 
 ## Our take
 
-There is no wrong answer. Maple is the classic, bright and highly legible choice. Walnut is darker, more forgiving of daily wear and a little more formal. If you are torn, look at the free digital proof we send before engraving and picture the finished board in the kitchen it is going to. Browse all [cutting boards](/c/cutting-boards/) to compare designs in both woods.
+There is no wrong answer. Maple is the classic, bright and highly legible choice. Walnut is darker, more forgiving of daily wear and a little more formal. If you are torn, look at the product photos in both woods and picture the finished board in the kitchen it is going to. Browse all [cutting boards](/c/cutting-boards/) to compare designs in both woods.

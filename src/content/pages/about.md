@@ -25,13 +25,13 @@ You can see all of it in [the shop](/shop/), or start with [cutting boards](/c/c
 
 ## How an order works
 
-Nothing sits on a shelf waiting for you. When you order, you give us the names, the date, the family name or the logo, and our designer builds the layout. Before anything is engraved, we send you a free digital proof so you can check the spelling and the look. Once you approve it, we engrave, finish and pack it. Orders are made to order in 3-5 business days, and if you are working against a date, ask us about rush.
+Nothing sits on a shelf waiting for you. When you order, you give us the names, the date, the family name or the logo, and our designer builds the layout. Names and dates are engraved exactly as you type them; logo and custom-artwork orders get a free digital proof first. Then we engrave, finish and pack it. Orders are made to order in 3-5 business days, and if you are working against a date, ask us about rush.
 
 ## What we are trying to make
 
 A cutting board is a useful thing. What people actually order from us is usually something else: a wedding, a fifth anniversary, a first house, a closing, a retirement, a family name with the year it started. The board is how that date ends up in a kitchen.
 
-So we aim for the gift that is still sitting on their counter twenty years from now, a little worn, still in use. That shapes how we work. Solid wood instead of something that falls apart. Clean, readable engraving instead of clutter. A proof before we cut, because a misspelled name is not something you can sand out.
+So we aim for the gift that is still sitting on their counter twenty years from now, a little worn, still in use. That shapes how we work. Solid wood instead of something that falls apart. Clean, readable engraving instead of clutter. Engraving exactly what you typed, because a misspelled name is not something you can sand out, so we never guess.
 
 ## Where else you can find us
 

@@ -74,4 +74,4 @@ The sign can go up as soon as you get home. The [Last Name Signature Frame Guest
 
 ## Ordering
 
-We send a free digital proof of your names and date before we cut, then each sign is made to order in 3-5 business days. Order well before the wedding so there is time for the proof and for testing pens. Browse all [guest books](/c/guest-books/), see more [wedding gifts](/occasion/wedding-gifts/), or read [what to engrave on a wedding cutting board](/guides/what-to-engrave-on-a-cutting-board/) if you are shopping for the couple too.
+We engrave your names and date exactly as you type them, and each sign is made to order in 3-5 business days. Order well before the wedding so there is time for shipping and for testing pens. Browse all [guest books](/c/guest-books/), see more [wedding gifts](/occasion/wedding-gifts/), or read [what to engrave on a wedding cutting board](/guides/what-to-engrave-on-a-cutting-board/) if you are shopping for the couple too.

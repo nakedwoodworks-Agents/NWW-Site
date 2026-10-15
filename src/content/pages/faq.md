@@ -1,15 +1,15 @@
 ---
 title: "Frequently Asked Questions"
-seo_title: "FAQ: Ordering, Proofs, Care and More"
-description: "Answers about ordering personalized boards, glasses, ornaments and guest book signs: proofs, changes, lead time, materials, sizes, logos and care."
+seo_title: "FAQ: Ordering, Engraving, Care and More"
+description: "Answers about ordering personalized boards, glasses, ornaments and guest book signs: wording, changes, lead time, materials, sizes, logos and care."
 h1: "Frequently asked questions"
 faqs:
   - q: "How do I order a personalized item?"
     a: "Pick a design, choose the size or set and the wood, then fill in the personalization fields on the product page: names, a date, a family name, or a logo upload on logo designs. Add it to your cart and check out. Our designer takes it from there."
-  - q: "Will I see my design before it is engraved?"
-    a: "Yes. We send a free digital proof before we engrave. Check every letter and number on it. Once you approve the proof, that is what goes on the laser."
+  - q: "Do I get a proof before it is engraved?"
+    a: "On logo and custom-artwork orders, yes: we email a free digital proof and engrave after you approve it. Names, dates and wording on our designs are engraved exactly as you type them, with no proof step, so check every letter and number before you check out."
   - q: "Can I change my order after I place it?"
-    a: "Message us as soon as you can, before we engrave, and we will do what we can. Changes to spelling or layout are easy at the proof stage. Once a piece has been engraved, the wood cannot be un-engraved."
+    a: "Message us as soon as you can, before we engrave, and we will do what we can. If it has not gone on the laser yet, spelling changes are easy. Once a piece has been engraved, the wood cannot be un-engraved."
   - q: "How long does it take?"
     a: "Everything is made to order in 3-5 business days, then it ships. Shipping time is added on top and depends on the option you choose at checkout."
   - q: "Can I get it faster?"
@@ -29,16 +29,16 @@ faqs:
   - q: "Can you engrave my company logo?"
     a: "Yes, on our logo designs. Upload the file on the product page. A vector file (AI, EPS, SVG or PDF) is best; a high-resolution PNG or JPG works too. You will see it placed on your proof."
   - q: "Can I return a personalized item?"
-    a: "Personalized items are made for you, with your names or logo on them, so we cannot resell them. If something is wrong on our end, like a spelling that does not match your approved proof or damage in shipping, tell us and we will fix it."
+    a: "Personalized items are made for you, with your names or logo on them, so we cannot resell them. If something is wrong on our end, like an engraving that does not match what you typed or your approved proof, or damage in shipping, tell us and we will fix it."
   - q: "Do you take larger or recurring orders?"
     a: "Yes. Ask us about larger orders through the contact page. Real estate agents can also use our realtor site, foreverclientgifts.com."
 ---
 
-This page answers the questions we hear most about ordering from Naked Wood Works. Everything we make is personalized and made to order in our shop in Pryor, Oklahoma, so most questions come down to what to engrave, how the proof works and how long it takes.
+This page answers the questions we hear most about ordering from Naked Wood Works. Everything we make is personalized and made to order in our shop in Pryor, Oklahoma, so most questions come down to what to engrave, how to get the spelling right and how long it takes.
 
 ## The short version
 
-You choose a design, fill in what it should say and check out. Our designer lays it out and sends you a free digital proof. You approve it, we engrave it, and it is made to order in 3-5 business days before it ships.
+You choose a design, fill in what it should say and check out. We engrave it exactly as you typed it, and it is made to order in 3-5 business days before it ships. Logo and custom-artwork orders get a free digital proof first.
 
 ## More help
 

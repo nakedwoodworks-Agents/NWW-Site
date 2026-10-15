@@ -18,9 +18,9 @@ Every Naked Wood Works order is made to order in 3-5 business days in our shop i
 
 ## Why it takes a few days
 
-Nothing we sell is sitting in a box waiting to go. When your order comes in, our designer lays out your names, date or logo and sends you a free digital proof. After you approve it, we engrave, sand, finish and pack the piece. That is what the 3-5 business days cover. Shipping time comes after that.
+Nothing we sell is sitting in a box waiting to go. When your order comes in, our designer lays out your names and date exactly as you typed them, and we engrave, sand, finish and pack the piece. Logo and custom-artwork orders get a free digital proof first, and we engrave after you approve it. That is what the 3-5 business days cover. Shipping time comes after that.
 
-Approving your proof quickly keeps things moving. If we are waiting on a reply about a spelling or a layout, we hold off on engraving until we hear from you.
+On logo orders, approving your proof quickly keeps things moving. If we are waiting on a reply about a logo or a layout, we hold off on engraving until we hear from you.
 
 ## Shipping options and cost
 
@@ -32,7 +32,7 @@ A rush option exists. If you need something for a specific date, ask us about ru
 
 ## Plan around the date
 
-Most of what we make is for a day that will not move: a wedding, an anniversary, a closing, Christmas. The easy way to get it there on time is to order early. Count back from the date: allow for the proof, 3-5 business days to make it, and the shipping time shown at checkout, then give yourself some room.
+Most of what we make is for a day that will not move: a wedding, an anniversary, a closing, Christmas. The easy way to get it there on time is to order early. Count back from the date: allow 3-5 business days to make it (plus a day or two for the proof on logo orders), and the shipping time shown at checkout, then give yourself some room.
 
 Guest book signs deserve a little extra lead time, since you will want the sign in hand before the wedding, not the week of it.
 
