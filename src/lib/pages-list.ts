@@ -3,7 +3,7 @@ import { products, allHubs } from './data';
 import { guides, pages } from './content';
 export function allPaths(): string[] {
   return [
-    '/', '/shop/', '/guides/',
+    '/', '/shop/', '/guides/', '/affiliates/',
     ...allHubs.map((h) => h.path),
     ...products.map((p) => `/p/${p.slug}/`),
     ...guides.map((g) => `/guides/${g.slug}/`),

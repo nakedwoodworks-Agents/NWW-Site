@@ -75,6 +75,26 @@ const pixelOn = !!META_PIXEL_ID && !isPlaceholder(META_PIXEL_ID);
   </main>
   <Footer />
   <QuizModal showFloat={showQuizFloat} />
+  <script is:inline>
+    // Affiliate referral: ?ref=CODE logs a click and sets the 30-day nww_ref cookie (server side);
+    // at checkout the code rides along in the Snipcart cart metadata so the webhook can credit it.
+    (function(){
+      try {
+        var q = new URLSearchParams(location.search), ref = q.get('ref');
+        if (ref && /^[A-Za-z0-9-]{2,40}$/.test(ref)) {
+          fetch('/api/aff/click', { method:'POST', headers:{'content-type':'application/json'}, credentials:'same-origin', keepalive:true,
+            body: JSON.stringify({ code: ref, path: location.pathname, referrer: document.referrer }) }).catch(function(){});
+        }
+      } catch(e){}
+      function code(){ var m = document.cookie.match(/(?:^|;\s*)nww_ref=([^;]*)/); return m ? decodeURIComponent(m[1]) : ''; }
+      function tag(){ var c = code(); if (!c || !window.Snipcart) return;
+        try { var cur = Snipcart.store.getState().cart.metadata || {}; if (cur.affiliate === c) return;
+          Snipcart.api.cart.update({ metadata: Object.assign({}, cur, { affiliate: c }) }); } catch(e){} }
+      document.addEventListener('snipcart.ready', function(){
+        tag(); try { Snipcart.events.on('item.added', tag); Snipcart.events.on('theme.routechanged', tag); } catch(e){}
+      });
+    })();
+  </script>
   {snipcartOn && <div hidden id="snipcart" data-api-key={SNIPCART_PUBLIC_KEY} data-config-modal-style="side"></div>}
   {snipcartOn && (
     <script is:inline define:vars={{ V: SNIPCART_VERSION }}>

@@ -1,0 +1,58 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+<Base seoTitle="Affiliate Admin" description="Affiliate program admin." path="/affiliates/admin/" noindex showQuizFloat={false}>
+  <div class="wrap" id="app" style="min-height:60vh"><p class="section muted center">Loading...</p></div>
+  <script is:inline>
+  (function(){
+    var app = document.getElementById('app');
+    var $m = function(n){ return '$' + Number(n||0).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}); };
+    var pct = function(r){ return Math.round(r*100) + '%'; };
+    var esc = function(s){ return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];}); };
+    var dt = function(ts){ return new Date(ts).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric',timeZone:'America/Chicago'}); };
+    function api(path, body){ return fetch('/api/aff/'+path, body ? { method:'POST', headers:{'content-type':'application/json'}, credentials:'same-origin', body: JSON.stringify(body) } : { credentials:'same-origin' })
+      .then(function(r){ return r.json().then(function(j){ j._s=r.status; return j; }).catch(function(){ return { ok:false, _s:r.status, error:'Server did not answer' }; }); }); }
+    var flash = '', flashBad = false;
+
+    function loginForm(err){
+      app.innerHTML = '<section class="section"><div class="aff-form"><h1 class="center">Affiliate admin</h1>'+(err?'<div class="msg bad">'+esc(err)+'</div>':'')+
+        '<form id="lf"><div class="fld"><label for="pw">Admin password</label><input id="pw" type="password" autocomplete="current-password" required /></div><button class="btn btn-gold btn-block">Log in</button></form></div></section>';
+      document.getElementById('lf').addEventListener('submit', function(e){ e.preventDefault(); api('admin/login',{password:document.getElementById('pw').value}).then(function(j){ j.ok ? load() : loginForm(j.error); }); });
+    }
+    function load(){ api('admin/overview').then(function(j){ if (j._s===401) return loginForm(); if (!j.ok) { app.innerHTML='<p class="section msg bad">'+esc(j.error)+'</p>'; return; } render(j); }); }
+
+    function render(d){
+      var A = d.affiliates, pend = A.filter(function(a){return a.status==='pending';}), act = A.filter(function(a){return a.status!=='pending';});
+      var owedTotal = A.reduce(function(s,a){return s+Math.max(0,a.owed);},0), holdTotal = A.reduce(function(s,a){return s+a.pending;},0);
+      var payNow = A.filter(function(a){ return a.owed >= d.program.minPayout; });
+      var h = '<div class="dash-top"><div><p class="eyebrow" style="margin:0">Jackson only</p><h1>Affiliate admin</h1></div><button class="btn btn-ghost btn-sm" id="logout">Log out</button></div>'+(flash?'<div class="msg '+(flashBad?'bad':'good')+'">'+flash+'</div>':'');
+      flash=''; flashBad=false;
+      h += '<div class="kpis"><div class="kpi"><div class="k">Active affiliates</div><div class="v">'+A.filter(function(a){return a.status==='approved';}).length+'</div><div class="s">'+pend.length+' waiting for review</div></div>'+
+           '<div class="kpi"><div class="k">Owed now</div><div class="v">'+$m(owedTotal)+'</div><div class="s">'+payNow.length+' due on '+esc(d.next_payout_date)+'</div></div>'+
+           '<div class="kpi"><div class="k">In 30-day hold</div><div class="v">'+$m(holdTotal)+'</div><div class="s">not payable yet</div></div>'+
+           '<div class="kpi"><div class="k">Referred sales, all time</div><div class="v">'+$m(A.reduce(function(s,a){return s+a.lifetime_sales;},0))+'</div><div class="s">after refunds</div></div></div>';
+      h += '<div class="aff-box" style="margin-top:16px"><h3>Applications ('+pend.length+')</h3>'+(pend.length? '<div class="tbl-wrap"><table class="tbl"><thead><tr><th>Applied</th><th>Name</th><th>Where they share</th><th>Paid via</th><th></th></tr></thead><tbody>'+pend.map(function(a){
+          return '<tr><td>'+dt(a.created_at)+'</td><td><strong>'+esc(a.name)+'</strong><br>'+esc(a.email)+'<br><code>'+esc(a.code)+'</code></td><td>'+(a.website?'<a href="'+esc(a.website)+'" rel="noopener nofollow" target="_blank">'+esc(a.website)+'</a><br>':'')+esc(a.audience)+'</td><td>'+esc(a.payout_method)+': '+esc(a.payout_handle)+'</td><td style="white-space:nowrap"><button class="btn btn-gold btn-sm" data-act="approve" data-id="'+a.id+'">Approve</button> <button class="btn btn-ghost btn-sm" data-act="reject" data-id="'+a.id+'">Reject</button></td></tr>'; }).join('')+'</tbody></table></div>' : '<p class="muted" style="margin:0">None waiting.</p>')+'</div>';
+      h += '<div class="aff-box" style="margin-top:16px"><h3>Affiliates</h3><div class="tbl-wrap"><table class="tbl" style="min-width:900px"><thead><tr><th>Affiliate</th><th>Status</th><th>Clicks 30d</th><th>This month</th><th>Holding</th><th>Owed</th><th>Pay to</th><th>Record a payout</th><th></th></tr></thead><tbody>'+
+        (act.length? act.map(function(a){
+          return '<tr><td><strong>'+esc(a.name)+'</strong><br><code>'+esc(a.code)+'</code></td><td><span class="pill '+a.status+'">'+a.status+'</span></td><td>'+a.clicks30+'</td><td>'+$m(a.month_sales)+' @ '+pct(a.month_rate)+'</td><td>'+$m(a.pending)+'</td><td><strong>'+$m(a.owed)+'</strong></td><td>'+esc(a.payout_method)+'<br>'+esc(a.payout_handle)+'</td>'+
+          '<td><form class="pay" data-id="'+a.id+'" style="display:flex;gap:6px"><label class="sr-only" for="amt'+a.id+'">Amount paid</label><input id="amt'+a.id+'" name="amount" type="number" step="0.01" min="0" value="'+(a.owed>0?a.owed.toFixed(2):'')+'" style="width:100px;min-height:40px"><button class="btn btn-sm">Paid</button></form></td>'+
+          '<td style="white-space:nowrap">'+(a.status==='approved'?'<button class="btn btn-ghost btn-sm" data-act="pause" data-id="'+a.id+'">Pause</button>':'<button class="btn btn-ghost btn-sm" data-act="reactivate" data-id="'+a.id+'">Turn on</button>')+' <button class="btn btn-ghost btn-sm" data-reset="'+a.id+'">Reset password</button></td></tr>'; }).join('') : '<tr><td colspan="9" class="muted">No affiliates yet.</td></tr>')+'</tbody></table></div></div>';
+      h += '<div class="aff-box" style="margin-top:16px"><h3>Credit an order by hand</h3><p class="muted" style="margin-top:0">For phone, bulk or invoice orders an affiliate sent you. Use the product total before shipping and tax.</p><form id="mo" class="kpis" style="align-items:end">'+
+           '<div class="fld"><label for="mo-code">Affiliate code</label><input id="mo-code" name="code" type="text" required></div><div class="fld"><label for="mo-amt">Subtotal</label><input id="mo-amt" name="amount" type="number" step="0.01" required style="width:100%;min-height:48px"></div>'+
+           '<div class="fld"><label for="mo-date">Order date</label><input id="mo-date" name="date" type="date"></div><div class="fld"><label for="mo-inv">Invoice / note</label><input id="mo-inv" name="invoice" type="text"></div><button class="btn btn-gold">Add order</button></form></div>';
+      h += '<div class="aff-box" style="margin:16px 0 40px"><h3>Recent affiliate orders</h3><div class="tbl-wrap"><table class="tbl"><thead><tr><th>Date</th><th>Affiliate</th><th>Invoice</th><th>Subtotal</th><th>Refunded</th><th>Source</th><th></th></tr></thead><tbody>'+
+        (d.recent_orders.length? d.recent_orders.map(function(o){ return '<tr><td>'+dt(o.created_at)+'</td><td>'+esc(o.code)+'</td><td>'+esc(o.invoice)+'</td><td>'+$m(o.amount)+'</td><td>'+$m(o.refunded)+'</td><td>'+esc(o.source)+'</td><td>'+(o.status==='void'?'<span class="pill void">void</span>':'<button class="btn btn-ghost btn-sm" data-void="'+esc(o.token)+'">Void</button>')+'</td></tr>'; }).join('') : '<tr><td colspan="7" class="muted">No orders yet.</td></tr>')+'</tbody></table></div></div>';
+      app.innerHTML = h;
+
+      app.querySelectorAll('[data-act]').forEach(function(b){ b.addEventListener('click', function(){ api('admin/affiliate',{id:+b.dataset.id, action:b.dataset.act}).then(function(){ flash='Saved.'; load(); }); }); });
+      app.querySelectorAll('[data-void]').forEach(function(b){ b.addEventListener('click', function(){ api('admin/order-void',{token:b.dataset.void}).then(function(){ flash='Order voided.'; load(); }); }); });
+      app.querySelectorAll('[data-reset]').forEach(function(b){ b.addEventListener('click', function(){ api('admin/reset-password',{id:+b.dataset.reset}).then(function(j){ flash='Temporary password: <code>'+esc(j.temp_password)+'</code> (send it to them; it is shown once).'; load(); }); }); });
+      app.querySelectorAll('form.pay').forEach(function(f){ f.addEventListener('submit', function(e){ e.preventDefault(); var a=A.find(function(x){return x.id==f.dataset.id;}); api('admin/payout',{id:+f.dataset.id, amount:f.amount.value, method:a.payout_method}).then(function(j){ flash = j.ok ? 'Payout recorded.' : esc(j.error); flashBad = !j.ok; load(); }); }); });
+      document.getElementById('mo').addEventListener('submit', function(e){ e.preventDefault(); api('admin/order', Object.fromEntries(new FormData(this))).then(function(j){ flash = j.ok ? 'Order added.' : esc(j.error); flashBad = !j.ok; load(); }); });
+      document.getElementById('logout').addEventListener('click', function(){ api('logout',{}).then(function(){ loginForm(); }); });
+    }
+    load();
+  })();
+  </script>
+</Base>

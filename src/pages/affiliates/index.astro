@@ -1,0 +1,82 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import FaqList from '../../components/FaqList.astro';
+import { PROGRAM } from '../../../server/aff.js';
+import { breadcrumbLd, faqLd } from '../../lib/schema';
+
+const path = '/affiliates/';
+const crumbs = [{ name: 'Home', href: '/' }, { name: 'Affiliate program' }];
+const pct = (r: number) => `${Math.round(r * 100)}%`;
+const money = (n: number) => '$' + n.toLocaleString('en-US');
+const tiers = PROGRAM.tiers.map((t, i) => {
+  const next = PROGRAM.tiers[i + 1];
+  return { ...t, range: next ? `${money(t.min)} to ${money(next.min - 1)} in a month` : `${money(t.min)}+ in a month` };
+});
+const low = pct(PROGRAM.tiers[0].rate), high = pct(PROGRAM.tiers[PROGRAM.tiers.length - 1].rate);
+const faqs = [
+  { q: 'Who can join?', a: `Anyone with an audience that buys gifts: realtors, wedding planners, bloggers, creators and gift shops. Apply, we review it, and your link turns on once you are approved.` },
+  { q: 'How is my commission worked out?', a: `You earn a percentage of each order's product total after discounts. Shipping and sales tax are not included. Your total referred sales for the calendar month set your rate, and that rate applies to every order you sent that month, so crossing ${money(PROGRAM.tiers[1].min)} or ${money(PROGRAM.tiers[2].min)} raises the rate on the whole month.` },
+  { q: 'How long does a click count?', a: `${PROGRAM.cookieDays} days. If someone clicks your link and orders within ${PROGRAM.cookieDays} days on the same browser, the order is yours. If they click another affiliate's link afterwards, the most recent link gets the credit.` },
+  { q: 'When do I get paid?', a: `Each commission is held for ${PROGRAM.holdDays} days after the order in case of a refund or cancellation. After that it is locked. On the ${PROGRAM.payoutDay}st of each month we send your locked balance by PayPal or Venmo once it reaches ${money(PROGRAM.minPayout)}. Smaller balances roll over to the next month.` },
+  { q: 'What happens if an order is refunded?', a: `The refunded amount comes off that order's commission. If it was already paid, the difference comes off your next payout.` },
+  { q: 'Can I use my own link to buy?', a: `No. Orders placed with the affiliate's own email are not credited.` },
+];
+---
+<Base seoTitle="Affiliate Program: Earn 20-30% Commission" description={`Join the Naked Wood Works affiliate program. Share personalized cutting boards and gifts, earn ${low} to ${high} commission, tracked in your own dashboard.`} path={path} showQuizFloat={false} jsonld={[breadcrumbLd(crumbs, path), faqLd(faqs)].filter(Boolean)}>
+  <Breadcrumbs items={crumbs} />
+  <section class="wrap aff-hero">
+    <p class="eyebrow">Affiliate program</p>
+    <h1>Share our boards. <span class="italic gold-grad">Earn {low} to {high}.</span></h1>
+    <p>Send people to Naked Wood Works with your own link. Every order they place within {PROGRAM.cookieDays} days earns you a commission, and the more you sell in a month, the higher your rate climbs.</p>
+    <div class="aff-actions">
+      <a class="btn btn-gold" href="/affiliates/apply/">Become an affiliate</a>
+      <a class="btn btn-ghost" href="/affiliates/login/">Affiliate login</a>
+    </div>
+  </section>
+
+  <section class="wrap section-tight">
+    <h2 class="center">How it works</h2>
+    <hr class="rule-short" />
+    <div class="aff-steps">
+      <div class="aff-box"><h3>Apply</h3><p>Tell us who you are and where you will share. We review every application, and your account goes live once it is approved.</p></div>
+      <div class="aff-box"><h3>Share your link</h3><p>You get a personal link and a dashboard. Post it, text it, put it in your newsletter or link in bio. Every click is counted.</p></div>
+      <div class="aff-box"><h3>Get paid monthly</h3><p>Orders show up in your dashboard as they come in. After the {PROGRAM.holdDays}-day hold they lock, and we pay your balance on the {PROGRAM.payoutDay}st of the month.</p></div>
+    </div>
+  </section>
+
+  <section class="wrap section-tight">
+    <h2 class="center">The more you sell, the more you earn</h2>
+    <p class="center muted" style="max-width:620px;margin:0 auto 18px">Your referred sales for the calendar month set your rate, and the rate applies to every order that month.</p>
+    <div class="tier-grid">
+      {tiers.map((t, i) => (
+        <div class={`tier ${i === tiers.length - 1 ? 'top' : ''}`}>
+          <div class="eyebrow">{t.name}</div>
+          <div class="rate">{pct(t.rate)}</div>
+          <div class="rng">{t.range}</div>
+        </div>
+      ))}
+    </div>
+    <div class="aff-box narrow" style="margin:20px auto 0">
+      <h3>Example</h3>
+      <p style="margin:0">You send {money(1200)} in orders in March. That passes {money(PROGRAM.tiers[1].min)}, so all of March pays {pct(PROGRAM.tiers[1].rate)}: {money(1200)} x {pct(PROGRAM.tiers[1].rate)} = <strong>{money(1200 * PROGRAM.tiers[1].rate)}</strong>, sent on May {PROGRAM.payoutDay}st once the {PROGRAM.holdDays}-day hold has passed for every March order.</p>
+    </div>
+  </section>
+
+  <section class="wrap section-tight" id="terms">
+    <div class="narrow prose" style="margin:0 auto">
+      <h2>Program terms</h2>
+      <ul>
+        <li>Commission is paid on the product total after discounts. Shipping, sales tax and refunded amounts are excluded.</li>
+        <li>Clicks count for {PROGRAM.cookieDays} days. The most recent affiliate link clicked gets the credit.</li>
+        <li>Commissions are held {PROGRAM.holdDays} days, then paid on the {PROGRAM.payoutDay}st of the month by PayPal or Venmo once your balance is {money(PROGRAM.minPayout)} or more.</li>
+        <li>No credit for your own orders, spam, or paid search ads that bid on the Naked Wood Works name.</li>
+        <li>We can pause or close an account that breaks these terms, and we can update the terms with notice in your dashboard.</li>
+      </ul>
+    </div>
+  </section>
+  <FaqList faqs={faqs} />
+  <section class="wrap section-tight center">
+    <a class="btn btn-gold" href="/affiliates/apply/">Become an affiliate</a>
+  </section>
+</Base>

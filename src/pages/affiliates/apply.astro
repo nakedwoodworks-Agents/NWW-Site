@@ -1,0 +1,44 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+<Base seoTitle="Apply: Affiliate Program" description="Apply to the Naked Wood Works affiliate program." path="/affiliates/apply/" noindex showQuizFloat={false}>
+  <section class="wrap section">
+    <div class="aff-form">
+      <p class="eyebrow center">Affiliate program</p>
+      <h1 class="center">Become an affiliate</h1>
+      <p class="center muted">We review every application. Once approved, you log in to get your link and dashboard.</p>
+      <div id="msg" role="status" aria-live="polite"></div>
+      <form id="f" novalidate>
+        <div class="fld"><label for="name">Your name</label><input id="name" name="name" type="text" autocomplete="name" required /></div>
+        <div class="fld"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required /><div class="hint">This is your login.</div></div>
+        <div class="fld"><label for="password">Create a password</label><input id="password" name="password" type="password" autocomplete="new-password" minlength="8" required /><div class="hint">8 characters or more.</div></div>
+        <div class="fld"><label for="code">Link name (optional)</label><input id="code" name="code" type="text" maxlength="20" placeholder="e.g. SARAHHOMES" /><div class="hint">Letters and numbers. Your link will look like /r/SARAHHOMES. Leave blank and we will make one.</div></div>
+        <div class="fld"><label for="payout_method">How should we pay you?</label>
+          <select id="payout_method" name="payout_method" required><option value="PayPal">PayPal</option><option value="Venmo">Venmo</option></select></div>
+        <div class="fld"><label for="payout_handle">PayPal email or Venmo handle</label><input id="payout_handle" name="payout_handle" type="text" required /></div>
+        <div class="fld"><label for="website">Website or main social profile (optional)</label><input id="website" name="website" type="url" placeholder="https://" /></div>
+        <div class="fld"><label for="audience">Where will you share your link?</label><textarea id="audience" name="audience" rows="3" placeholder="e.g. my past clients as a realtor, my wedding blog, my Instagram"></textarea></div>
+        <div class="fld"><label class="check"><input id="agree" name="agree" type="checkbox" required /> <span>I agree to the <a href="/affiliates/#terms">program terms</a>.</span></label></div>
+        <button class="btn btn-gold btn-block" type="submit">Send application</button>
+      </form>
+      <p class="center" style="margin-top:18px">Already approved? <a href="/affiliates/login/">Log in</a></p>
+    </div>
+  </section>
+  <script is:inline>
+    (function(){
+      var f = document.getElementById('f'), msg = document.getElementById('msg');
+      function show(t, ok){ msg.className = 'msg ' + (ok ? 'good' : 'bad'); msg.textContent = t; msg.scrollIntoView({block:'nearest'}); }
+      f.addEventListener('submit', function(e){
+        e.preventDefault();
+        var d = Object.fromEntries(new FormData(f)); d.agree = f.agree.checked;
+        var b = f.querySelector('button'); b.disabled = true; b.textContent = 'Sending...';
+        fetch('/api/aff/apply', { method:'POST', headers:{'content-type':'application/json'}, body: JSON.stringify(d) })
+          .then(function(r){ return r.json().catch(function(){ return { ok:false, error:'Could not reach the server.' }; }); })
+          .then(function(j){
+            if (j.ok) { f.hidden = true; show('Thanks. Your application is in. We will review it and email you when your link is live. Your link name: ' + j.code, true); }
+            else { show(j.error || 'Something went wrong.'); b.disabled = false; b.textContent = 'Send application'; }
+          });
+      });
+    })();
+  </script>
+</Base>

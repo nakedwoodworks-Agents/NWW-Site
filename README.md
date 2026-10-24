@@ -26,3 +26,6 @@ Edit `data/price-ladders.json` → push → Cloudflare rebuilds automatically.
 
 ## Add products
 Add an entry to `data/products.json` + a photo in `public/images/products/` → push.
+
+## Affiliate program
+Footer link → `/affiliates/`. Setup steps (D1 database + 2 secrets + Snipcart webhook) and how it works: `AFFILIATES.md`.
