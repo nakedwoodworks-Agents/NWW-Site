@@ -77,10 +77,13 @@ for (const f of htmlFiles) {
   if (!is404) {
     if (titles.has(title)) E(rel, `duplicate title with ${titles.get(title)}: ${title}`); else titles.set(title, rel);
     if (metas.has(meta)) E(rel, `duplicate meta description with ${metas.get(meta)}`); else metas.set(meta, rel);
-    if (!/<link rel="canonical" href="[^"]+"/.test(html)) E(rel, 'missing canonical');
+    const noindex = /<meta name="robots" content="noindex"/.test(html);
+    if (!noindex && !/<link rel="canonical" href="[^"]+"/.test(html)) E(rel, 'missing canonical');
   }
-  const h1s = (html.match(/<h1[\s>]/g) || []).length;
-  if (h1s !== 1) E(rel, `${h1s} <h1> elements`);
+  // Count H1s in server-rendered markup only; app pages (affiliate dashboard/admin, noindex) render theirs in JS.
+  const h1s = (html.replace(/<script[\s\S]*?<\/script>/g, '').match(/<h1[\s>]/g) || []).length;
+  const appPage = h1s === 0 && /<meta name="robots" content="noindex"/.test(html);
+  if (h1s !== 1 && !appPage) E(rel, `${h1s} <h1> elements`);
   // JSON-LD
   for (const m of html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)) {
     let j; try { j = JSON.parse(m[1]); } catch (e) { E(rel, 'invalid JSON-LD: ' + e.message); continue; }

@@ -1,0 +1,94 @@
+---
+import Base from '../../layouts/Base.astro';
+---
+<Base seoTitle="Affiliate Dashboard" description="Your Naked Wood Works affiliate dashboard." path="/affiliates/dashboard/" noindex showQuizFloat={false}>
+  <div class="wrap" id="app" style="min-height:60vh">
+    <p class="section muted center" id="loading">Loading your dashboard...</p>
+  </div>
+  <script is:inline>
+  (function(){
+    var app = document.getElementById('app');
+    var $m = function(n){ return '$' + Number(n||0).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}); };
+    var pct = function(r){ return Math.round(r*100) + '%'; };
+    var esc = function(s){ return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];}); };
+    var dt = function(ts){ return new Date(ts).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric',timeZone:'America/Chicago'}); };
+    var monthName = function(k){ var p=k.split('-'); return new Date(Date.UTC(+p[0],+p[1]-1,15)).toLocaleDateString('en-US',{month:'long',year:'numeric',timeZone:'UTC'}); };
+
+    fetch('/api/aff/me', { credentials:'same-origin' }).then(function(r){ return r.json().then(function(j){ return { s:r.status, j:j }; }).catch(function(){ return { s:r.status, j:{} }; }); })
+      .then(function(x){
+        if (x.s === 401) { location.href = '/affiliates/login/'; return; }
+        if (!x.j.ok) { app.innerHTML = '<p class="section msg bad">' + esc(x.j.error || 'Could not load your dashboard.') + '</p>'; return; }
+        render(x.j);
+      });
+
+    function chart(series){
+      var W=Math.max(320,Math.min(1000,app.clientWidth-44)),H=W<600?180:220,pl=30,pb=26,pt=10,n=series.length,bw=(W-pl-8)/n;
+      var max=Math.max(4,Math.max.apply(null,series.map(function(d){return d.clicks;})));
+      var step=Math.ceil(max/4), top=step*4, y=function(v){ return pt+(H-pt-pb)*(1-v/top); };
+      var g='';
+      for (var i=0;i<=4;i++){ var v=step*i; g+='<line x1="'+pl+'" x2="'+W+'" y1="'+y(v)+'" y2="'+y(v)+'" stroke="#e6dfcf"/><text x="'+(pl-6)+'" y="'+(y(v)+4)+'" font-size="11" text-anchor="end" fill="#5e5a52">'+v+'</text>'; }
+      series.forEach(function(d,i){
+        var x=pl+i*bw+2, h=(H-pt-pb)*(d.clicks/top);
+        g+='<rect x="'+x+'" y="'+(y(d.clicks))+'" width="'+Math.max(2,bw-4)+'" height="'+h+'" rx="2" fill="#141414"><title>'+d.day+': '+d.clicks+' clicks, '+d.orders+' orders</title></rect>';
+        if (d.orders) g+='<circle cx="'+(x+(bw-4)/2)+'" cy="'+(y(d.clicks)-8)+'" r="5" fill="#b3892b"><title>'+d.orders+' orders</title></circle>';
+        if ((i%7===0 && n-1-i>=4) || i===n-1) g+='<text x="'+(x+(bw-4)/2)+'" y="'+(H-8)+'" font-size="11" text-anchor="middle" fill="#5e5a52">'+d.day.slice(5).replace('-','/')+'</text>';
+      });
+      return '<svg viewBox="0 0 '+W+' '+H+'" role="img" aria-label="Clicks and orders per day, last 30 days">'+g+'</svg>';
+    }
+
+    function render(d){
+      var a = d.affiliate, p = d.program;
+      var head = '<div class="dash-top"><div><p class="eyebrow" style="margin:0">Affiliate dashboard</p><h1>Hi, '+esc(a.name.split(' ')[0])+'</h1></div><button class="btn btn-ghost btn-sm" id="logout">Log out</button></div>';
+      if (a.status !== 'approved') {
+        var t = a.status === 'pending' ? 'Your application is in review. Your link turns on as soon as it is approved, and this page will fill in.' : 'This account is paused. Reach out to us if you have questions.';
+        app.innerHTML = head + '<div class="msg good" style="margin-top:12px">'+t+'</div><div class="aff-box"><h3>Your link (active after approval)</h3><code>'+esc(d.link)+'</code></div>';
+        bindLogout(); return;
+      }
+      var tm = d.this_month, m = d.money, nt = tm.next_tier;
+      var prog = nt ? Math.min(100, Math.round(tm.sales / nt.min * 100)) : 100;
+      var tierTxt = nt ? 'Sell <strong>'+$m(nt.gap)+'</strong> more by month end and every '+esc(monthName(tm.month).split(' ')[0])+' order pays <strong>'+pct(nt.rate)+'</strong>.' : 'You are at the top rate. Every order this month pays <strong>'+pct(tm.rate)+'</strong>.';
+      var tiers = p.tiers.map(function(t){ var on = t.rate === tm.rate; return '<span class="pill '+(on?'locked':'paused')+'">'+esc(t.name)+' '+pct(t.rate)+' from '+$m(t.min).replace('.00','')+'</span>'; }).join(' ');
+
+      var monthsRows = d.months.length ? d.months.map(function(x){ return '<tr><td>'+esc(monthName(x.month))+'</td><td>'+x.orders+'</td><td>'+$m(x.sales)+'</td><td>'+pct(x.rate)+'</td><td>'+$m(x.commission)+'</td></tr>'; }).join('') : '<tr><td colspan="5" class="muted">No sales yet. Share your link to get the first one.</td></tr>';
+      var orderRows = d.recent_orders.length ? d.recent_orders.map(function(o){
+        var st = o.status==='pending' ? 'Holding until '+dt(o.locks_at) : o.status==='locked' ? 'Locked' : 'Cancelled';
+        return '<tr><td>'+dt(o.created_at)+'</td><td>'+esc(o.invoice)+'</td><td>'+$m(o.net)+(o.refunded?' <span class="muted">(refund '+$m(o.refunded)+')</span>':'')+'</td><td>'+pct(o.rate)+'</td><td>'+$m(o.commission)+'</td><td><span class="pill '+o.status+'">'+st+'</span></td></tr>'; }).join('') : '<tr><td colspan="6" class="muted">No orders yet.</td></tr>';
+      var payRows = d.payouts.length ? d.payouts.map(function(x){ return '<tr><td>'+dt(x.paid_at)+'</td><td>'+$m(x.amount)+'</td><td>'+esc(x.method||'')+'</td><td>'+esc(x.note||'')+'</td></tr>'; }).join('') : '<tr><td colspan="4" class="muted">No payouts yet.</td></tr>';
+
+      app.innerHTML = head +
+      '<div class="linkbox" style="margin:14px 0 6px"><strong>Your link</strong><code id="lnk">'+esc(d.link)+'</code><button class="btn btn-gold btn-sm" id="copy">Copy link</button></div>'+
+      '<p class="muted" style="font-size:.85rem;margin:0 0 20px">Linking to a specific product? Add <code>?ref='+esc(a.code)+'</code> to the end of any page address on this site.</p>'+
+      '<div class="kpis">'+
+        '<div class="kpi"><div class="k">Clicks, 30 days</div><div class="v">'+d.clicks.last30+'</div><div class="s">'+d.clicks.unique_last30+' unique visitors &middot; '+d.clicks.all_time+' all time</div></div>'+
+        '<div class="kpi"><div class="k">Orders, 30 days</div><div class="v">'+d.orders.last30+'</div><div class="s">'+d.conversion_30+'% of visitors ordered &middot; '+d.orders.all_time+' all time</div></div>'+
+        '<div class="kpi"><div class="k">Sales this month</div><div class="v">'+$m(tm.sales)+'</div><div class="s">'+tm.orders+' orders &middot; '+pct(tm.rate)+' rate</div></div>'+
+        '<div class="kpi"><div class="k">Ready to pay</div><div class="v">'+$m(Math.max(0,m.owed))+'</div><div class="s">'+(m.payable_next?'Sending on '+esc(m.next_payout_date):'Paid once it reaches '+$m(p.minPayout).replace('.00',''))+'</div></div>'+
+      '</div>'+
+      '<div class="dash-grid" style="margin-top:16px">'+
+        '<div class="aff-box"><h3>Your rate this month: '+pct(tm.rate)+'</h3><div class="progress" aria-hidden="true"><span style="width:'+prog+'%"></span></div><p style="margin:0 0 10px">'+tierTxt+'</p><div style="display:flex;flex-wrap:wrap;gap:6px">'+tiers+'</div></div>'+
+        '<div class="aff-box"><h3>Your money</h3>'+
+          '<div class="money-row"><span>Holding (inside '+p.holdDays+'-day window)</span><strong>'+$m(m.pending)+'</strong></div>'+
+          '<div class="money-row"><span>Locked (earned)</span><strong>'+$m(m.locked)+'</strong></div>'+
+          '<div class="money-row"><span>Paid to you so far</span><strong>'+$m(m.paid)+'</strong></div>'+
+          '<div class="money-row"><span>Owed now</span><strong>'+$m(m.owed)+'</strong></div></div>'+
+      '</div>'+
+      '<div class="aff-box chart" style="margin-top:16px"><h3>Last 30 days</h3><div class="legend"><span><i style="background:#141414"></i>Clicks</span><span><i style="background:#b3892b;border-radius:50%"></i>Orders</span></div>'+chart(d.series)+'</div>'+
+      '<div class="aff-box" style="margin-top:16px"><h3>How you get paid</h3><div class="kpis" style="margin-top:8px">'+
+        '<div><div class="k eyebrow">1. Order</div><p style="margin:0">Someone orders within '+p.cookieDays+' days of clicking your link. It shows here right away.</p></div>'+
+        '<div><div class="k eyebrow">2. '+p.holdDays+'-day hold</div><p style="margin:0">We hold it '+p.holdDays+' days in case of a refund or cancellation.</p></div>'+
+        '<div><div class="k eyebrow">3. Locked</div><p style="margin:0">After the hold, the commission is locked at your rate for that month.</p></div>'+
+        '<div><div class="k eyebrow">4. Paid on the '+p.payoutDay+'st</div><p style="margin:0">We send your locked balance by '+esc(a.payout_method)+' to '+esc(a.payout_handle)+' once it is '+$m(p.minPayout).replace('.00','')+'+.</p></div>'+
+      '</div></div>'+
+      '<div class="aff-box" style="margin-top:16px"><h3>By month</h3><div class="tbl-wrap"><table class="tbl"><thead><tr><th>Month</th><th>Orders</th><th>Sales</th><th>Rate</th><th>Commission</th></tr></thead><tbody>'+monthsRows+'</tbody></table></div></div>'+
+      '<div class="aff-box" style="margin-top:16px"><h3>Recent orders</h3><div class="tbl-wrap"><table class="tbl"><thead><tr><th>Date</th><th>Order</th><th>Sale</th><th>Rate</th><th>Commission</th><th>Status</th></tr></thead><tbody>'+orderRows+'</tbody></table></div><p class="muted" style="font-size:.82rem;margin:10px 0 0">Sale = product total after discounts, without shipping or tax. The rate updates if the month reaches a higher tier.</p></div>'+
+      '<div class="aff-box" style="margin:16px 0 40px"><h3>Payouts</h3><div class="tbl-wrap"><table class="tbl"><thead><tr><th>Date</th><th>Amount</th><th>Method</th><th>Note</th></tr></thead><tbody>'+payRows+'</tbody></table></div></div>';
+
+      document.getElementById('copy').addEventListener('click', function(){
+        var b=this; (navigator.clipboard ? navigator.clipboard.writeText(d.link) : Promise.reject()).then(function(){ b.textContent='Copied'; setTimeout(function(){ b.textContent='Copy link'; },1500); }).catch(function(){ var r=document.createRange(); r.selectNode(document.getElementById('lnk')); getSelection().removeAllRanges(); getSelection().addRange(r); });
+      });
+      bindLogout();
+    }
+    function bindLogout(){ document.getElementById('logout').addEventListener('click', function(){ fetch('/api/aff/logout',{method:'POST',credentials:'same-origin'}).then(function(){ location.href='/affiliates/login/'; }); }); }
+  })();
+  </script>
+</Base>
